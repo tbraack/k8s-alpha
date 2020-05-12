@@ -1,4 +1,6 @@
 {
+  local d = (import 'doc-util/main.libsonnet'),
+  '#': d.pkg(name='v1beta1', url='', help=''),
   allowedFlexVolume: (import 'allowedFlexVolume.libsonnet'),
   allowedHostPath: (import 'allowedHostPath.libsonnet'),
   eviction: (import 'eviction.libsonnet'),

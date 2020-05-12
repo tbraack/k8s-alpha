@@ -1,11 +1,22 @@
 {
+  local d = (import 'doc-util/main.libsonnet'),
+  '#': d.pkg(name='subjectAccessReviewSpec', url='', help='SubjectAccessReviewSpec is a description of the access request.  Exactly one of ResourceAuthorizationAttributes and NonResourceAuthorizationAttributes must be set'),
+  '#withExtra': d.fn(help='Extra corresponds to the user.Info.GetExtra() method from the authenticator.  Since that is input to the authorizer it needs a reflection here.', args=[d.arg(name='extra', type=d.T.object)]),
   withExtra(extra): { extra: extra },
+  '#withExtraMixin': d.fn(help='Extra corresponds to the user.Info.GetExtra() method from the authenticator.  Since that is input to the authorizer it needs a reflection here.\n\n**Note:** This function appends passed data to existing values', args=[d.arg(name='extra', type=d.T.object)]),
   withExtraMixin(extra): { extra+: extra },
+  '#withGroups': d.fn(help="Groups is the groups you're testing for.", args=[d.arg(name='groups', type=d.T.array)]),
   withGroups(groups): { groups: if std.isArray(v=groups) then groups else [groups] },
+  '#withGroupsMixin': d.fn(help="Groups is the groups you're testing for.\n\n**Note:** This function appends passed data to existing values", args=[d.arg(name='groups', type=d.T.array)]),
   withGroupsMixin(groups): { groups+: if std.isArray(v=groups) then groups else [groups] },
+  '#withNonResourceAttributes': d.fn(help='NonResourceAttributes includes the authorization attributes available for non-resource requests to the Authorizer interface', args=[d.arg(name='nonResourceAttributes', type=d.T.any)]),
   withNonResourceAttributes(nonResourceAttributes): { nonResourceAttributes: nonResourceAttributes },
+  '#withResourceAttributes': d.fn(help='ResourceAttributes includes the authorization attributes available for resource requests to the Authorizer interface', args=[d.arg(name='resourceAttributes', type=d.T.any)]),
   withResourceAttributes(resourceAttributes): { resourceAttributes: resourceAttributes },
+  '#withUid': d.fn(help='UID information about the requesting user.', args=[d.arg(name='uid', type=d.T.string)]),
   withUid(uid): { uid: uid },
+  '#withUser': d.fn(help="User is the user you're testing for. If you specify 'User' but not 'Groups', then is it interpreted as 'What if User were not a member of any groups", args=[d.arg(name='user', type=d.T.string)]),
   withUser(user): { user: user },
+  '#mixin': 'ignore',
   mixin: self
 }

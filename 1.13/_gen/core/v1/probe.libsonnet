@@ -1,11 +1,22 @@
 {
+  local d = (import 'doc-util/main.libsonnet'),
+  '#': d.pkg(name='probe', url='', help='Probe describes a health check to be performed against a container to determine whether it is alive or ready to receive traffic.'),
+  '#withExec': d.fn(help='ExecAction describes a "run in container" action.', args=[d.arg(name='exec', type=d.T.any)]),
   withExec(exec): { exec: exec },
+  '#withFailureThreshold': d.fn(help='Minimum consecutive failures for the probe to be considered failed after having succeeded. Defaults to 3. Minimum value is 1.', args=[d.arg(name='failureThreshold', type=d.T.integer)]),
   withFailureThreshold(failureThreshold): { failureThreshold: failureThreshold },
+  '#withHttpGet': d.fn(help='HTTPGetAction describes an action based on HTTP Get requests.', args=[d.arg(name='httpGet', type=d.T.any)]),
   withHttpGet(httpGet): { httpGet: httpGet },
+  '#withInitialDelaySeconds': d.fn(help='Number of seconds after the container has started before liveness probes are initiated. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes', args=[d.arg(name='initialDelaySeconds', type=d.T.integer)]),
   withInitialDelaySeconds(initialDelaySeconds): { initialDelaySeconds: initialDelaySeconds },
+  '#withPeriodSeconds': d.fn(help='How often (in seconds) to perform the probe. Default to 10 seconds. Minimum value is 1.', args=[d.arg(name='periodSeconds', type=d.T.integer)]),
   withPeriodSeconds(periodSeconds): { periodSeconds: periodSeconds },
+  '#withSuccessThreshold': d.fn(help='Minimum consecutive successes for the probe to be considered successful after having failed. Defaults to 1. Must be 1 for liveness. Minimum value is 1.', args=[d.arg(name='successThreshold', type=d.T.integer)]),
   withSuccessThreshold(successThreshold): { successThreshold: successThreshold },
+  '#withTcpSocket': d.fn(help='TCPSocketAction describes an action based on opening a socket', args=[d.arg(name='tcpSocket', type=d.T.any)]),
   withTcpSocket(tcpSocket): { tcpSocket: tcpSocket },
+  '#withTimeoutSeconds': d.fn(help='Number of seconds after which the probe times out. Defaults to 1 second. Minimum value is 1. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes', args=[d.arg(name='timeoutSeconds', type=d.T.integer)]),
   withTimeoutSeconds(timeoutSeconds): { timeoutSeconds: timeoutSeconds },
+  '#mixin': 'ignore',
   mixin: self
 }

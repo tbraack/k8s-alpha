@@ -1,10 +1,20 @@
 {
+  local d = (import 'doc-util/main.libsonnet'),
+  '#': d.pkg(name='webhook', url='', help='Webhook describes an admission webhook and the resources and operations it applies to.'),
+  '#withClientConfig': d.fn(help='WebhookClientConfig contains the information to make a TLS connection with the webhook', args=[d.arg(name='clientConfig', type=d.T.any)]),
   withClientConfig(clientConfig): { clientConfig: clientConfig },
+  '#withFailurePolicy': d.fn(help='FailurePolicy defines how unrecognized errors from the admission endpoint are handled - allowed values are Ignore or Fail. Defaults to Ignore.', args=[d.arg(name='failurePolicy', type=d.T.string)]),
   withFailurePolicy(failurePolicy): { failurePolicy: failurePolicy },
+  '#withName': d.fn(help='The name of the admission webhook. Name should be fully qualified, e.g., imagepolicy.kubernetes.io, where "imagepolicy" is the name of the webhook, and kubernetes.io is the name of the organization. Required.', args=[d.arg(name='name', type=d.T.string)]),
   withName(name): { name: name },
+  '#withNamespaceSelector': d.fn(help='A label selector is a label query over a set of resources. The result of matchLabels and matchExpressions are ANDed. An empty label selector matches all objects. A null label selector matches no objects.', args=[d.arg(name='namespaceSelector', type=d.T.any)]),
   withNamespaceSelector(namespaceSelector): { namespaceSelector: namespaceSelector },
+  '#withRules': d.fn(help='Rules describes what operations on what resources/subresources the webhook cares about. The webhook cares about an operation if it matches _any_ Rule. However, in order to prevent ValidatingAdmissionWebhooks and MutatingAdmissionWebhooks from putting the cluster in a state which cannot be recovered from without completely disabling the plugin, ValidatingAdmissionWebhooks and MutatingAdmissionWebhooks are never called on admission requests for ValidatingWebhookConfiguration and MutatingWebhookConfiguration objects.', args=[d.arg(name='rules', type=d.T.array)]),
   withRules(rules): { rules: if std.isArray(v=rules) then rules else [rules] },
+  '#withRulesMixin': d.fn(help='Rules describes what operations on what resources/subresources the webhook cares about. The webhook cares about an operation if it matches _any_ Rule. However, in order to prevent ValidatingAdmissionWebhooks and MutatingAdmissionWebhooks from putting the cluster in a state which cannot be recovered from without completely disabling the plugin, ValidatingAdmissionWebhooks and MutatingAdmissionWebhooks are never called on admission requests for ValidatingWebhookConfiguration and MutatingWebhookConfiguration objects.\n\n**Note:** This function appends passed data to existing values', args=[d.arg(name='rules', type=d.T.array)]),
   withRulesMixin(rules): { rules+: if std.isArray(v=rules) then rules else [rules] },
+  '#withSideEffects': d.fn(help='SideEffects states whether this webhookk has side effects. Acceptable values are: Unknown, None, Some, NoneOnDryRun Webhooks with side effects MUST implement a reconciliation system, since a request may be rejected by a future step in the admission change and the side effects therefore need to be undone. Requests with the dryRun attribute will be auto-rejected if they match a webhook with sideEffects == Unknown or Some. Defaults to Unknown.', args=[d.arg(name='sideEffects', type=d.T.string)]),
   withSideEffects(sideEffects): { sideEffects: sideEffects },
+  '#mixin': 'ignore',
   mixin: self
 }
