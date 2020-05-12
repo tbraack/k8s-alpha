@@ -1,5 +1,5 @@
 ---
-permalink: /1.15/authorization/v1beta1/selfSubjectRulesReview
+permalink: /1.15/authorization/v1beta1/selfSubjectRulesReview/
 ---
 
 # package selfSubjectRulesReview
@@ -259,7 +259,7 @@ Populated by the system. Read-only. More info: http://kubernetes.io/docs/user-gu
 
 ## obj metadata.initializers
 
-
+Initializers tracks the progress of initialization.
 
 ### fn metadata.initializers.withPending
 

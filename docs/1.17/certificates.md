@@ -1,5 +1,5 @@
 ---
-permalink: /1.17/certificates
+permalink: /1.17/certificates/
 ---
 
 # package certificates

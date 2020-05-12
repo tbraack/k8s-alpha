@@ -1,5 +1,5 @@
 ---
-permalink: /1.16/auditregistration/v1alpha1/auditSink
+permalink: /1.16/auditregistration/v1alpha1/auditSink/
 ---
 
 # package auditSink

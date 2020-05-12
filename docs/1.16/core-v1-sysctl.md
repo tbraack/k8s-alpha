@@ -1,5 +1,5 @@
 ---
-permalink: /1.16/core/v1/sysctl
+permalink: /1.16/core/v1/sysctl/
 ---
 
 # package sysctl

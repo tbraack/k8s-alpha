@@ -1,5 +1,5 @@
 ---
-permalink: /1.16/policy/v1beta1/runAsUserStrategyOptions
+permalink: /1.16/policy/v1beta1/runAsUserStrategyOptions/
 ---
 
 # package runAsUserStrategyOptions

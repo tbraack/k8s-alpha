@@ -1,5 +1,5 @@
 ---
-permalink: /1.17/flowcontrol/v1alpha1/resourcePolicyRule
+permalink: /1.17/flowcontrol/v1alpha1/resourcePolicyRule/
 ---
 
 # package resourcePolicyRule

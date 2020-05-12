@@ -1,5 +1,5 @@
 ---
-permalink: /1.14/extensions/v1beta1/runAsGroupStrategyOptions
+permalink: /1.14/extensions/v1beta1/runAsGroupStrategyOptions/
 ---
 
 # package runAsGroupStrategyOptions

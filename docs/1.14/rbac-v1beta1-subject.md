@@ -1,5 +1,5 @@
 ---
-permalink: /1.14/rbac/v1beta1/subject
+permalink: /1.14/rbac/v1beta1/subject/
 ---
 
 # package subject

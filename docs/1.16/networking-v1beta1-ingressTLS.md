@@ -1,5 +1,5 @@
 ---
-permalink: /1.16/networking/v1beta1/ingressTLS
+permalink: /1.16/networking/v1beta1/ingressTLS/
 ---
 
 # package ingressTLS

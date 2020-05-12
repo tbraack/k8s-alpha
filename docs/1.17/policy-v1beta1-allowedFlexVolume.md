@@ -1,5 +1,5 @@
 ---
-permalink: /1.17/policy/v1beta1/allowedFlexVolume
+permalink: /1.17/policy/v1beta1/allowedFlexVolume/
 ---
 
 # package allowedFlexVolume

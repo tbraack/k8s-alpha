@@ -1,5 +1,5 @@
 ---
-permalink: /1.14/core/v1/nodeSystemInfo
+permalink: /1.14/core/v1/nodeSystemInfo/
 ---
 
 # package nodeSystemInfo

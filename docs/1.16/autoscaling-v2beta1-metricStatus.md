@@ -1,5 +1,5 @@
 ---
-permalink: /1.16/autoscaling/v2beta1/metricStatus
+permalink: /1.16/autoscaling/v2beta1/metricStatus/
 ---
 
 # package metricStatus
@@ -271,7 +271,7 @@ metricName is the name of the metric in question.
 
 ## obj object.selector
 
-A label selector is a label query over a set of resources. The result of matchLabels and matchExpressions are ANDed. An empty label selector matches all objects. A null label selector matches no objects.
+
 
 ### fn object.selector.withMatchExpressions
 
@@ -381,7 +381,7 @@ metricName is the name of the metric in question
 
 ## obj pods.selector
 
-
+A label selector is a label query over a set of resources. The result of matchLabels and matchExpressions are ANDed. An empty label selector matches all objects. A null label selector matches no objects.
 
 ### fn pods.selector.withMatchExpressions
 

@@ -1,5 +1,5 @@
 ---
-permalink: /1.18/storage/v1/csiNodeDriver
+permalink: /1.18/storage/v1/csiNodeDriver/
 ---
 
 # package csiNodeDriver

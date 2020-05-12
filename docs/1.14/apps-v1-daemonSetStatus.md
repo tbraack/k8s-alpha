@@ -1,5 +1,5 @@
 ---
-permalink: /1.14/apps/v1/daemonSetStatus
+permalink: /1.14/apps/v1/daemonSetStatus/
 ---
 
 # package daemonSetStatus

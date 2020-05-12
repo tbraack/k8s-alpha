@@ -1,5 +1,5 @@
 ---
-permalink: /1.15/batch/v2alpha1/cronJob
+permalink: /1.15/batch/v2alpha1/cronJob/
 ---
 
 # package cronJob
@@ -456,7 +456,7 @@ Pending is a list of initializers that must execute in order before this object 
 
 ## obj metadata.initializers.result
 
-Status is a return value for calls that don't return other objects.
+
 
 ### fn metadata.initializers.result.withCode
 
@@ -836,7 +836,7 @@ Pending is a list of initializers that must execute in order before this object 
 
 ## obj spec.jobTemplate.metadata.initializers.result
 
-
+Status is a return value for calls that don't return other objects.
 
 ### fn spec.jobTemplate.metadata.initializers.result.withCode
 
@@ -1034,11 +1034,11 @@ matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabe
 
 ## obj spec.jobTemplate.spec.template
 
-
+PodTemplateSpec describes the data a pod should have when created from a template
 
 ## obj spec.jobTemplate.spec.template.metadata
 
-
+ObjectMeta is metadata that all persisted resources must have, which includes all objects users must create.
 
 ### fn spec.jobTemplate.spec.template.metadata.withAnnotations
 
@@ -1300,7 +1300,7 @@ A machine-readable description of why this operation is in the "Failure" status.
 
 ## obj spec.jobTemplate.spec.template.metadata.initializers.result.details
 
-
+StatusDetails is a set of additional properties that MAY be set by the server to provide additional information about a response. The Reason field of a Status object defines what attributes will be set. Clients must ignore fields that do not match the defined type of each attribute, and should assume that any attribute may be empty, invalid, or under defined.
 
 ### fn spec.jobTemplate.spec.template.metadata.initializers.result.details.withCauses
 
@@ -1362,7 +1362,7 @@ UID of the resource. (when there is a single resource which can be described). M
 
 ## obj spec.jobTemplate.spec.template.spec
 
-
+PodSpec is a description of a pod.
 
 ### fn spec.jobTemplate.spec.template.spec.withActiveDeadlineSeconds
 
@@ -1674,7 +1674,7 @@ List of volumes that can be mounted by containers belonging to the pod. More inf
 
 ## obj spec.jobTemplate.spec.template.spec.affinity.nodeAffinity
 
-
+Node affinity is a group of node affinity scheduling rules.
 
 ### fn spec.jobTemplate.spec.template.spec.affinity.nodeAffinity.withPreferredDuringSchedulingIgnoredDuringExecution
 
@@ -1718,7 +1718,7 @@ Required. A list of node selector terms. The terms are ORed.
 
 ## obj spec.jobTemplate.spec.template.spec.affinity.podAffinity
 
-
+Pod affinity is a group of inter pod affinity scheduling rules.
 
 ### fn spec.jobTemplate.spec.template.spec.affinity.podAffinity.withPreferredDuringSchedulingIgnoredDuringExecution
 
@@ -1758,7 +1758,7 @@ If the affinity requirements specified by this field are not met at scheduling t
 
 ## obj spec.jobTemplate.spec.template.spec.affinity.podAntiAffinity
 
-
+Pod anti affinity is a group of inter pod anti affinity scheduling rules.
 
 ### fn spec.jobTemplate.spec.template.spec.affinity.podAntiAffinity.withPreferredDuringSchedulingIgnoredDuringExecution
 
@@ -1932,7 +1932,7 @@ Sysctls hold a list of namespaced sysctls used for the pod. Pods with unsupporte
 
 ## obj spec.jobTemplate.spec.template.spec.securityContext.seLinuxOptions
 
-
+SELinuxOptions are the labels to be applied to the container
 
 ### fn spec.jobTemplate.spec.template.spec.securityContext.seLinuxOptions.withLevel
 

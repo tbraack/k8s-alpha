@@ -1,5 +1,5 @@
 ---
-permalink: /1.15/storage/v1/volumeError
+permalink: /1.15/storage/v1/volumeError/
 ---
 
 # package volumeError

@@ -1,5 +1,5 @@
 ---
-permalink: /1.17/core/v1/objectFieldSelector
+permalink: /1.17/core/v1/objectFieldSelector/
 ---
 
 # package objectFieldSelector

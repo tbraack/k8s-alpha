@@ -1,5 +1,5 @@
 ---
-permalink: /1.18/core/v1/nodeAffinity
+permalink: /1.18/core/v1/nodeAffinity/
 ---
 
 # package nodeAffinity

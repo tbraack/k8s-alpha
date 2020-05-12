@@ -1,5 +1,5 @@
 ---
-permalink: /1.14/core/v1/typedLocalObjectReference
+permalink: /1.14/core/v1/typedLocalObjectReference/
 ---
 
 # package typedLocalObjectReference

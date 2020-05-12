@@ -1,5 +1,5 @@
 ---
-permalink: /1.16/core/v1/node
+permalink: /1.16/core/v1/node/
 ---
 
 # package node

@@ -1,5 +1,5 @@
 ---
-permalink: /1.18/node/v1alpha1/runtimeClassSpec
+permalink: /1.18/node/v1alpha1/runtimeClassSpec/
 ---
 
 # package runtimeClassSpec

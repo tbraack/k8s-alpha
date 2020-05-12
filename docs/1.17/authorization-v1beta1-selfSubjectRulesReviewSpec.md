@@ -1,5 +1,5 @@
 ---
-permalink: /1.17/authorization/v1beta1/selfSubjectRulesReviewSpec
+permalink: /1.17/authorization/v1beta1/selfSubjectRulesReviewSpec/
 ---
 
 # package selfSubjectRulesReviewSpec

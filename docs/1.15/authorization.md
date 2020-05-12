@@ -1,5 +1,5 @@
 ---
-permalink: /1.15/authorization
+permalink: /1.15/authorization/
 ---
 
 # package authorization

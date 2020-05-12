@@ -1,5 +1,5 @@
 ---
-permalink: /1.16/policy/v1beta1/runAsGroupStrategyOptions
+permalink: /1.16/policy/v1beta1/runAsGroupStrategyOptions/
 ---
 
 # package runAsGroupStrategyOptions

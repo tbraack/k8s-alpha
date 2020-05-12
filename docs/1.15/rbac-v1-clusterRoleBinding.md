@@ -1,5 +1,5 @@
 ---
-permalink: /1.15/rbac/v1/clusterRoleBinding
+permalink: /1.15/rbac/v1/clusterRoleBinding/
 ---
 
 # package clusterRoleBinding

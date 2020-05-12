@@ -1,5 +1,5 @@
 ---
-permalink: /1.17/scheduling/v1alpha1/priorityClass
+permalink: /1.17/scheduling/v1alpha1/priorityClass/
 ---
 
 # package priorityClass

@@ -1,5 +1,5 @@
 ---
-permalink: /1.18/core/v1/seLinuxOptions
+permalink: /1.18/core/v1/seLinuxOptions/
 ---
 
 # package seLinuxOptions

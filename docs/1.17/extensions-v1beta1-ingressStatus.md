@@ -1,5 +1,5 @@
 ---
-permalink: /1.17/extensions/v1beta1/ingressStatus
+permalink: /1.17/extensions/v1beta1/ingressStatus/
 ---
 
 # package ingressStatus

@@ -1,5 +1,5 @@
 ---
-permalink: /1.17/networking/v1/networkPolicyEgressRule
+permalink: /1.17/networking/v1/networkPolicyEgressRule/
 ---
 
 # package networkPolicyEgressRule

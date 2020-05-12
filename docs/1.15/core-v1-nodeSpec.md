@@ -1,5 +1,5 @@
 ---
-permalink: /1.15/core/v1/nodeSpec
+permalink: /1.15/core/v1/nodeSpec/
 ---
 
 # package nodeSpec

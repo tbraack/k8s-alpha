@@ -1,5 +1,5 @@
 ---
-permalink: /1.15/core/v1/containerStatus
+permalink: /1.15/core/v1/containerStatus/
 ---
 
 # package containerStatus
@@ -111,7 +111,7 @@ Time is a wrapper around time.Time which supports correct marshaling to YAML and
 
 ## obj lastState.terminated
 
-ContainerStateTerminated is a terminated state of a container.
+
 
 ### fn lastState.terminated.withContainerID
 
@@ -171,7 +171,7 @@ Time is a wrapper around time.Time which supports correct marshaling to YAML and
 
 ## obj lastState.waiting
 
-ContainerStateWaiting is a waiting state of a container.
+
 
 ### fn lastState.waiting.withMessage
 
@@ -267,7 +267,7 @@ Time is a wrapper around time.Time which supports correct marshaling to YAML and
 
 ## obj state.waiting
 
-ContainerStateWaiting is a waiting state of a container.
+
 
 ### fn state.waiting.withMessage
 

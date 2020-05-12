@@ -1,5 +1,5 @@
 ---
-permalink: /1.14/rbac/v1beta1/clusterRole
+permalink: /1.14/rbac/v1beta1/clusterRole/
 ---
 
 # package clusterRole
@@ -302,7 +302,7 @@ Populated by the system. Read-only. More info: http://kubernetes.io/docs/user-gu
 
 ## obj metadata.initializers
 
-Initializers tracks the progress of initialization.
+
 
 ### fn metadata.initializers.withPending
 

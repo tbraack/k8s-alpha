@@ -1,5 +1,5 @@
 ---
-permalink: /1.18/auditregistration/v1alpha1/webhookClientConfig
+permalink: /1.18/auditregistration/v1alpha1/webhookClientConfig/
 ---
 
 # package webhookClientConfig

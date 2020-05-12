@@ -1,5 +1,5 @@
 ---
-permalink: /1.15/core/v1/envVar
+permalink: /1.15/core/v1/envVar/
 ---
 
 # package envVar
@@ -50,7 +50,7 @@ EnvVarSource represents a source for the value of an EnvVar.
 
 ## obj valueFrom.configMapKeyRef
 
-Selects a key from a ConfigMap.
+
 
 ### fn valueFrom.configMapKeyRef.withKey
 
@@ -78,7 +78,7 @@ Specify whether the ConfigMap or its key must be defined
 
 ## obj valueFrom.fieldRef
 
-ObjectFieldSelector selects an APIVersioned field of an object.
+
 
 ### fn valueFrom.fieldRef.withFieldPath
 

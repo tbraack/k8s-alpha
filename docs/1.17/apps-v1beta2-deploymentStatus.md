@@ -1,5 +1,5 @@
 ---
-permalink: /1.17/apps/v1beta2/deploymentStatus
+permalink: /1.17/apps/v1beta2/deploymentStatus/
 ---
 
 # package deploymentStatus

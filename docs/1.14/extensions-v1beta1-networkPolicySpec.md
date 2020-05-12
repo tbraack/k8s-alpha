@@ -1,5 +1,5 @@
 ---
-permalink: /1.14/extensions/v1beta1/networkPolicySpec
+permalink: /1.14/extensions/v1beta1/networkPolicySpec/
 ---
 
 # package networkPolicySpec

@@ -1,5 +1,5 @@
 ---
-permalink: /1.16/extensions
+permalink: /1.16/extensions/
 ---
 
 # package extensions

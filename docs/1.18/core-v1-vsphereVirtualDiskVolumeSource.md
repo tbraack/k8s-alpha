@@ -1,5 +1,5 @@
 ---
-permalink: /1.18/core/v1/vsphereVirtualDiskVolumeSource
+permalink: /1.18/core/v1/vsphereVirtualDiskVolumeSource/
 ---
 
 # package vsphereVirtualDiskVolumeSource

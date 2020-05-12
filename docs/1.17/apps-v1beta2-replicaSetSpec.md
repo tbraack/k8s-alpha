@@ -1,5 +1,5 @@
 ---
-permalink: /1.17/apps/v1beta2/replicaSetSpec
+permalink: /1.17/apps/v1beta2/replicaSetSpec/
 ---
 
 # package replicaSetSpec
@@ -744,7 +744,7 @@ List of volumes that can be mounted by containers belonging to the pod. More inf
 
 ## obj template.spec.affinity
 
-
+Affinity is a group of affinity scheduling rules.
 
 ## obj template.spec.affinity.nodeAffinity
 
@@ -792,7 +792,7 @@ Required. A list of node selector terms. The terms are ORed.
 
 ## obj template.spec.affinity.podAffinity
 
-
+Pod affinity is a group of inter pod affinity scheduling rules.
 
 ### fn template.spec.affinity.podAffinity.withPreferredDuringSchedulingIgnoredDuringExecution
 
@@ -872,7 +872,7 @@ If the anti-affinity requirements specified by this field are not met at schedul
 
 ## obj template.spec.dnsConfig
 
-
+PodDNSConfig defines the DNS parameters of a pod in addition to those generated from DNSPolicy.
 
 ### fn template.spec.dnsConfig.withNameservers
 
@@ -1042,7 +1042,7 @@ User is a SELinux user label that applies to the container.
 
 ## obj template.spec.securityContext.windowsOptions
 
-WindowsSecurityContextOptions contain Windows-specific options and credentials.
+
 
 ### fn template.spec.securityContext.windowsOptions.withGmsaCredentialSpec
 

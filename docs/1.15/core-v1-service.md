@@ -1,5 +1,5 @@
 ---
-permalink: /1.15/core/v1/service
+permalink: /1.15/core/v1/service/
 ---
 
 # package service
@@ -545,11 +545,11 @@ type determines how the Service is exposed. Defaults to ClusterIP. Valid options
 
 ## obj spec.sessionAffinityConfig
 
-SessionAffinityConfig represents the configurations of session affinity.
+
 
 ## obj spec.sessionAffinityConfig.clientIP
 
-
+ClientIPConfig represents the configurations of Client IP based session affinity.
 
 ### fn spec.sessionAffinityConfig.clientIP.withTimeoutSeconds
 

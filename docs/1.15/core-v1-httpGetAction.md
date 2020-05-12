@@ -1,5 +1,5 @@
 ---
-permalink: /1.15/core/v1/httpGetAction
+permalink: /1.15/core/v1/httpGetAction/
 ---
 
 # package httpGetAction

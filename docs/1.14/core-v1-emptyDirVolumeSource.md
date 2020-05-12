@@ -1,5 +1,5 @@
 ---
-permalink: /1.14/core/v1/emptyDirVolumeSource
+permalink: /1.14/core/v1/emptyDirVolumeSource/
 ---
 
 # package emptyDirVolumeSource

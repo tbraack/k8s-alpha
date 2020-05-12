@@ -1,5 +1,5 @@
 ---
-permalink: /1.17/events/v1beta1/eventSeries
+permalink: /1.17/events/v1beta1/eventSeries/
 ---
 
 # package eventSeries

@@ -1,5 +1,5 @@
 ---
-permalink: /1.14/core/v1/securityContext
+permalink: /1.14/core/v1/securityContext/
 ---
 
 # package securityContext

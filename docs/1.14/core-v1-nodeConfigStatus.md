@@ -1,5 +1,5 @@
 ---
-permalink: /1.14/core/v1/nodeConfigStatus
+permalink: /1.14/core/v1/nodeConfigStatus/
 ---
 
 # package nodeConfigStatus

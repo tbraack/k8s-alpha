@@ -1,5 +1,5 @@
 ---
-permalink: /1.15/core/v1/glusterfsVolumeSource
+permalink: /1.15/core/v1/glusterfsVolumeSource/
 ---
 
 # package glusterfsVolumeSource

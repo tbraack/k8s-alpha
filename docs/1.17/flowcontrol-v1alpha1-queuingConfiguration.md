@@ -1,5 +1,5 @@
 ---
-permalink: /1.17/flowcontrol/v1alpha1/queuingConfiguration
+permalink: /1.17/flowcontrol/v1alpha1/queuingConfiguration/
 ---
 
 # package queuingConfiguration

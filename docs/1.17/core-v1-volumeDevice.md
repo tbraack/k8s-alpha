@@ -1,5 +1,5 @@
 ---
-permalink: /1.17/core/v1/volumeDevice
+permalink: /1.17/core/v1/volumeDevice/
 ---
 
 # package volumeDevice

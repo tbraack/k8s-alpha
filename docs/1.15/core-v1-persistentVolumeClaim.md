@@ -1,5 +1,5 @@
 ---
-permalink: /1.15/core/v1/persistentVolumeClaim
+permalink: /1.15/core/v1/persistentVolumeClaim/
 ---
 
 # package persistentVolumeClaim
@@ -277,7 +277,7 @@ Populated by the system. Read-only. More info: http://kubernetes.io/docs/user-gu
 
 ## obj metadata.initializers
 
-Initializers tracks the progress of initialization.
+
 
 ### fn metadata.initializers.withPending
 
@@ -451,7 +451,7 @@ VolumeName is the binding reference to the PersistentVolume backing this claim.
 
 ## obj spec.dataSource
 
-
+TypedLocalObjectReference contains enough information to let you locate the typed referenced object inside the same namespace.
 
 ### fn spec.dataSource.withApiGroup
 

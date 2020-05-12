@@ -1,5 +1,5 @@
 ---
-permalink: /1.18/batch/v1/jobSpec
+permalink: /1.18/batch/v1/jobSpec/
 ---
 
 # package jobSpec
@@ -225,7 +225,7 @@ PodTemplateSpec describes the data a pod should have when created from a templat
 
 ## obj template.metadata
 
-ObjectMeta is metadata that all persisted resources must have, which includes all objects users must create.
+
 
 ### fn template.metadata.withAnnotations
 
@@ -909,7 +909,7 @@ If the anti-affinity requirements specified by this field are not met at schedul
 
 ## obj template.spec.dnsConfig
 
-PodDNSConfig defines the DNS parameters of a pod in addition to those generated from DNSPolicy.
+
 
 ### fn template.spec.dnsConfig.withNameservers
 

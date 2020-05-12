@@ -1,5 +1,5 @@
 ---
-permalink: /1.18/networking/v1beta1/ingressClass
+permalink: /1.18/networking/v1beta1/ingressClass/
 ---
 
 # package ingressClass

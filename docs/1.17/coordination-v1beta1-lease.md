@@ -1,5 +1,5 @@
 ---
-permalink: /1.17/coordination/v1beta1/lease
+permalink: /1.17/coordination/v1beta1/lease/
 ---
 
 # package lease

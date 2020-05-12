@@ -1,5 +1,5 @@
 ---
-permalink: /1.17/core/v1/namespaceStatus
+permalink: /1.17/core/v1/namespaceStatus/
 ---
 
 # package namespaceStatus

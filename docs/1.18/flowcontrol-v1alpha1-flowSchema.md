@@ -1,5 +1,5 @@
 ---
-permalink: /1.18/flowcontrol/v1alpha1/flowSchema
+permalink: /1.18/flowcontrol/v1alpha1/flowSchema/
 ---
 
 # package flowSchema
@@ -276,7 +276,7 @@ withRulesMixin(rules)
 
 ## obj spec.distinguisherMethod
 
-
+FlowDistinguisherMethod specifies the method of a flow distinguisher.
 
 ### fn spec.distinguisherMethod.withType
 

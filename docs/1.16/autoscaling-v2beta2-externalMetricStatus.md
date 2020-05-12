@@ -1,5 +1,5 @@
 ---
-permalink: /1.16/autoscaling/v2beta2/externalMetricStatus
+permalink: /1.16/autoscaling/v2beta2/externalMetricStatus/
 ---
 
 # package externalMetricStatus

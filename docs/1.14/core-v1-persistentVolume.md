@@ -1,5 +1,5 @@
 ---
-permalink: /1.14/core/v1/persistentVolume
+permalink: /1.14/core/v1/persistentVolume/
 ---
 
 # package persistentVolume
@@ -439,7 +439,7 @@ Populated by the system. Read-only. More info: http://kubernetes.io/docs/user-gu
 
 ## obj metadata.initializers
 
-
+Initializers tracks the progress of initialization.
 
 ### fn metadata.initializers.withPending
 
@@ -775,7 +775,7 @@ Share Name
 
 ## obj spec.cephfs
 
-Represents a Ceph Filesystem mount that lasts the lifetime of a pod Cephfs volumes do not support ownership management or SELinux relabeling.
+
 
 ### fn spec.cephfs.withMonitors
 
@@ -849,7 +849,7 @@ Namespace defines the space within which the secret name must be unique.
 
 ## obj spec.cinder
 
-Represents a cinder volume resource in Openstack. A Cinder volume must exist before mounting to a container. The volume must also be in the same region as the kubelet. Cinder volumes support ownership management and SELinux relabeling.
+
 
 ### fn spec.cinder.withFsType
 
@@ -877,7 +877,7 @@ volume id used to identify the volume in cinder More info: https://releases.k8s.
 
 ## obj spec.cinder.secretRef
 
-SecretReference represents a Secret Reference. It has enough information to retrieve secret in any namespace
+
 
 ### fn spec.cinder.secretRef.withName
 
@@ -949,7 +949,7 @@ UID of the referent. More info: https://kubernetes.io/docs/concepts/overview/wor
 
 ## obj spec.csi
 
-
+Represents storage that is managed by an external CSI volume driver (Beta feature)
 
 ### fn spec.csi.withDriver
 
@@ -1003,7 +1003,7 @@ VolumeHandle is the unique volume name returned by the CSI volume plugin’s Cre
 
 ## obj spec.csi.controllerPublishSecretRef
 
-SecretReference represents a Secret Reference. It has enough information to retrieve secret in any namespace
+
 
 ### fn spec.csi.controllerPublishSecretRef.withName
 
@@ -1043,7 +1043,7 @@ Namespace defines the space within which the secret name must be unique.
 
 ## obj spec.csi.nodeStageSecretRef
 
-
+SecretReference represents a Secret Reference. It has enough information to retrieve secret in any namespace
 
 ### fn spec.csi.nodeStageSecretRef.withName
 
@@ -1063,7 +1063,7 @@ Namespace defines the space within which the secret name must be unique.
 
 ## obj spec.fc
 
-
+Represents a Fibre Channel volume. Fibre Channel volumes can only be mounted as read/write once. Fibre Channel volumes support ownership management and SELinux relabeling.
 
 ### fn spec.fc.withFsType
 
@@ -1127,7 +1127,7 @@ Optional: FC volume world wide identifiers (wwids) Either wwids or combination o
 
 ## obj spec.flexVolume
 
-
+FlexPersistentVolumeSource represents a generic persistent volume resource that is provisioned/attached using an exec based plugin.
 
 ### fn spec.flexVolume.withDriver
 
@@ -1285,7 +1285,7 @@ ReadOnly here will force the Glusterfs volume to be mounted with read-only permi
 
 ## obj spec.hostPath
 
-
+Represents a host path mapped into a pod. Host path volumes do not support ownership management or SELinux relabeling.
 
 ### fn spec.hostPath.withPath
 
@@ -1399,7 +1399,7 @@ iSCSI Target Portal. The Portal is either an IP or ip_addr:port if the port is o
 
 ## obj spec.iscsi.secretRef
 
-SecretReference represents a Secret Reference. It has enough information to retrieve secret in any namespace
+
 
 ### fn spec.iscsi.secretRef.withName
 
@@ -1419,7 +1419,7 @@ Namespace defines the space within which the secret name must be unique.
 
 ## obj spec.local
 
-Local represents directly-attached storage with node affinity (Beta feature)
+
 
 ### fn spec.local.withFsType
 
@@ -1439,7 +1439,7 @@ The full path to the volume on the node. It can be either a directory or block d
 
 ## obj spec.nfs
 
-
+Represents an NFS mount that lasts the lifetime of a pod. NFS volumes do not support ownership management or SELinux relabeling.
 
 ### fn spec.nfs.withPath
 
@@ -1467,7 +1467,7 @@ Server is the hostname or IP address of the NFS server. More info: https://kuber
 
 ## obj spec.nodeAffinity
 
-VolumeNodeAffinity defines constraints that limit what nodes this volume can be accessed from.
+
 
 ## obj spec.nodeAffinity.required
 
@@ -1493,7 +1493,7 @@ Required. A list of node selector terms. The terms are ORed.
 
 ## obj spec.photonPersistentDisk
 
-
+Represents a Photon Controller persistent disk resource.
 
 ### fn spec.photonPersistentDisk.withFsType
 
@@ -1759,7 +1759,7 @@ The name of a volume already created in the ScaleIO system that is associated wi
 
 ## obj spec.scaleIO.secretRef
 
-
+SecretReference represents a Secret Reference. It has enough information to retrieve secret in any namespace
 
 ### fn spec.scaleIO.secretRef.withName
 
@@ -1867,7 +1867,7 @@ UID of the referent. More info: https://kubernetes.io/docs/concepts/overview/wor
 
 ## obj spec.vsphereVolume
 
-Represents a vSphere volume resource.
+
 
 ### fn spec.vsphereVolume.withFsType
 

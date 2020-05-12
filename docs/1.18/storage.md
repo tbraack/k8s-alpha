@@ -1,5 +1,5 @@
 ---
-permalink: /1.18/storage
+permalink: /1.18/storage/
 ---
 
 # package storage

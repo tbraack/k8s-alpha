@@ -1,5 +1,5 @@
 ---
-permalink: /1.17/core/v1/eventSource
+permalink: /1.17/core/v1/eventSource/
 ---
 
 # package eventSource

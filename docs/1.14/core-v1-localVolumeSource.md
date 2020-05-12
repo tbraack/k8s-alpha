@@ -1,5 +1,5 @@
 ---
-permalink: /1.14/core/v1/localVolumeSource
+permalink: /1.14/core/v1/localVolumeSource/
 ---
 
 # package localVolumeSource

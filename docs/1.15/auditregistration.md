@@ -1,5 +1,5 @@
 ---
-permalink: /1.15/auditregistration
+permalink: /1.15/auditregistration/
 ---
 
 # package auditregistration

@@ -1,5 +1,5 @@
 ---
-permalink: /1.14/extensions/v1beta1/ingressTLS
+permalink: /1.14/extensions/v1beta1/ingressTLS/
 ---
 
 # package ingressTLS

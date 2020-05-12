@@ -1,5 +1,5 @@
 ---
-permalink: /1.17/events/v1beta1/event
+permalink: /1.17/events/v1beta1/event/
 ---
 
 # package event

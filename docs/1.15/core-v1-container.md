@@ -1,5 +1,5 @@
 ---
-permalink: /1.15/core/v1/container
+permalink: /1.15/core/v1/container/
 ---
 
 # package container
@@ -331,11 +331,11 @@ Lifecycle describes actions that the management system should take in response t
 
 ## obj lifecycle.postStart
 
-Handler defines a specific action that should be taken
+
 
 ## obj lifecycle.postStart.exec
 
-ExecAction describes a "run in container" action.
+
 
 ### fn lifecycle.postStart.exec.withCommand
 
@@ -457,7 +457,7 @@ Command is the command line to execute inside the container, the working directo
 
 ## obj lifecycle.preStop.httpGet
 
-HTTPGetAction describes an action based on HTTP Get requests.
+
 
 ### fn lifecycle.preStop.httpGet.withHost
 
@@ -597,7 +597,7 @@ Command is the command line to execute inside the container, the working directo
 
 ## obj livenessProbe.httpGet
 
-HTTPGetAction describes an action based on HTTP Get requests.
+
 
 ### fn livenessProbe.httpGet.withHost
 
@@ -651,7 +651,7 @@ Scheme to use for connecting to the host. Defaults to HTTP.
 
 ## obj livenessProbe.tcpSocket
 
-TCPSocketAction describes an action based on opening a socket
+
 
 ### fn livenessProbe.tcpSocket.withHost
 
@@ -715,7 +715,7 @@ Number of seconds after which the probe times out. Defaults to 1 second. Minimum
 
 ## obj readinessProbe.exec
 
-ExecAction describes a "run in container" action.
+
 
 ### fn readinessProbe.exec.withCommand
 
@@ -737,7 +737,7 @@ Command is the command line to execute inside the container, the working directo
 
 ## obj readinessProbe.httpGet
 
-HTTPGetAction describes an action based on HTTP Get requests.
+
 
 ### fn readinessProbe.httpGet.withHost
 
@@ -911,7 +911,7 @@ The UID to run the entrypoint of the container process. Defaults to user specifi
 
 ## obj securityContext.capabilities
 
-Adds and removes POSIX capabilities from running containers.
+
 
 ### fn securityContext.capabilities.withAdd
 
@@ -987,7 +987,7 @@ User is a SELinux user label that applies to the container.
 
 ## obj securityContext.windowsOptions
 
-WindowsSecurityContextOptions contain Windows-specific options and credentials.
+
 
 ### fn securityContext.windowsOptions.withGmsaCredentialSpec
 

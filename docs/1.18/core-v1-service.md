@@ -1,5 +1,5 @@
 ---
-permalink: /1.18/core/v1/service
+permalink: /1.18/core/v1/service/
 ---
 
 # package service

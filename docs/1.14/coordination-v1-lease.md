@@ -1,5 +1,5 @@
 ---
-permalink: /1.14/coordination/v1/lease
+permalink: /1.14/coordination/v1/lease/
 ---
 
 # package lease
@@ -285,7 +285,7 @@ Pending is a list of initializers that must execute in order before this object 
 
 ## obj metadata.initializers.result
 
-
+Status is a return value for calls that don't return other objects.
 
 ### fn metadata.initializers.result.withCode
 

@@ -1,5 +1,5 @@
 ---
-permalink: /1.15/core/v1/secretKeySelector
+permalink: /1.15/core/v1/secretKeySelector/
 ---
 
 # package secretKeySelector

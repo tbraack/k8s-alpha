@@ -1,5 +1,5 @@
 ---
-permalink: /1.16/discovery/v1alpha1/endpointPort
+permalink: /1.16/discovery/v1alpha1/endpointPort/
 ---
 
 # package endpointPort

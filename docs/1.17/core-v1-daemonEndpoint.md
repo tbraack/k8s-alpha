@@ -1,5 +1,5 @@
 ---
-permalink: /1.17/core/v1/daemonEndpoint
+permalink: /1.17/core/v1/daemonEndpoint/
 ---
 
 # package daemonEndpoint

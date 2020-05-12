@@ -1,5 +1,5 @@
 ---
-permalink: /1.16/authentication/v1/boundObjectReference
+permalink: /1.16/authentication/v1/boundObjectReference/
 ---
 
 # package boundObjectReference

@@ -1,5 +1,5 @@
 ---
-permalink: /1.18/authentication
+permalink: /1.18/authentication/
 ---
 
 # package authentication

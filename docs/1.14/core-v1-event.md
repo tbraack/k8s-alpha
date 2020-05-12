@@ -1,5 +1,5 @@
 ---
-permalink: /1.14/core/v1/event
+permalink: /1.14/core/v1/event/
 ---
 
 # package event
@@ -420,7 +420,7 @@ Populated by the system. Read-only. More info: http://kubernetes.io/docs/user-gu
 
 ## obj metadata.initializers
 
-Initializers tracks the progress of initialization.
+
 
 ### fn metadata.initializers.withPending
 

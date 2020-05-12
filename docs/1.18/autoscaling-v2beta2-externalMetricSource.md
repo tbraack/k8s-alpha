@@ -1,5 +1,5 @@
 ---
-permalink: /1.18/autoscaling/v2beta2/externalMetricSource
+permalink: /1.18/autoscaling/v2beta2/externalMetricSource/
 ---
 
 # package externalMetricSource

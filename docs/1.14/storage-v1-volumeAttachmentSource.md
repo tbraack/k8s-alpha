@@ -1,5 +1,5 @@
 ---
-permalink: /1.14/storage/v1/volumeAttachmentSource
+permalink: /1.14/storage/v1/volumeAttachmentSource/
 ---
 
 # package volumeAttachmentSource

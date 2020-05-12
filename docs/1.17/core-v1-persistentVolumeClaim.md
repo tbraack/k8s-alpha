@@ -1,5 +1,5 @@
 ---
-permalink: /1.17/core/v1/persistentVolumeClaim
+permalink: /1.17/core/v1/persistentVolumeClaim/
 ---
 
 # package persistentVolumeClaim
@@ -304,7 +304,7 @@ VolumeName is the binding reference to the PersistentVolume backing this claim.
 
 ## obj spec.dataSource
 
-TypedLocalObjectReference contains enough information to let you locate the typed referenced object inside the same namespace.
+
 
 ### fn spec.dataSource.withApiGroup
 
@@ -332,7 +332,7 @@ Name is the name of resource being referenced
 
 ## obj spec.resources
 
-ResourceRequirements describes the compute resource requirements.
+
 
 ### fn spec.resources.withLimits
 
@@ -372,7 +372,7 @@ Requests describes the minimum amount of compute resources required. If Requests
 
 ## obj spec.selector
 
-A label selector is a label query over a set of resources. The result of matchLabels and matchExpressions are ANDed. An empty label selector matches all objects. A null label selector matches no objects.
+
 
 ### fn spec.selector.withMatchExpressions
 

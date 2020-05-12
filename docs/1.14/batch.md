@@ -1,5 +1,5 @@
 ---
-permalink: /1.14/batch
+permalink: /1.14/batch/
 ---
 
 # package batch

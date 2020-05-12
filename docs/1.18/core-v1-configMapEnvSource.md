@@ -1,5 +1,5 @@
 ---
-permalink: /1.18/core/v1/configMapEnvSource
+permalink: /1.18/core/v1/configMapEnvSource/
 ---
 
 # package configMapEnvSource

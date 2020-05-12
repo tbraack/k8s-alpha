@@ -1,5 +1,5 @@
 ---
-permalink: /1.18/autoscaling/v2beta2/hpaScalingRules
+permalink: /1.18/autoscaling/v2beta2/hpaScalingRules/
 ---
 
 # package hpaScalingRules

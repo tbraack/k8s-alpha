@@ -1,5 +1,5 @@
 ---
-permalink: /1.16/authorization/v1beta1/subjectAccessReviewStatus
+permalink: /1.16/authorization/v1beta1/subjectAccessReviewStatus/
 ---
 
 # package subjectAccessReviewStatus

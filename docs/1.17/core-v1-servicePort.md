@@ -1,5 +1,5 @@
 ---
-permalink: /1.17/core/v1/servicePort
+permalink: /1.17/core/v1/servicePort/
 ---
 
 # package servicePort

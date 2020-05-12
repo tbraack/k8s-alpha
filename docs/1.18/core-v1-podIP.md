@@ -1,5 +1,5 @@
 ---
-permalink: /1.18/core/v1/podIP
+permalink: /1.18/core/v1/podIP/
 ---
 
 # package podIP

@@ -1,5 +1,5 @@
 ---
-permalink: /1.15/node/v1beta1/runtimeClass
+permalink: /1.15/node/v1beta1/runtimeClass/
 ---
 
 # package runtimeClass
@@ -266,7 +266,7 @@ Populated by the system. Read-only. More info: http://kubernetes.io/docs/user-gu
 
 ## obj metadata.initializers
 
-Initializers tracks the progress of initialization.
+
 
 ### fn metadata.initializers.withPending
 

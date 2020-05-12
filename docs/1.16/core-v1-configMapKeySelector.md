@@ -1,5 +1,5 @@
 ---
-permalink: /1.16/core/v1/configMapKeySelector
+permalink: /1.16/core/v1/configMapKeySelector/
 ---
 
 # package configMapKeySelector

@@ -1,5 +1,5 @@
 ---
-permalink: /1.18/core/v1/container
+permalink: /1.18/core/v1/container/
 ---
 
 # package container
@@ -431,7 +431,7 @@ Scheme to use for connecting to the host. Defaults to HTTP.
 
 ## obj lifecycle.postStart.tcpSocket
 
-
+TCPSocketAction describes an action based on opening a socket
 
 ### fn lifecycle.postStart.tcpSocket.withHost
 
@@ -455,7 +455,7 @@ IntOrString is a type that can hold an int32 or a string.  When used in JSON or 
 
 ## obj lifecycle.preStop.exec
 
-ExecAction describes a "run in container" action.
+
 
 ### fn lifecycle.preStop.exec.withCommand
 
@@ -477,7 +477,7 @@ Command is the command line to execute inside the container, the working directo
 
 ## obj lifecycle.preStop.httpGet
 
-HTTPGetAction describes an action based on HTTP Get requests.
+
 
 ### fn lifecycle.preStop.httpGet.withHost
 
@@ -531,7 +531,7 @@ Scheme to use for connecting to the host. Defaults to HTTP.
 
 ## obj lifecycle.preStop.tcpSocket
 
-TCPSocketAction describes an action based on opening a socket
+
 
 ### fn lifecycle.preStop.tcpSocket.withHost
 
@@ -617,7 +617,7 @@ Command is the command line to execute inside the container, the working directo
 
 ## obj livenessProbe.httpGet
 
-
+HTTPGetAction describes an action based on HTTP Get requests.
 
 ### fn livenessProbe.httpGet.withHost
 
@@ -671,7 +671,7 @@ Scheme to use for connecting to the host. Defaults to HTTP.
 
 ## obj livenessProbe.tcpSocket
 
-TCPSocketAction describes an action based on opening a socket
+
 
 ### fn livenessProbe.tcpSocket.withHost
 
@@ -757,7 +757,7 @@ Command is the command line to execute inside the container, the working directo
 
 ## obj readinessProbe.httpGet
 
-HTTPGetAction describes an action based on HTTP Get requests.
+
 
 ### fn readinessProbe.httpGet.withHost
 
@@ -811,7 +811,7 @@ Scheme to use for connecting to the host. Defaults to HTTP.
 
 ## obj readinessProbe.tcpSocket
 
-TCPSocketAction describes an action based on opening a socket
+
 
 ### fn readinessProbe.tcpSocket.withHost
 
@@ -931,7 +931,7 @@ The UID to run the entrypoint of the container process. Defaults to user specifi
 
 ## obj securityContext.capabilities
 
-Adds and removes POSIX capabilities from running containers.
+
 
 ### fn securityContext.capabilities.withAdd
 
@@ -971,7 +971,7 @@ Removed capabilities
 
 ## obj securityContext.seLinuxOptions
 
-SELinuxOptions are the labels to be applied to the container
+
 
 ### fn securityContext.seLinuxOptions.withLevel
 
@@ -1155,7 +1155,7 @@ Scheme to use for connecting to the host. Defaults to HTTP.
 
 ## obj startupProbe.tcpSocket
 
-
+TCPSocketAction describes an action based on opening a socket
 
 ### fn startupProbe.tcpSocket.withHost
 

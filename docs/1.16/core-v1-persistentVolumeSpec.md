@@ -1,5 +1,5 @@
 ---
-permalink: /1.16/core/v1/persistentVolumeSpec
+permalink: /1.16/core/v1/persistentVolumeSpec/
 ---
 
 # package persistentVolumeSpec
@@ -629,7 +629,7 @@ VolumeHandle is the unique volume name returned by the CSI volume plugin’s Cre
 
 ## obj csi.controllerExpandSecretRef
 
-
+SecretReference represents a Secret Reference. It has enough information to retrieve secret in any namespace
 
 ### fn csi.controllerExpandSecretRef.withName
 
@@ -1311,7 +1311,7 @@ The rados user name. Default is admin. More info: https://examples.k8s.io/volume
 
 ## obj rbd.secretRef
 
-
+SecretReference represents a Secret Reference. It has enough information to retrieve secret in any namespace
 
 ### fn rbd.secretRef.withName
 
@@ -1463,7 +1463,7 @@ VolumeNamespace specifies the scope of the volume within StorageOS.  If no names
 
 ## obj storageos.secretRef
 
-
+ObjectReference contains enough information to let you inspect or modify the referred object.
 
 ### fn storageos.secretRef.withFieldPath
 

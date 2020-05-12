@@ -1,5 +1,5 @@
 ---
-permalink: /1.17/core/v1/nfsVolumeSource
+permalink: /1.17/core/v1/nfsVolumeSource/
 ---
 
 # package nfsVolumeSource

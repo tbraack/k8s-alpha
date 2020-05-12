@@ -1,5 +1,5 @@
 ---
-permalink: /1.17/auditregistration/v1alpha1/policy
+permalink: /1.17/auditregistration/v1alpha1/policy/
 ---
 
 # package policy

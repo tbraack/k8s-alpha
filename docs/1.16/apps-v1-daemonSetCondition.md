@@ -1,5 +1,5 @@
 ---
-permalink: /1.16/apps/v1/daemonSetCondition
+permalink: /1.16/apps/v1/daemonSetCondition/
 ---
 
 # package daemonSetCondition

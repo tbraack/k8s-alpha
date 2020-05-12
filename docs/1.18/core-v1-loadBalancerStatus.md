@@ -1,5 +1,5 @@
 ---
-permalink: /1.18/core/v1/loadBalancerStatus
+permalink: /1.18/core/v1/loadBalancerStatus/
 ---
 
 # package loadBalancerStatus

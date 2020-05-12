@@ -1,5 +1,5 @@
 ---
-permalink: /1.17/discovery
+permalink: /1.17/discovery/
 ---
 
 # package discovery

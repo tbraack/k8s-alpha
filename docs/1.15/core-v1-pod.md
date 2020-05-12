@@ -1,5 +1,5 @@
 ---
-permalink: /1.15/core/v1/pod
+permalink: /1.15/core/v1/pod/
 ---
 
 # package pod
@@ -771,11 +771,11 @@ List of volumes that can be mounted by containers belonging to the pod. More inf
 
 ## obj spec.affinity
 
-Affinity is a group of affinity scheduling rules.
+
 
 ## obj spec.affinity.nodeAffinity
 
-
+Node affinity is a group of node affinity scheduling rules.
 
 ### fn spec.affinity.nodeAffinity.withPreferredDuringSchedulingIgnoredDuringExecution
 
@@ -819,7 +819,7 @@ Required. A list of node selector terms. The terms are ORed.
 
 ## obj spec.affinity.podAffinity
 
-
+Pod affinity is a group of inter pod affinity scheduling rules.
 
 ### fn spec.affinity.podAffinity.withPreferredDuringSchedulingIgnoredDuringExecution
 
@@ -899,7 +899,7 @@ If the anti-affinity requirements specified by this field are not met at schedul
 
 ## obj spec.dnsConfig
 
-
+PodDNSConfig defines the DNS parameters of a pod in addition to those generated from DNSPolicy.
 
 ### fn spec.dnsConfig.withNameservers
 
@@ -957,7 +957,7 @@ A list of DNS search domains for host-name lookup. This will be appended to the 
 
 ## obj spec.securityContext
 
-
+PodSecurityContext holds pod-level security attributes and common container settings. Some fields are also present in container.securityContext.  Field values of container.securityContext take precedence over field values of PodSecurityContext.
 
 ### fn spec.securityContext.withFsGroup
 
@@ -1069,7 +1069,7 @@ User is a SELinux user label that applies to the container.
 
 ## obj spec.securityContext.windowsOptions
 
-
+WindowsSecurityContextOptions contain Windows-specific options and credentials.
 
 ### fn spec.securityContext.windowsOptions.withGmsaCredentialSpec
 

@@ -1,5 +1,5 @@
 ---
-permalink: /1.17/policy/v1beta1/supplementalGroupsStrategyOptions
+permalink: /1.17/policy/v1beta1/supplementalGroupsStrategyOptions/
 ---
 
 # package supplementalGroupsStrategyOptions

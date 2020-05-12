@@ -1,5 +1,5 @@
 ---
-permalink: /1.16/core/v1/nodeSelectorTerm
+permalink: /1.16/core/v1/nodeSelectorTerm/
 ---
 
 # package nodeSelectorTerm

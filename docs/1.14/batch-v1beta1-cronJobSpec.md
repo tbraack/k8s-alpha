@@ -1,5 +1,5 @@
 ---
-permalink: /1.14/batch/v1beta1/cronJobSpec
+permalink: /1.14/batch/v1beta1/cronJobSpec/
 ---
 
 # package cronJobSpec
@@ -455,7 +455,7 @@ Pending is a list of initializers that must execute in order before this object 
 
 ## obj jobTemplate.metadata.initializers.result
 
-Status is a return value for calls that don't return other objects.
+
 
 ### fn jobTemplate.metadata.initializers.result.withCode
 
@@ -499,7 +499,7 @@ A machine-readable description of why this operation is in the "Failure" status.
 
 ## obj jobTemplate.metadata.initializers.result.details
 
-StatusDetails is a set of additional properties that MAY be set by the server to provide additional information about a response. The Reason field of a Status object defines what attributes will be set. Clients must ignore fields that do not match the defined type of each attribute, and should assume that any attribute may be empty, invalid, or under defined.
+
 
 ### fn jobTemplate.metadata.initializers.result.details.withCauses
 
@@ -561,7 +561,7 @@ UID of the resource. (when there is a single resource which can be described). M
 
 ## obj jobTemplate.spec
 
-
+JobSpec describes how the job execution will look like.
 
 ### fn jobTemplate.spec.withActiveDeadlineSeconds
 
@@ -853,7 +853,7 @@ Populated by the system. Read-only. More info: http://kubernetes.io/docs/user-gu
 
 ## obj jobTemplate.spec.template.metadata.initializers
 
-Initializers tracks the progress of initialization.
+
 
 ### fn jobTemplate.spec.template.metadata.initializers.withPending
 
@@ -919,7 +919,7 @@ A machine-readable description of why this operation is in the "Failure" status.
 
 ## obj jobTemplate.spec.template.metadata.initializers.result.details
 
-
+StatusDetails is a set of additional properties that MAY be set by the server to provide additional information about a response. The Reason field of a Status object defines what attributes will be set. Clients must ignore fields that do not match the defined type of each attribute, and should assume that any attribute may be empty, invalid, or under defined.
 
 ### fn jobTemplate.spec.template.metadata.initializers.result.details.withCauses
 
@@ -1329,7 +1329,7 @@ Required. A list of node selector terms. The terms are ORed.
 
 ## obj jobTemplate.spec.template.spec.affinity.podAffinity
 
-
+Pod affinity is a group of inter pod affinity scheduling rules.
 
 ### fn jobTemplate.spec.template.spec.affinity.podAffinity.withPreferredDuringSchedulingIgnoredDuringExecution
 
@@ -1409,7 +1409,7 @@ If the anti-affinity requirements specified by this field are not met at schedul
 
 ## obj jobTemplate.spec.template.spec.dnsConfig
 
-
+PodDNSConfig defines the DNS parameters of a pod in addition to those generated from DNSPolicy.
 
 ### fn jobTemplate.spec.template.spec.dnsConfig.withNameservers
 

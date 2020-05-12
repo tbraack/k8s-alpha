@@ -1,5 +1,5 @@
 ---
-permalink: /1.16/core/v1/azureDiskVolumeSource
+permalink: /1.16/core/v1/azureDiskVolumeSource/
 ---
 
 # package azureDiskVolumeSource

@@ -1,5 +1,5 @@
 ---
-permalink: /1.14/core/v1/weightedPodAffinityTerm
+permalink: /1.14/core/v1/weightedPodAffinityTerm/
 ---
 
 # package weightedPodAffinityTerm

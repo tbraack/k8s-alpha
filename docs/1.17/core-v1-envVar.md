@@ -1,5 +1,5 @@
 ---
-permalink: /1.17/core/v1/envVar
+permalink: /1.17/core/v1/envVar/
 ---
 
 # package envVar
@@ -50,7 +50,7 @@ EnvVarSource represents a source for the value of an EnvVar.
 
 ## obj valueFrom.configMapKeyRef
 
-
+Selects a key from a ConfigMap.
 
 ### fn valueFrom.configMapKeyRef.withKey
 

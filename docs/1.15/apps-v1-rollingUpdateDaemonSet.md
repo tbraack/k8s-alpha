@@ -1,5 +1,5 @@
 ---
-permalink: /1.15/apps/v1/rollingUpdateDaemonSet
+permalink: /1.15/apps/v1/rollingUpdateDaemonSet/
 ---
 
 # package rollingUpdateDaemonSet

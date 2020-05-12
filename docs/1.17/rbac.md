@@ -1,5 +1,5 @@
 ---
-permalink: /1.17/rbac
+permalink: /1.17/rbac/
 ---
 
 # package rbac

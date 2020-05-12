@@ -1,5 +1,5 @@
 ---
-permalink: /1.16/networking
+permalink: /1.16/networking/
 ---
 
 # package networking

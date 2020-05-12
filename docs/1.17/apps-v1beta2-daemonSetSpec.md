@@ -1,5 +1,5 @@
 ---
-permalink: /1.17/apps/v1beta2/daemonSetSpec
+permalink: /1.17/apps/v1beta2/daemonSetSpec/
 ---
 
 # package daemonSetSpec
@@ -748,7 +748,7 @@ List of volumes that can be mounted by containers belonging to the pod. More inf
 
 ## obj template.spec.affinity
 
-
+Affinity is a group of affinity scheduling rules.
 
 ## obj template.spec.affinity.nodeAffinity
 
@@ -836,7 +836,7 @@ If the affinity requirements specified by this field are not met at scheduling t
 
 ## obj template.spec.affinity.podAntiAffinity
 
-
+Pod anti affinity is a group of inter pod anti affinity scheduling rules.
 
 ### fn template.spec.affinity.podAntiAffinity.withPreferredDuringSchedulingIgnoredDuringExecution
 
@@ -1046,7 +1046,7 @@ User is a SELinux user label that applies to the container.
 
 ## obj template.spec.securityContext.windowsOptions
 
-
+WindowsSecurityContextOptions contain Windows-specific options and credentials.
 
 ### fn template.spec.securityContext.windowsOptions.withGmsaCredentialSpec
 

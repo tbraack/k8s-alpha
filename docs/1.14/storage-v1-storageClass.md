@@ -1,5 +1,5 @@
 ---
-permalink: /1.14/storage/v1/storageClass
+permalink: /1.14/storage/v1/storageClass/
 ---
 
 # package storageClass
@@ -355,7 +355,7 @@ Populated by the system. Read-only. More info: http://kubernetes.io/docs/user-gu
 
 ## obj metadata.initializers
 
-Initializers tracks the progress of initialization.
+
 
 ### fn metadata.initializers.withPending
 

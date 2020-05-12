@@ -1,5 +1,5 @@
 ---
-permalink: /1.16/storage/v1/volumeAttachmentStatus
+permalink: /1.16/storage/v1/volumeAttachmentStatus/
 ---
 
 # package volumeAttachmentStatus

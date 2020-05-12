@@ -1,5 +1,5 @@
 ---
-permalink: /1.14/apps/v1/statefulSetUpdateStrategy
+permalink: /1.14/apps/v1/statefulSetUpdateStrategy/
 ---
 
 # package statefulSetUpdateStrategy

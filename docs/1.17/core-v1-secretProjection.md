@@ -1,5 +1,5 @@
 ---
-permalink: /1.17/core/v1/secretProjection
+permalink: /1.17/core/v1/secretProjection/
 ---
 
 # package secretProjection

@@ -1,5 +1,5 @@
 ---
-permalink: /1.15/networking/v1/networkPolicyIngressRule
+permalink: /1.15/networking/v1/networkPolicyIngressRule/
 ---
 
 # package networkPolicyIngressRule

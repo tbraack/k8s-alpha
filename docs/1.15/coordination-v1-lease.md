@@ -1,5 +1,5 @@
 ---
-permalink: /1.15/coordination/v1/lease
+permalink: /1.15/coordination/v1/lease/
 ---
 
 # package lease
@@ -263,7 +263,7 @@ Populated by the system. Read-only. More info: http://kubernetes.io/docs/user-gu
 
 ## obj metadata.initializers
 
-
+Initializers tracks the progress of initialization.
 
 ### fn metadata.initializers.withPending
 

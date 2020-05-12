@@ -1,5 +1,5 @@
 ---
-permalink: /1.15/autoscaling/v1/horizontalPodAutoscalerStatus
+permalink: /1.15/autoscaling/v1/horizontalPodAutoscalerStatus/
 ---
 
 # package horizontalPodAutoscalerStatus

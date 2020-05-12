@@ -1,5 +1,5 @@
 ---
-permalink: /1.15/extensions/v1beta1/rollbackConfig
+permalink: /1.15/extensions/v1beta1/rollbackConfig/
 ---
 
 # package rollbackConfig

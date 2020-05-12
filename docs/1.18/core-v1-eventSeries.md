@@ -1,5 +1,5 @@
 ---
-permalink: /1.18/core/v1/eventSeries
+permalink: /1.18/core/v1/eventSeries/
 ---
 
 # package eventSeries

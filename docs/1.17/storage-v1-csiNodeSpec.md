@@ -1,5 +1,5 @@
 ---
-permalink: /1.17/storage/v1/csiNodeSpec
+permalink: /1.17/storage/v1/csiNodeSpec/
 ---
 
 # package csiNodeSpec

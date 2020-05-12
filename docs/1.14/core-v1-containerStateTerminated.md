@@ -1,5 +1,5 @@
 ---
-permalink: /1.14/core/v1/containerStateTerminated
+permalink: /1.14/core/v1/containerStateTerminated/
 ---
 
 # package containerStateTerminated

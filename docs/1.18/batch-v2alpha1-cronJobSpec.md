@@ -1,5 +1,5 @@
 ---
-permalink: /1.18/batch/v2alpha1/cronJobSpec
+permalink: /1.18/batch/v2alpha1/cronJobSpec/
 ---
 
 # package cronJobSpec
@@ -215,7 +215,7 @@ JobTemplateSpec describes the data a Job should have when created from a templat
 
 ## obj jobTemplate.metadata
 
-ObjectMeta is metadata that all persisted resources must have, which includes all objects users must create.
+
 
 ### fn jobTemplate.metadata.withAnnotations
 
@@ -409,7 +409,7 @@ Populated by the system. Read-only. More info: http://kubernetes.io/docs/user-gu
 
 ## obj jobTemplate.spec
 
-JobSpec describes how the job execution will look like.
+
 
 ### fn jobTemplate.spec.withActiveDeadlineSeconds
 
@@ -461,7 +461,7 @@ ttlSecondsAfterFinished limits the lifetime of a Job that has finished execution
 
 ## obj jobTemplate.spec.selector
 
-
+A label selector is a label query over a set of resources. The result of matchLabels and matchExpressions are ANDed. An empty label selector matches all objects. A null label selector matches no objects.
 
 ### fn jobTemplate.spec.selector.withMatchExpressions
 
@@ -505,7 +505,7 @@ PodTemplateSpec describes the data a pod should have when created from a templat
 
 ## obj jobTemplate.spec.template.metadata
 
-
+ObjectMeta is metadata that all persisted resources must have, which includes all objects users must create.
 
 ### fn jobTemplate.spec.template.metadata.withAnnotations
 
@@ -1061,11 +1061,11 @@ List of volumes that can be mounted by containers belonging to the pod. More inf
 
 ## obj jobTemplate.spec.template.spec.affinity
 
-
+Affinity is a group of affinity scheduling rules.
 
 ## obj jobTemplate.spec.template.spec.affinity.nodeAffinity
 
-Node affinity is a group of node affinity scheduling rules.
+
 
 ### fn jobTemplate.spec.template.spec.affinity.nodeAffinity.withPreferredDuringSchedulingIgnoredDuringExecution
 
@@ -1109,7 +1109,7 @@ Required. A list of node selector terms. The terms are ORed.
 
 ## obj jobTemplate.spec.template.spec.affinity.podAffinity
 
-Pod affinity is a group of inter pod affinity scheduling rules.
+
 
 ### fn jobTemplate.spec.template.spec.affinity.podAffinity.withPreferredDuringSchedulingIgnoredDuringExecution
 
@@ -1149,7 +1149,7 @@ If the affinity requirements specified by this field are not met at scheduling t
 
 ## obj jobTemplate.spec.template.spec.affinity.podAntiAffinity
 
-Pod anti affinity is a group of inter pod anti affinity scheduling rules.
+
 
 ### fn jobTemplate.spec.template.spec.affinity.podAntiAffinity.withPreferredDuringSchedulingIgnoredDuringExecution
 

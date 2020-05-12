@@ -1,5 +1,5 @@
 ---
-permalink: /1.14/core/v1/podAffinity
+permalink: /1.14/core/v1/podAffinity/
 ---
 
 # package podAffinity

@@ -1,5 +1,5 @@
 ---
-permalink: /1.15/core/v1/flockerVolumeSource
+permalink: /1.15/core/v1/flockerVolumeSource/
 ---
 
 # package flockerVolumeSource

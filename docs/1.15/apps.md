@@ -1,5 +1,5 @@
 ---
-permalink: /1.15/apps
+permalink: /1.15/apps/
 ---
 
 # package apps

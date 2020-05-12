@@ -1,5 +1,5 @@
 ---
-permalink: /1.15/authorization/v1/resourceAttributes
+permalink: /1.15/authorization/v1/resourceAttributes/
 ---
 
 # package resourceAttributes

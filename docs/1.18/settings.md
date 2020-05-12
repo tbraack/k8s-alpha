@@ -1,5 +1,5 @@
 ---
-permalink: /1.18/settings
+permalink: /1.18/settings/
 ---
 
 # package settings

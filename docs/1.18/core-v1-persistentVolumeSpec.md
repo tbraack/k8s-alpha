@@ -1,5 +1,5 @@
 ---
-permalink: /1.18/core/v1/persistentVolumeSpec
+permalink: /1.18/core/v1/persistentVolumeSpec/
 ---
 
 # package persistentVolumeSpec
@@ -455,7 +455,7 @@ Optional: User is the rados user name, default is admin More info: https://examp
 
 ## obj cephfs.secretRef
 
-SecretReference represents a Secret Reference. It has enough information to retrieve secret in any namespace
+
 
 ### fn cephfs.secretRef.withName
 
@@ -629,7 +629,7 @@ VolumeHandle is the unique volume name returned by the CSI volume plugin’s Cre
 
 ## obj csi.controllerExpandSecretRef
 
-
+SecretReference represents a Secret Reference. It has enough information to retrieve secret in any namespace
 
 ### fn csi.controllerExpandSecretRef.withName
 
@@ -649,7 +649,7 @@ Namespace defines the space within which the secret name must be unique.
 
 ## obj csi.controllerPublishSecretRef
 
-
+SecretReference represents a Secret Reference. It has enough information to retrieve secret in any namespace
 
 ### fn csi.controllerPublishSecretRef.withName
 
@@ -1047,7 +1047,7 @@ iSCSI Target Portal. The Portal is either an IP or ip_addr:port if the port is o
 
 ## obj iscsi.secretRef
 
-
+SecretReference represents a Secret Reference. It has enough information to retrieve secret in any namespace
 
 ### fn iscsi.secretRef.withName
 
@@ -1407,7 +1407,7 @@ The name of a volume already created in the ScaleIO system that is associated wi
 
 ## obj scaleIO.secretRef
 
-SecretReference represents a Secret Reference. It has enough information to retrieve secret in any namespace
+
 
 ### fn scaleIO.secretRef.withName
 

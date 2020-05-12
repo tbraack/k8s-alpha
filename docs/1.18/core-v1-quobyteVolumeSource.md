@@ -1,5 +1,5 @@
 ---
-permalink: /1.18/core/v1/quobyteVolumeSource
+permalink: /1.18/core/v1/quobyteVolumeSource/
 ---
 
 # package quobyteVolumeSource

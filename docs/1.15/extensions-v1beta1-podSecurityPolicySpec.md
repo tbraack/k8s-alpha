@@ -1,5 +1,5 @@
 ---
-permalink: /1.15/extensions/v1beta1/podSecurityPolicySpec
+permalink: /1.15/extensions/v1beta1/podSecurityPolicySpec/
 ---
 
 # package podSecurityPolicySpec
@@ -463,7 +463,7 @@ rule is the strategy that will dictate the allowable labels that may be set.
 
 ## obj seLinux.seLinuxOptions
 
-SELinuxOptions are the labels to be applied to the container
+
 
 ### fn seLinux.seLinuxOptions.withLevel
 

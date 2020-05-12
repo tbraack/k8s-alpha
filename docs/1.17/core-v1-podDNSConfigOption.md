@@ -1,5 +1,5 @@
 ---
-permalink: /1.17/core/v1/podDNSConfigOption
+permalink: /1.17/core/v1/podDNSConfigOption/
 ---
 
 # package podDNSConfigOption

@@ -1,5 +1,5 @@
 ---
-permalink: /1.15/policy/v1beta1/seLinuxStrategyOptions
+permalink: /1.15/policy/v1beta1/seLinuxStrategyOptions/
 ---
 
 # package seLinuxStrategyOptions

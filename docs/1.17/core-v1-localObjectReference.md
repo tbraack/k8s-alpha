@@ -1,5 +1,5 @@
 ---
-permalink: /1.17/core/v1/localObjectReference
+permalink: /1.17/core/v1/localObjectReference/
 ---
 
 # package localObjectReference

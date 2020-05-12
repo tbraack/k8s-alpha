@@ -1,5 +1,5 @@
 ---
-permalink: /1.15/core/v1/csiVolumeSource
+permalink: /1.15/core/v1/csiVolumeSource/
 ---
 
 # package csiVolumeSource

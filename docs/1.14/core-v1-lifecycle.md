@@ -1,5 +1,5 @@
 ---
-permalink: /1.14/core/v1/lifecycle
+permalink: /1.14/core/v1/lifecycle/
 ---
 
 # package lifecycle
@@ -67,7 +67,7 @@ Command is the command line to execute inside the container, the working directo
 
 ## obj postStart.httpGet
 
-
+HTTPGetAction describes an action based on HTTP Get requests.
 
 ### fn postStart.httpGet.withHost
 
@@ -121,7 +121,7 @@ Scheme to use for connecting to the host. Defaults to HTTP.
 
 ## obj postStart.tcpSocket
 
-
+TCPSocketAction describes an action based on opening a socket
 
 ### fn postStart.tcpSocket.withHost
 

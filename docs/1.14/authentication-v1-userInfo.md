@@ -1,5 +1,5 @@
 ---
-permalink: /1.14/authentication/v1/userInfo
+permalink: /1.14/authentication/v1/userInfo/
 ---
 
 # package userInfo

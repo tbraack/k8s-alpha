@@ -1,5 +1,5 @@
 ---
-permalink: /1.17/batch/v1/jobSpec
+permalink: /1.17/batch/v1/jobSpec/
 ---
 
 # package jobSpec
@@ -418,7 +418,7 @@ Populated by the system. Read-only. More info: http://kubernetes.io/docs/user-gu
 
 ## obj template.spec
 
-PodSpec is a description of a pod.
+
 
 ### fn template.spec.withActiveDeadlineSeconds
 
@@ -780,7 +780,7 @@ List of volumes that can be mounted by containers belonging to the pod. More inf
 
 ## obj template.spec.affinity
 
-Affinity is a group of affinity scheduling rules.
+
 
 ## obj template.spec.affinity.nodeAffinity
 
@@ -966,7 +966,7 @@ A list of DNS search domains for host-name lookup. This will be appended to the 
 
 ## obj template.spec.securityContext
 
-
+PodSecurityContext holds pod-level security attributes and common container settings. Some fields are also present in container.securityContext.  Field values of container.securityContext take precedence over field values of PodSecurityContext.
 
 ### fn template.spec.securityContext.withFsGroup
 
@@ -1078,7 +1078,7 @@ User is a SELinux user label that applies to the container.
 
 ## obj template.spec.securityContext.windowsOptions
 
-WindowsSecurityContextOptions contain Windows-specific options and credentials.
+
 
 ### fn template.spec.securityContext.windowsOptions.withGmsaCredentialSpec
 

@@ -1,5 +1,5 @@
 ---
-permalink: /1.15/networking/v1beta1/ingressRule
+permalink: /1.15/networking/v1beta1/ingressRule/
 ---
 
 # package ingressRule

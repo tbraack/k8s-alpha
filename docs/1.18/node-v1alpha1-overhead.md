@@ -1,5 +1,5 @@
 ---
-permalink: /1.18/node/v1alpha1/overhead
+permalink: /1.18/node/v1alpha1/overhead/
 ---
 
 # package overhead

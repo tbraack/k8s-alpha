@@ -1,5 +1,5 @@
 ---
-permalink: /1.14/core/v1/azureFileVolumeSource
+permalink: /1.14/core/v1/azureFileVolumeSource/
 ---
 
 # package azureFileVolumeSource

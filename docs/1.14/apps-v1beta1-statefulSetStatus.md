@@ -1,5 +1,5 @@
 ---
-permalink: /1.14/apps/v1beta1/statefulSetStatus
+permalink: /1.14/apps/v1beta1/statefulSetStatus/
 ---
 
 # package statefulSetStatus

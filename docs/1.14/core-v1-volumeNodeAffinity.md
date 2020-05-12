@@ -1,5 +1,5 @@
 ---
-permalink: /1.14/core/v1/volumeNodeAffinity
+permalink: /1.14/core/v1/volumeNodeAffinity/
 ---
 
 # package volumeNodeAffinity

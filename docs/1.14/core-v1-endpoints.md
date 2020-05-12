@@ -1,5 +1,5 @@
 ---
-permalink: /1.14/core/v1/endpoints
+permalink: /1.14/core/v1/endpoints/
 ---
 
 # package endpoints
@@ -288,7 +288,7 @@ Populated by the system. Read-only. More info: http://kubernetes.io/docs/user-gu
 
 ## obj metadata.initializers
 
-
+Initializers tracks the progress of initialization.
 
 ### fn metadata.initializers.withPending
 

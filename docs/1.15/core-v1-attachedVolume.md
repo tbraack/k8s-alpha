@@ -1,5 +1,5 @@
 ---
-permalink: /1.15/core/v1/attachedVolume
+permalink: /1.15/core/v1/attachedVolume/
 ---
 
 # package attachedVolume

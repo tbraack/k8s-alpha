@@ -1,5 +1,5 @@
 ---
-permalink: /1.16/core/v1/configMapVolumeSource
+permalink: /1.16/core/v1/configMapVolumeSource/
 ---
 
 # package configMapVolumeSource

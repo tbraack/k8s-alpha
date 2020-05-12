@@ -1,5 +1,5 @@
 ---
-permalink: /1.16/core/v1/downwardAPIVolumeFile
+permalink: /1.16/core/v1/downwardAPIVolumeFile/
 ---
 
 # package downwardAPIVolumeFile

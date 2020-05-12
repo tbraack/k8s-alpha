@@ -1,5 +1,5 @@
 ---
-permalink: /1.16/core/v1/secret
+permalink: /1.16/core/v1/secret/
 ---
 
 # package secret

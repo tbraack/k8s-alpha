@@ -1,5 +1,5 @@
 ---
-permalink: /1.18/networking
+permalink: /1.18/networking/
 ---
 
 # package networking

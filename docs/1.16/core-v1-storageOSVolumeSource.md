@@ -1,5 +1,5 @@
 ---
-permalink: /1.16/core/v1/storageOSVolumeSource
+permalink: /1.16/core/v1/storageOSVolumeSource/
 ---
 
 # package storageOSVolumeSource

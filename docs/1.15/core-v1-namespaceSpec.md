@@ -1,5 +1,5 @@
 ---
-permalink: /1.15/core/v1/namespaceSpec
+permalink: /1.15/core/v1/namespaceSpec/
 ---
 
 # package namespaceSpec

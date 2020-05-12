@@ -1,5 +1,5 @@
 ---
-permalink: /1.18/apps/v1/rollingUpdateDeployment
+permalink: /1.18/apps/v1/rollingUpdateDeployment/
 ---
 
 # package rollingUpdateDeployment

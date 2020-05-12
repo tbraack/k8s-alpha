@@ -1,5 +1,5 @@
 ---
-permalink: /1.16/apps/v1beta1/deploymentCondition
+permalink: /1.16/apps/v1beta1/deploymentCondition/
 ---
 
 # package deploymentCondition

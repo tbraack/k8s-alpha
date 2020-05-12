@@ -1,5 +1,5 @@
 ---
-permalink: /1.15/rbac/v1alpha1/clusterRoleBinding
+permalink: /1.15/rbac/v1alpha1/clusterRoleBinding/
 ---
 
 # package clusterRoleBinding
@@ -281,7 +281,7 @@ Populated by the system. Read-only. More info: http://kubernetes.io/docs/user-gu
 
 ## obj metadata.initializers
 
-
+Initializers tracks the progress of initialization.
 
 ### fn metadata.initializers.withPending
 

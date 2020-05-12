@@ -1,5 +1,5 @@
 ---
-permalink: /1.14/core/v1/persistentVolumeClaimSpec
+permalink: /1.14/core/v1/persistentVolumeClaimSpec/
 ---
 
 # package persistentVolumeClaimSpec

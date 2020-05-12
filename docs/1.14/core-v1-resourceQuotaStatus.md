@@ -1,5 +1,5 @@
 ---
-permalink: /1.14/core/v1/resourceQuotaStatus
+permalink: /1.14/core/v1/resourceQuotaStatus/
 ---
 
 # package resourceQuotaStatus

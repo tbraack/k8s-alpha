@@ -1,5 +1,5 @@
 ---
-permalink: /1.17/storage/v1beta1/volumeAttachmentSource
+permalink: /1.17/storage/v1beta1/volumeAttachmentSource/
 ---
 
 # package volumeAttachmentSource
@@ -515,7 +515,7 @@ volume id used to identify the volume in cinder. More info: https://examples.k8s
 
 ## obj inlineVolumeSpec.cinder.secretRef
 
-SecretReference represents a Secret Reference. It has enough information to retrieve secret in any namespace
+
 
 ### fn inlineVolumeSpec.cinder.secretRef.withName
 
@@ -535,7 +535,7 @@ Namespace defines the space within which the secret name must be unique.
 
 ## obj inlineVolumeSpec.claimRef
 
-ObjectReference contains enough information to let you inspect or modify the referred object.
+
 
 ### fn inlineVolumeSpec.claimRef.withFieldPath
 
@@ -661,7 +661,7 @@ Namespace defines the space within which the secret name must be unique.
 
 ## obj inlineVolumeSpec.csi.controllerPublishSecretRef
 
-SecretReference represents a Secret Reference. It has enough information to retrieve secret in any namespace
+
 
 ### fn inlineVolumeSpec.csi.controllerPublishSecretRef.withName
 
@@ -785,7 +785,7 @@ Optional: FC volume world wide identifiers (wwids) Either wwids or combination o
 
 ## obj inlineVolumeSpec.flexVolume
 
-
+FlexPersistentVolumeSource represents a generic persistent volume resource that is provisioned/attached using an exec based plugin.
 
 ### fn inlineVolumeSpec.flexVolume.withDriver
 
@@ -871,9 +871,7 @@ UUID of the dataset. This is unique identifier of a Flocker dataset
 
 ## obj inlineVolumeSpec.gcePersistentDisk
 
-Represents a Persistent Disk resource in Google Compute Engine.
 
-A GCE PD must exist before mounting to a container. The disk must also be in the same GCE project and zone as the kubelet. A GCE PD can only be mounted as read/write once or read-only many times. GCE PDs support ownership management and SELinux relabeling.
 
 ### fn inlineVolumeSpec.gcePersistentDisk.withFsType
 
@@ -909,7 +907,7 @@ ReadOnly here will force the ReadOnly setting in VolumeMounts. Defaults to false
 
 ## obj inlineVolumeSpec.glusterfs
 
-Represents a Glusterfs mount that lasts the lifetime of a pod. Glusterfs volumes do not support ownership management or SELinux relabeling.
+
 
 ### fn inlineVolumeSpec.glusterfs.withEndpoints
 
@@ -1099,7 +1097,7 @@ The full path to the volume on the node. It can be either a directory or block d
 
 ## obj inlineVolumeSpec.nfs
 
-Represents an NFS mount that lasts the lifetime of a pod. NFS volumes do not support ownership management or SELinux relabeling.
+
 
 ### fn inlineVolumeSpec.nfs.withPath
 
@@ -1127,11 +1125,11 @@ Server is the hostname or IP address of the NFS server. More info: https://kuber
 
 ## obj inlineVolumeSpec.nodeAffinity
 
-VolumeNodeAffinity defines constraints that limit what nodes this volume can be accessed from.
+
 
 ## obj inlineVolumeSpec.nodeAffinity.required
 
-A node selector represents the union of the results of one or more label queries over a set of nodes; that is, it represents the OR of the selectors represented by the node selector terms.
+
 
 ### fn inlineVolumeSpec.nodeAffinity.required.withNodeSelectorTerms
 
@@ -1153,7 +1151,7 @@ Required. A list of node selector terms. The terms are ORed.
 
 ## obj inlineVolumeSpec.photonPersistentDisk
 
-
+Represents a Photon Controller persistent disk resource.
 
 ### fn inlineVolumeSpec.photonPersistentDisk.withFsType
 
@@ -1201,7 +1199,7 @@ VolumeID uniquely identifies a Portworx volume
 
 ## obj inlineVolumeSpec.quobyte
 
-Represents a Quobyte mount that lasts the lifetime of a pod. Quobyte volumes do not support ownership management or SELinux relabeling.
+
 
 ### fn inlineVolumeSpec.quobyte.withGroup
 

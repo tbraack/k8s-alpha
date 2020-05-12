@@ -1,5 +1,5 @@
 ---
-permalink: /1.17/discovery/v1beta1/endpointSlice
+permalink: /1.17/discovery/v1beta1/endpointSlice/
 ---
 
 # package endpointSlice

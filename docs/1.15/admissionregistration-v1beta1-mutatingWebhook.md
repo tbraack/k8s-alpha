@@ -1,5 +1,5 @@
 ---
-permalink: /1.15/admissionregistration/v1beta1/mutatingWebhook
+permalink: /1.15/admissionregistration/v1beta1/mutatingWebhook/
 ---
 
 # package mutatingWebhook
@@ -167,7 +167,7 @@ Attempting to use a user or basic auth e.g. "user:password@" is not allowed. Fra
 
 ## obj clientConfig.service
 
-
+ServiceReference holds a reference to Service.legacy.k8s.io
 
 ### fn clientConfig.service.withName
 

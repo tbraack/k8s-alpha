@@ -1,5 +1,5 @@
 ---
-permalink: /1.17/authorization/v1/selfSubjectAccessReview
+permalink: /1.17/authorization/v1/selfSubjectAccessReview/
 ---
 
 # package selfSubjectAccessReview
@@ -254,7 +254,7 @@ SelfSubjectAccessReviewSpec is a description of the access request.  Exactly one
 
 ## obj spec.nonResourceAttributes
 
-
+NonResourceAttributes includes the authorization attributes available for non-resource requests to the Authorizer interface
 
 ### fn spec.nonResourceAttributes.withPath
 

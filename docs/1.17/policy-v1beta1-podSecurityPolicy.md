@@ -1,5 +1,5 @@
 ---
-permalink: /1.17/policy/v1beta1/podSecurityPolicy
+permalink: /1.17/policy/v1beta1/podSecurityPolicy/
 ---
 
 # package podSecurityPolicy
@@ -621,7 +621,7 @@ rule is the strategy that will dictate the allowable RunAsGroup values that may 
 
 ## obj spec.runAsUser
 
-
+RunAsUserStrategyOptions defines the strategy type and any options used to create the strategy.
 
 ### fn spec.runAsUser.withRanges
 
@@ -651,7 +651,7 @@ rule is the strategy that will dictate the allowable RunAsUser values that may b
 
 ## obj spec.runtimeClass
 
-RuntimeClassStrategyOptions define the strategy that will dictate the allowable RuntimeClasses for a pod.
+
 
 ### fn spec.runtimeClass.withAllowedRuntimeClassNames
 

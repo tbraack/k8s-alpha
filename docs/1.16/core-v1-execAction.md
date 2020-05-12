@@ -1,5 +1,5 @@
 ---
-permalink: /1.16/core/v1/execAction
+permalink: /1.16/core/v1/execAction/
 ---
 
 # package execAction

@@ -1,5 +1,5 @@
 ---
-permalink: /1.18/core/v1/downwardAPIProjection
+permalink: /1.18/core/v1/downwardAPIProjection/
 ---
 
 # package downwardAPIProjection

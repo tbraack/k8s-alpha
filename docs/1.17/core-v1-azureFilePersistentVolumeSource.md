@@ -1,5 +1,5 @@
 ---
-permalink: /1.17/core/v1/azureFilePersistentVolumeSource
+permalink: /1.17/core/v1/azureFilePersistentVolumeSource/
 ---
 
 # package azureFilePersistentVolumeSource

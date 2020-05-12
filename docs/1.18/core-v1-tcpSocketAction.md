@@ -1,5 +1,5 @@
 ---
-permalink: /1.18/core/v1/tcpSocketAction
+permalink: /1.18/core/v1/tcpSocketAction/
 ---
 
 # package tcpSocketAction

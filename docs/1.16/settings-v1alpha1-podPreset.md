@@ -1,5 +1,5 @@
 ---
-permalink: /1.16/settings/v1alpha1/podPreset
+permalink: /1.16/settings/v1alpha1/podPreset/
 ---
 
 # package podPreset

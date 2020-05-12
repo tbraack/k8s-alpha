@@ -1,5 +1,5 @@
 ---
-permalink: /1.15/core/v1/nodeAddress
+permalink: /1.15/core/v1/nodeAddress/
 ---
 
 # package nodeAddress

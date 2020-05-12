@@ -1,5 +1,5 @@
 ---
-permalink: /1.15/core/v1/secretVolumeSource
+permalink: /1.15/core/v1/secretVolumeSource/
 ---
 
 # package secretVolumeSource

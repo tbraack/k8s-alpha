@@ -1,5 +1,5 @@
 ---
-permalink: /1.15/core/v1/persistentVolumeClaimStatus
+permalink: /1.15/core/v1/persistentVolumeClaimStatus/
 ---
 
 # package persistentVolumeClaimStatus

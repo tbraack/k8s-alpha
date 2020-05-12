@@ -1,5 +1,5 @@
 ---
-permalink: /1.14/authorization/v1/localSubjectAccessReview
+permalink: /1.14/authorization/v1/localSubjectAccessReview/
 ---
 
 # package localSubjectAccessReview
@@ -275,7 +275,7 @@ Populated by the system. Read-only. More info: http://kubernetes.io/docs/user-gu
 
 ## obj metadata.initializers
 
-Initializers tracks the progress of initialization.
+
 
 ### fn metadata.initializers.withPending
 
@@ -459,7 +459,7 @@ User is the user you're testing for. If you specify 'User' but not 'Groups', the
 
 ## obj spec.nonResourceAttributes
 
-NonResourceAttributes includes the authorization attributes available for non-resource requests to the Authorizer interface
+
 
 ### fn spec.nonResourceAttributes.withPath
 

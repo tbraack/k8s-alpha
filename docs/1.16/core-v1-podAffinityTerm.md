@@ -1,5 +1,5 @@
 ---
-permalink: /1.16/core/v1/podAffinityTerm
+permalink: /1.16/core/v1/podAffinityTerm/
 ---
 
 # package podAffinityTerm

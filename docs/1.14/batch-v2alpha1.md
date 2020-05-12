@@ -1,5 +1,5 @@
 ---
-permalink: /1.14/batch/v2alpha1
+permalink: /1.14/batch/v2alpha1/
 ---
 
 # package v2alpha1

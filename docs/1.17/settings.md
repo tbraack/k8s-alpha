@@ -1,5 +1,5 @@
 ---
-permalink: /1.17/settings
+permalink: /1.17/settings/
 ---
 
 # package settings

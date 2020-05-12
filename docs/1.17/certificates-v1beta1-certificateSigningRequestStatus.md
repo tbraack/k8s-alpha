@@ -1,5 +1,5 @@
 ---
-permalink: /1.17/certificates/v1beta1/certificateSigningRequestStatus
+permalink: /1.17/certificates/v1beta1/certificateSigningRequestStatus/
 ---
 
 # package certificateSigningRequestStatus

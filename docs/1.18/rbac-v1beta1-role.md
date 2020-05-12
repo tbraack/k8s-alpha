@@ -1,5 +1,5 @@
 ---
-permalink: /1.18/rbac/v1beta1/role
+permalink: /1.18/rbac/v1beta1/role/
 ---
 
 # package role

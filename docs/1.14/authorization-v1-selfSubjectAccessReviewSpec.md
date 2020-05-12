@@ -1,5 +1,5 @@
 ---
-permalink: /1.14/authorization/v1/selfSubjectAccessReviewSpec
+permalink: /1.14/authorization/v1/selfSubjectAccessReviewSpec/
 ---
 
 # package selfSubjectAccessReviewSpec

@@ -1,11 +1,11 @@
 ---
-permalink: /1.14
+permalink: /1.14/
 ---
 
 # package k
 
 ```jsonnet
-local k = import "github.com/jsonnet-libs/k8s-alpha"
+local k = import "github.com/jsonnet-libs/k8s-alpha/1.14/main.libsonnet"
 ```
 
 Generated Kubernetes library

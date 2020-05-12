@@ -1,5 +1,5 @@
 ---
-permalink: /1.17/core/v1/scopeSelector
+permalink: /1.17/core/v1/scopeSelector/
 ---
 
 # package scopeSelector

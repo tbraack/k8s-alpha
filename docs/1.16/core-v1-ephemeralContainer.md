@@ -1,5 +1,5 @@
 ---
-permalink: /1.16/core/v1/ephemeralContainer
+permalink: /1.16/core/v1/ephemeralContainer/
 ---
 
 # package ephemeralContainer
@@ -364,7 +364,7 @@ Lifecycle describes actions that the management system should take in response t
 
 ## obj lifecycle.postStart.exec
 
-
+ExecAction describes a "run in container" action.
 
 ### fn lifecycle.postStart.exec.withCommand
 
@@ -460,7 +460,7 @@ IntOrString is a type that can hold an int32 or a string.  When used in JSON or 
 
 ## obj lifecycle.preStop
 
-
+Handler defines a specific action that should be taken
 
 ## obj lifecycle.preStop.exec
 
@@ -486,7 +486,7 @@ Command is the command line to execute inside the container, the working directo
 
 ## obj lifecycle.preStop.httpGet
 
-HTTPGetAction describes an action based on HTTP Get requests.
+
 
 ### fn lifecycle.preStop.httpGet.withHost
 
@@ -540,7 +540,7 @@ Scheme to use for connecting to the host. Defaults to HTTP.
 
 ## obj lifecycle.preStop.tcpSocket
 
-TCPSocketAction describes an action based on opening a socket
+
 
 ### fn lifecycle.preStop.tcpSocket.withHost
 
@@ -680,7 +680,7 @@ Scheme to use for connecting to the host. Defaults to HTTP.
 
 ## obj livenessProbe.tcpSocket
 
-TCPSocketAction describes an action based on opening a socket
+
 
 ### fn livenessProbe.tcpSocket.withHost
 
@@ -820,7 +820,7 @@ Scheme to use for connecting to the host. Defaults to HTTP.
 
 ## obj readinessProbe.tcpSocket
 
-TCPSocketAction describes an action based on opening a socket
+
 
 ### fn readinessProbe.tcpSocket.withHost
 
@@ -940,7 +940,7 @@ The UID to run the entrypoint of the container process. Defaults to user specifi
 
 ## obj securityContext.capabilities
 
-
+Adds and removes POSIX capabilities from running containers.
 
 ### fn securityContext.capabilities.withAdd
 
@@ -1088,7 +1088,7 @@ Number of seconds after which the probe times out. Defaults to 1 second. Minimum
 
 ## obj startupProbe.exec
 
-ExecAction describes a "run in container" action.
+
 
 ### fn startupProbe.exec.withCommand
 
@@ -1164,7 +1164,7 @@ Scheme to use for connecting to the host. Defaults to HTTP.
 
 ## obj startupProbe.tcpSocket
 
-TCPSocketAction describes an action based on opening a socket
+
 
 ### fn startupProbe.tcpSocket.withHost
 

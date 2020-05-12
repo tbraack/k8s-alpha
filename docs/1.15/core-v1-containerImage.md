@@ -1,5 +1,5 @@
 ---
-permalink: /1.15/core/v1/containerImage
+permalink: /1.15/core/v1/containerImage/
 ---
 
 # package containerImage

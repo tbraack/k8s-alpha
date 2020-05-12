@@ -1,5 +1,5 @@
 ---
-permalink: /1.17/core/v1/scaleIOPersistentVolumeSource
+permalink: /1.17/core/v1/scaleIOPersistentVolumeSource/
 ---
 
 # package scaleIOPersistentVolumeSource

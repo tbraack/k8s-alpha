@@ -1,5 +1,5 @@
 ---
-permalink: /1.16/storage/v1
+permalink: /1.16/storage/v1/
 ---
 
 # package v1

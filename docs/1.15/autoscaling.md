@@ -1,5 +1,5 @@
 ---
-permalink: /1.15/autoscaling
+permalink: /1.15/autoscaling/
 ---
 
 # package autoscaling

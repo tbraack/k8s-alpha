@@ -1,5 +1,5 @@
 ---
-permalink: /1.18/flowcontrol/v1alpha1/priorityLevelConfigurationReference
+permalink: /1.18/flowcontrol/v1alpha1/priorityLevelConfigurationReference/
 ---
 
 # package priorityLevelConfigurationReference

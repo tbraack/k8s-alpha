@@ -1,5 +1,5 @@
 ---
-permalink: /1.14/core/v1/envVar
+permalink: /1.14/core/v1/envVar/
 ---
 
 # package envVar
@@ -78,7 +78,7 @@ Specify whether the ConfigMap or it's key must be defined
 
 ## obj valueFrom.fieldRef
 
-
+ObjectFieldSelector selects an APIVersioned field of an object.
 
 ### fn valueFrom.fieldRef.withFieldPath
 
@@ -90,7 +90,7 @@ Path of the field to select in the specified API version.
 
 ## obj valueFrom.resourceFieldRef
 
-
+ResourceFieldSelector represents container resources (cpu, memory) and their output format
 
 ### fn valueFrom.resourceFieldRef.withContainerName
 

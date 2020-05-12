@@ -1,5 +1,5 @@
 ---
-permalink: /1.14/batch/v2alpha1/cronJob
+permalink: /1.14/batch/v2alpha1/cronJob/
 ---
 
 # package cronJob
@@ -430,7 +430,7 @@ Populated by the system. Read-only. More info: http://kubernetes.io/docs/user-gu
 
 ## obj metadata.initializers
 
-
+Initializers tracks the progress of initialization.
 
 ### fn metadata.initializers.withPending
 
@@ -810,7 +810,7 @@ Populated by the system. Read-only. More info: http://kubernetes.io/docs/user-gu
 
 ## obj spec.jobTemplate.metadata.initializers
 
-
+Initializers tracks the progress of initialization.
 
 ### fn spec.jobTemplate.metadata.initializers.withPending
 
@@ -832,7 +832,7 @@ Pending is a list of initializers that must execute in order before this object 
 
 ## obj spec.jobTemplate.metadata.initializers.result
 
-
+Status is a return value for calls that don't return other objects.
 
 ### fn spec.jobTemplate.metadata.initializers.result.withCode
 
@@ -876,7 +876,7 @@ A machine-readable description of why this operation is in the "Failure" status.
 
 ## obj spec.jobTemplate.metadata.initializers.result.details
 
-StatusDetails is a set of additional properties that MAY be set by the server to provide additional information about a response. The Reason field of a Status object defines what attributes will be set. Clients must ignore fields that do not match the defined type of each attribute, and should assume that any attribute may be empty, invalid, or under defined.
+
 
 ### fn spec.jobTemplate.metadata.initializers.result.details.withCauses
 
@@ -1030,7 +1030,7 @@ matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabe
 
 ## obj spec.jobTemplate.spec.template
 
-
+PodTemplateSpec describes the data a pod should have when created from a template
 
 ## obj spec.jobTemplate.spec.template.metadata
 
@@ -1230,7 +1230,7 @@ Populated by the system. Read-only. More info: http://kubernetes.io/docs/user-gu
 
 ## obj spec.jobTemplate.spec.template.metadata.initializers
 
-Initializers tracks the progress of initialization.
+
 
 ### fn spec.jobTemplate.spec.template.metadata.initializers.withPending
 
@@ -1358,7 +1358,7 @@ UID of the resource. (when there is a single resource which can be described). M
 
 ## obj spec.jobTemplate.spec.template.spec
 
-
+PodSpec is a description of a pod.
 
 ### fn spec.jobTemplate.spec.template.spec.withActiveDeadlineSeconds
 
@@ -1658,7 +1658,7 @@ List of volumes that can be mounted by containers belonging to the pod. More inf
 
 ## obj spec.jobTemplate.spec.template.spec.affinity
 
-
+Affinity is a group of affinity scheduling rules.
 
 ## obj spec.jobTemplate.spec.template.spec.affinity.nodeAffinity
 
@@ -1684,7 +1684,7 @@ The scheduler will prefer to schedule pods to nodes that satisfy the affinity ex
 
 ## obj spec.jobTemplate.spec.template.spec.affinity.nodeAffinity.requiredDuringSchedulingIgnoredDuringExecution
 
-
+A node selector represents the union of the results of one or more label queries over a set of nodes; that is, it represents the OR of the selectors represented by the node selector terms.
 
 ### fn spec.jobTemplate.spec.template.spec.affinity.nodeAffinity.requiredDuringSchedulingIgnoredDuringExecution.withNodeSelectorTerms
 
@@ -1746,7 +1746,7 @@ If the affinity requirements specified by this field are not met at scheduling t
 
 ## obj spec.jobTemplate.spec.template.spec.affinity.podAntiAffinity
 
-Pod anti affinity is a group of inter pod anti affinity scheduling rules.
+
 
 ### fn spec.jobTemplate.spec.template.spec.affinity.podAntiAffinity.withPreferredDuringSchedulingIgnoredDuringExecution
 
@@ -1786,7 +1786,7 @@ If the anti-affinity requirements specified by this field are not met at schedul
 
 ## obj spec.jobTemplate.spec.template.spec.dnsConfig
 
-
+PodDNSConfig defines the DNS parameters of a pod in addition to those generated from DNSPolicy.
 
 ### fn spec.jobTemplate.spec.template.spec.dnsConfig.withNameservers
 
@@ -1844,7 +1844,7 @@ A list of DNS search domains for host-name lookup. This will be appended to the 
 
 ## obj spec.jobTemplate.spec.template.spec.securityContext
 
-
+PodSecurityContext holds pod-level security attributes and common container settings. Some fields are also present in container.securityContext.  Field values of container.securityContext take precedence over field values of PodSecurityContext.
 
 ### fn spec.jobTemplate.spec.template.spec.securityContext.withFsGroup
 
@@ -1920,7 +1920,7 @@ Sysctls hold a list of namespaced sysctls used for the pod. Pods with unsupporte
 
 ## obj spec.jobTemplate.spec.template.spec.securityContext.seLinuxOptions
 
-
+SELinuxOptions are the labels to be applied to the container
 
 ### fn spec.jobTemplate.spec.template.spec.securityContext.seLinuxOptions.withLevel
 

@@ -1,5 +1,5 @@
 ---
-permalink: /1.17/core/v1/serviceSpec
+permalink: /1.17/core/v1/serviceSpec/
 ---
 
 # package serviceSpec

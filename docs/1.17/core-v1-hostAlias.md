@@ -1,5 +1,5 @@
 ---
-permalink: /1.17/core/v1/hostAlias
+permalink: /1.17/core/v1/hostAlias/
 ---
 
 # package hostAlias

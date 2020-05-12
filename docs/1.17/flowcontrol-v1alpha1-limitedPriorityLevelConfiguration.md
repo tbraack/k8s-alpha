@@ -1,5 +1,5 @@
 ---
-permalink: /1.17/flowcontrol/v1alpha1/limitedPriorityLevelConfiguration
+permalink: /1.17/flowcontrol/v1alpha1/limitedPriorityLevelConfiguration/
 ---
 
 # package limitedPriorityLevelConfiguration

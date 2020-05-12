@@ -1,5 +1,5 @@
 ---
-permalink: /1.14/core/v1/podDNSConfig
+permalink: /1.14/core/v1/podDNSConfig/
 ---
 
 # package podDNSConfig

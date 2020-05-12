@@ -1,5 +1,5 @@
 ---
-permalink: /1.15/core/v1/nodeCondition
+permalink: /1.15/core/v1/nodeCondition/
 ---
 
 # package nodeCondition

@@ -1,5 +1,5 @@
 ---
-permalink: /1.15/admissionregistration
+permalink: /1.15/admissionregistration/
 ---
 
 # package admissionregistration

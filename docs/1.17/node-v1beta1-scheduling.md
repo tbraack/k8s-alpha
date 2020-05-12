@@ -1,5 +1,5 @@
 ---
-permalink: /1.17/node/v1beta1/scheduling
+permalink: /1.17/node/v1beta1/scheduling/
 ---
 
 # package scheduling

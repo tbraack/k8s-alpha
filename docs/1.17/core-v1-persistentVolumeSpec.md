@@ -1,5 +1,5 @@
 ---
-permalink: /1.17/core/v1/persistentVolumeSpec
+permalink: /1.17/core/v1/persistentVolumeSpec/
 ---
 
 # package persistentVolumeSpec
@@ -819,7 +819,7 @@ Optional: Defaults to false (read/write). ReadOnly here will force the ReadOnly 
 
 ## obj flexVolume.secretRef
 
-SecretReference represents a Secret Reference. It has enough information to retrieve secret in any namespace
+
 
 ### fn flexVolume.secretRef.withName
 
@@ -1407,7 +1407,7 @@ The name of a volume already created in the ScaleIO system that is associated wi
 
 ## obj scaleIO.secretRef
 
-
+SecretReference represents a Secret Reference. It has enough information to retrieve secret in any namespace
 
 ### fn scaleIO.secretRef.withName
 

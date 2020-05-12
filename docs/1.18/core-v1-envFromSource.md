@@ -1,5 +1,5 @@
 ---
-permalink: /1.18/core/v1/envFromSource
+permalink: /1.18/core/v1/envFromSource/
 ---
 
 # package envFromSource

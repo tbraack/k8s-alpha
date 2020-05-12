@@ -1,5 +1,5 @@
 ---
-permalink: /1.17/core/v1/podCondition
+permalink: /1.17/core/v1/podCondition/
 ---
 
 # package podCondition

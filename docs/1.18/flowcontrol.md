@@ -1,5 +1,5 @@
 ---
-permalink: /1.18/flowcontrol
+permalink: /1.18/flowcontrol/
 ---
 
 # package flowcontrol

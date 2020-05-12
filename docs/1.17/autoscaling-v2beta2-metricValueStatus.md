@@ -1,5 +1,5 @@
 ---
-permalink: /1.17/autoscaling/v2beta2/metricValueStatus
+permalink: /1.17/autoscaling/v2beta2/metricValueStatus/
 ---
 
 # package metricValueStatus

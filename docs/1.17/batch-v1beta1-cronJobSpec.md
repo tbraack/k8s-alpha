@@ -1,5 +1,5 @@
 ---
-permalink: /1.17/batch/v1beta1/cronJobSpec
+permalink: /1.17/batch/v1beta1/cronJobSpec/
 ---
 
 # package cronJobSpec
@@ -214,7 +214,7 @@ JobTemplateSpec describes the data a Job should have when created from a templat
 
 ## obj jobTemplate.metadata
 
-ObjectMeta is metadata that all persisted resources must have, which includes all objects users must create.
+
 
 ### fn jobTemplate.metadata.withAnnotations
 
@@ -408,7 +408,7 @@ Populated by the system. Read-only. More info: http://kubernetes.io/docs/user-gu
 
 ## obj jobTemplate.spec
 
-JobSpec describes how the job execution will look like.
+
 
 ### fn jobTemplate.spec.withActiveDeadlineSeconds
 
@@ -1108,7 +1108,7 @@ Required. A list of node selector terms. The terms are ORed.
 
 ## obj jobTemplate.spec.template.spec.affinity.podAffinity
 
-Pod affinity is a group of inter pod affinity scheduling rules.
+
 
 ### fn jobTemplate.spec.template.spec.affinity.podAffinity.withPreferredDuringSchedulingIgnoredDuringExecution
 
@@ -1246,7 +1246,7 @@ A list of DNS search domains for host-name lookup. This will be appended to the 
 
 ## obj jobTemplate.spec.template.spec.securityContext
 
-PodSecurityContext holds pod-level security attributes and common container settings. Some fields are also present in container.securityContext.  Field values of container.securityContext take precedence over field values of PodSecurityContext.
+
 
 ### fn jobTemplate.spec.template.spec.securityContext.withFsGroup
 

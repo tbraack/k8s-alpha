@@ -1,5 +1,5 @@
 ---
-permalink: /1.14/node
+permalink: /1.14/node/
 ---
 
 # package node

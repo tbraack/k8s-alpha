@@ -1,5 +1,5 @@
 ---
-permalink: /1.17/authorization/v1beta1/localSubjectAccessReview
+permalink: /1.17/authorization/v1beta1/localSubjectAccessReview/
 ---
 
 # package localSubjectAccessReview
@@ -312,7 +312,7 @@ User is the user you're testing for. If you specify 'User' but not 'Group', then
 
 ## obj spec.nonResourceAttributes
 
-NonResourceAttributes includes the authorization attributes available for non-resource requests to the Authorizer interface
+
 
 ### fn spec.nonResourceAttributes.withPath
 

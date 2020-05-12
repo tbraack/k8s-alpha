@@ -1,5 +1,5 @@
 ---
-permalink: /1.18/autoscaling/v1/scaleSpec
+permalink: /1.18/autoscaling/v1/scaleSpec/
 ---
 
 # package scaleSpec

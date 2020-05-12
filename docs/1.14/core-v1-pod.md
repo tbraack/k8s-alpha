@@ -1,5 +1,5 @@
 ---
-permalink: /1.14/core/v1/pod
+permalink: /1.14/core/v1/pod/
 ---
 
 # package pod
@@ -331,7 +331,7 @@ Populated by the system. Read-only. More info: http://kubernetes.io/docs/user-gu
 
 ## obj metadata.initializers
 
-
+Initializers tracks the progress of initialization.
 
 ### fn metadata.initializers.withPending
 
@@ -759,11 +759,11 @@ List of volumes that can be mounted by containers belonging to the pod. More inf
 
 ## obj spec.affinity
 
-Affinity is a group of affinity scheduling rules.
+
 
 ## obj spec.affinity.nodeAffinity
 
-Node affinity is a group of node affinity scheduling rules.
+
 
 ### fn spec.affinity.nodeAffinity.withPreferredDuringSchedulingIgnoredDuringExecution
 

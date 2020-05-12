@@ -1,5 +1,5 @@
 ---
-permalink: /1.16/auditregistration/v1alpha1/webhook
+permalink: /1.16/auditregistration/v1alpha1/webhook/
 ---
 
 # package webhook

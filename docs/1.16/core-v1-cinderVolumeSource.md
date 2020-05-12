@@ -1,5 +1,5 @@
 ---
-permalink: /1.16/core/v1/cinderVolumeSource
+permalink: /1.16/core/v1/cinderVolumeSource/
 ---
 
 # package cinderVolumeSource

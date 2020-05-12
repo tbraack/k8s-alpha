@@ -1,5 +1,5 @@
 ---
-permalink: /1.17/networking/v1/networkPolicySpec
+permalink: /1.17/networking/v1/networkPolicySpec/
 ---
 
 # package networkPolicySpec

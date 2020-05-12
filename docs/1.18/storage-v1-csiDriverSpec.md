@@ -1,5 +1,5 @@
 ---
-permalink: /1.18/storage/v1/csiDriverSpec
+permalink: /1.18/storage/v1/csiDriverSpec/
 ---
 
 # package csiDriverSpec

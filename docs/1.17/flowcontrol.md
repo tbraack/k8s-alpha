@@ -1,5 +1,5 @@
 ---
-permalink: /1.17/flowcontrol
+permalink: /1.17/flowcontrol/
 ---
 
 # package flowcontrol

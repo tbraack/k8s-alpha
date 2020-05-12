@@ -1,5 +1,5 @@
 ---
-permalink: /1.18/policy/v1beta1/podDisruptionBudget
+permalink: /1.18/policy/v1beta1/podDisruptionBudget/
 ---
 
 # package podDisruptionBudget

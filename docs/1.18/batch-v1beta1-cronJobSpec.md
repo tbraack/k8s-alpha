@@ -1,5 +1,5 @@
 ---
-permalink: /1.18/batch/v1beta1/cronJobSpec
+permalink: /1.18/batch/v1beta1/cronJobSpec/
 ---
 
 # package cronJobSpec
@@ -409,7 +409,7 @@ Populated by the system. Read-only. More info: http://kubernetes.io/docs/user-gu
 
 ## obj jobTemplate.spec
 
-JobSpec describes how the job execution will look like.
+
 
 ### fn jobTemplate.spec.withActiveDeadlineSeconds
 
@@ -501,7 +501,7 @@ matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabe
 
 ## obj jobTemplate.spec.template
 
-
+PodTemplateSpec describes the data a pod should have when created from a template
 
 ## obj jobTemplate.spec.template.metadata
 
@@ -1065,7 +1065,7 @@ List of volumes that can be mounted by containers belonging to the pod. More inf
 
 ## obj jobTemplate.spec.template.spec.affinity.nodeAffinity
 
-Node affinity is a group of node affinity scheduling rules.
+
 
 ### fn jobTemplate.spec.template.spec.affinity.nodeAffinity.withPreferredDuringSchedulingIgnoredDuringExecution
 
@@ -1331,7 +1331,7 @@ Sysctls hold a list of namespaced sysctls used for the pod. Pods with unsupporte
 
 ## obj jobTemplate.spec.template.spec.securityContext.seLinuxOptions
 
-
+SELinuxOptions are the labels to be applied to the container
 
 ### fn jobTemplate.spec.template.spec.securityContext.seLinuxOptions.withLevel
 
@@ -1367,7 +1367,7 @@ User is a SELinux user label that applies to the container.
 
 ## obj jobTemplate.spec.template.spec.securityContext.windowsOptions
 
-
+WindowsSecurityContextOptions contain Windows-specific options and credentials.
 
 ### fn jobTemplate.spec.template.spec.securityContext.windowsOptions.withGmsaCredentialSpec
 

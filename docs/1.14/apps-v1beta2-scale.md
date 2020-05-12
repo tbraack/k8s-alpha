@@ -1,5 +1,5 @@
 ---
-permalink: /1.14/apps/v1beta2/scale
+permalink: /1.14/apps/v1beta2/scale/
 ---
 
 # package scale
@@ -259,7 +259,7 @@ Populated by the system. Read-only. More info: http://kubernetes.io/docs/user-gu
 
 ## obj metadata.initializers
 
-Initializers tracks the progress of initialization.
+
 
 ### fn metadata.initializers.withPending
 

@@ -1,5 +1,5 @@
 ---
-permalink: /1.17/authorization/v1beta1/subjectAccessReview
+permalink: /1.17/authorization/v1beta1/subjectAccessReview/
 ---
 
 # package subjectAccessReview

@@ -1,5 +1,5 @@
 ---
-permalink: /1.15/apps/v1beta1/controllerRevision
+permalink: /1.15/apps/v1beta1/controllerRevision/
 ---
 
 # package controllerRevision
@@ -307,7 +307,7 @@ Populated by the system. Read-only. More info: http://kubernetes.io/docs/user-gu
 
 ## obj metadata.initializers
 
-Initializers tracks the progress of initialization.
+
 
 ### fn metadata.initializers.withPending
 

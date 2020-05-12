@@ -1,5 +1,5 @@
 ---
-permalink: /1.16/core/v1/persistentVolume
+permalink: /1.16/core/v1/persistentVolume/
 ---
 
 # package persistentVolume
@@ -543,7 +543,7 @@ Unique ID of the persistent disk resource in AWS (Amazon EBS volume). More info:
 
 ## obj spec.azureDisk
 
-AzureDisk represents an Azure Data Disk mount on the host and bind mount to the pod.
+
 
 ### fn spec.azureDisk.withCachingMode
 
@@ -631,7 +631,7 @@ Share Name
 
 ## obj spec.cephfs
 
-Represents a Ceph Filesystem mount that lasts the lifetime of a pod Cephfs volumes do not support ownership management or SELinux relabeling.
+
 
 ### fn spec.cephfs.withMonitors
 
@@ -805,7 +805,7 @@ UID of the referent. More info: https://kubernetes.io/docs/concepts/overview/wor
 
 ## obj spec.csi
 
-
+Represents storage that is managed by an external CSI volume driver (Beta feature)
 
 ### fn spec.csi.withDriver
 
@@ -859,7 +859,7 @@ VolumeHandle is the unique volume name returned by the CSI volume plugin’s Cre
 
 ## obj spec.csi.controllerExpandSecretRef
 
-
+SecretReference represents a Secret Reference. It has enough information to retrieve secret in any namespace
 
 ### fn spec.csi.controllerExpandSecretRef.withName
 
@@ -879,7 +879,7 @@ Namespace defines the space within which the secret name must be unique.
 
 ## obj spec.csi.controllerPublishSecretRef
 
-
+SecretReference represents a Secret Reference. It has enough information to retrieve secret in any namespace
 
 ### fn spec.csi.controllerPublishSecretRef.withName
 
@@ -899,7 +899,7 @@ Namespace defines the space within which the secret name must be unique.
 
 ## obj spec.csi.nodePublishSecretRef
 
-SecretReference represents a Secret Reference. It has enough information to retrieve secret in any namespace
+
 
 ### fn spec.csi.nodePublishSecretRef.withName
 
@@ -939,7 +939,7 @@ Namespace defines the space within which the secret name must be unique.
 
 ## obj spec.fc
 
-
+Represents a Fibre Channel volume. Fibre Channel volumes can only be mounted as read/write once. Fibre Channel volumes support ownership management and SELinux relabeling.
 
 ### fn spec.fc.withFsType
 
@@ -1069,7 +1069,7 @@ Namespace defines the space within which the secret name must be unique.
 
 ## obj spec.flocker
 
-
+Represents a Flocker volume mounted by the Flocker agent. One and only one of datasetName and datasetUUID should be set. Flocker volumes do not support ownership management or SELinux relabeling.
 
 ### fn spec.flocker.withDatasetName
 
@@ -1277,7 +1277,7 @@ iSCSI Target Portal. The Portal is either an IP or ip_addr:port if the port is o
 
 ## obj spec.iscsi.secretRef
 
-
+SecretReference represents a Secret Reference. It has enough information to retrieve secret in any namespace
 
 ### fn spec.iscsi.secretRef.withName
 
@@ -1297,7 +1297,7 @@ Namespace defines the space within which the secret name must be unique.
 
 ## obj spec.local
 
-
+Local represents directly-attached storage with node affinity (Beta feature)
 
 ### fn spec.local.withFsType
 
@@ -1317,7 +1317,7 @@ The full path to the volume on the node. It can be either a directory or block d
 
 ## obj spec.nfs
 
-Represents an NFS mount that lasts the lifetime of a pod. NFS volumes do not support ownership management or SELinux relabeling.
+
 
 ### fn spec.nfs.withPath
 
@@ -1391,7 +1391,7 @@ ID that identifies Photon Controller persistent disk
 
 ## obj spec.portworxVolume
 
-PortworxVolumeSource represents a Portworx volume resource.
+
 
 ### fn spec.portworxVolume.withFsType
 
@@ -1471,7 +1471,7 @@ Volume is a string that references an already created Quobyte volume by name.
 
 ## obj spec.rbd
 
-
+Represents a Rados Block Device mount that lasts the lifetime of a pod. RBD volumes support ownership management and SELinux relabeling.
 
 ### fn spec.rbd.withFsType
 
@@ -1541,7 +1541,7 @@ The rados user name. Default is admin. More info: https://examples.k8s.io/volume
 
 ## obj spec.rbd.secretRef
 
-SecretReference represents a Secret Reference. It has enough information to retrieve secret in any namespace
+
 
 ### fn spec.rbd.secretRef.withName
 
@@ -1745,7 +1745,7 @@ UID of the referent. More info: https://kubernetes.io/docs/concepts/overview/wor
 
 ## obj spec.vsphereVolume
 
-Represents a vSphere volume resource.
+
 
 ### fn spec.vsphereVolume.withFsType
 

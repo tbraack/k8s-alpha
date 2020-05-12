@@ -1,5 +1,5 @@
 ---
-permalink: /1.15/core/v1/scaleIOVolumeSource
+permalink: /1.15/core/v1/scaleIOVolumeSource/
 ---
 
 # package scaleIOVolumeSource

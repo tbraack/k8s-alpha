@@ -1,5 +1,5 @@
 ---
-permalink: /1.14/apps/v1beta1/controllerRevision
+permalink: /1.14/apps/v1beta1/controllerRevision/
 ---
 
 # package controllerRevision
@@ -329,7 +329,7 @@ Pending is a list of initializers that must execute in order before this object 
 
 ## obj metadata.initializers.result
 
-
+Status is a return value for calls that don't return other objects.
 
 ### fn metadata.initializers.result.withCode
 

@@ -1,5 +1,5 @@
 ---
-permalink: /1.15/apps/v1beta1/rollingUpdateStatefulSetStrategy
+permalink: /1.15/apps/v1beta1/rollingUpdateStatefulSetStrategy/
 ---
 
 # package rollingUpdateStatefulSetStrategy

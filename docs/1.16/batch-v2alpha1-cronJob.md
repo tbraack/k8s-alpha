@@ -1,5 +1,5 @@
 ---
-permalink: /1.16/batch/v2alpha1/cronJob
+permalink: /1.16/batch/v2alpha1/cronJob/
 ---
 
 # package cronJob
@@ -638,7 +638,7 @@ Populated by the system. Read-only. More info: http://kubernetes.io/docs/user-gu
 
 ## obj spec.jobTemplate.spec
 
-JobSpec describes how the job execution will look like.
+
 
 ### fn spec.jobTemplate.spec.withActiveDeadlineSeconds
 
@@ -1290,7 +1290,7 @@ List of volumes that can be mounted by containers belonging to the pod. More inf
 
 ## obj spec.jobTemplate.spec.template.spec.affinity
 
-
+Affinity is a group of affinity scheduling rules.
 
 ## obj spec.jobTemplate.spec.template.spec.affinity.nodeAffinity
 
@@ -1338,7 +1338,7 @@ Required. A list of node selector terms. The terms are ORed.
 
 ## obj spec.jobTemplate.spec.template.spec.affinity.podAffinity
 
-Pod affinity is a group of inter pod affinity scheduling rules.
+
 
 ### fn spec.jobTemplate.spec.template.spec.affinity.podAffinity.withPreferredDuringSchedulingIgnoredDuringExecution
 

@@ -1,5 +1,5 @@
 ---
-permalink: /1.18/core/v1/fcVolumeSource
+permalink: /1.18/core/v1/fcVolumeSource/
 ---
 
 # package fcVolumeSource

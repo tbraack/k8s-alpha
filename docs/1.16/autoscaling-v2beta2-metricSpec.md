@@ -1,5 +1,5 @@
 ---
-permalink: /1.16/autoscaling/v2beta2/metricSpec
+permalink: /1.16/autoscaling/v2beta2/metricSpec/
 ---
 
 # package metricSpec
@@ -75,7 +75,7 @@ ExternalMetricSource indicates how to scale on a metric not associated with any 
 
 ## obj external.metric
 
-MetricIdentifier defines the name and optionally selector for a metric
+
 
 ### fn external.metric.withName
 
@@ -411,7 +411,7 @@ name is the name of the given metric
 
 ## obj pods.metric.selector
 
-A label selector is a label query over a set of resources. The result of matchLabels and matchExpressions are ANDed. An empty label selector matches all objects. A null label selector matches no objects.
+
 
 ### fn pods.metric.selector.withMatchExpressions
 
@@ -559,7 +559,7 @@ name is the name of the resource in question.
 
 ## obj resource.target
 
-
+MetricTarget defines the target value, average value, or average utilization of a specific metric
 
 ### fn resource.target.withAverageUtilization
 

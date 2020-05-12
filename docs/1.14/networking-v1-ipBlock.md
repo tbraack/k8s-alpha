@@ -1,5 +1,5 @@
 ---
-permalink: /1.14/networking/v1/ipBlock
+permalink: /1.14/networking/v1/ipBlock/
 ---
 
 # package ipBlock

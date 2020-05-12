@@ -1,5 +1,5 @@
 ---
-permalink: /1.15/apps/v1/daemonSetSpec
+permalink: /1.15/apps/v1/daemonSetSpec/
 ---
 
 # package daemonSetSpec
@@ -420,7 +420,7 @@ Pending is a list of initializers that must execute in order before this object 
 
 ## obj template.metadata.initializers.result
 
-
+Status is a return value for calls that don't return other objects.
 
 ### fn template.metadata.initializers.result.withCode
 
@@ -464,7 +464,7 @@ A machine-readable description of why this operation is in the "Failure" status.
 
 ## obj template.metadata.initializers.result.details
 
-StatusDetails is a set of additional properties that MAY be set by the server to provide additional information about a response. The Reason field of a Status object defines what attributes will be set. Clients must ignore fields that do not match the defined type of each attribute, and should assume that any attribute may be empty, invalid, or under defined.
+
 
 ### fn template.metadata.initializers.result.details.withCauses
 
@@ -838,7 +838,7 @@ List of volumes that can be mounted by containers belonging to the pod. More inf
 
 ## obj template.spec.affinity.nodeAffinity
 
-Node affinity is a group of node affinity scheduling rules.
+
 
 ### fn template.spec.affinity.nodeAffinity.withPreferredDuringSchedulingIgnoredDuringExecution
 
@@ -882,7 +882,7 @@ Required. A list of node selector terms. The terms are ORed.
 
 ## obj template.spec.affinity.podAffinity
 
-Pod affinity is a group of inter pod affinity scheduling rules.
+
 
 ### fn template.spec.affinity.podAffinity.withPreferredDuringSchedulingIgnoredDuringExecution
 
@@ -1132,7 +1132,7 @@ User is a SELinux user label that applies to the container.
 
 ## obj template.spec.securityContext.windowsOptions
 
-
+WindowsSecurityContextOptions contain Windows-specific options and credentials.
 
 ### fn template.spec.securityContext.windowsOptions.withGmsaCredentialSpec
 
@@ -1164,7 +1164,7 @@ Type of daemon set update. Can be "RollingUpdate" or "OnDelete". Default is Roll
 
 ## obj updateStrategy.rollingUpdate
 
-
+Spec to control the desired behavior of daemon set rolling update.
 
 ### fn updateStrategy.rollingUpdate.withMaxUnavailable
 

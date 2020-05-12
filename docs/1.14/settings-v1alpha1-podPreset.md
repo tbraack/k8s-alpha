@@ -1,5 +1,5 @@
 ---
-permalink: /1.14/settings/v1alpha1/podPreset
+permalink: /1.14/settings/v1alpha1/podPreset/
 ---
 
 # package podPreset
@@ -271,7 +271,7 @@ Populated by the system. Read-only. More info: http://kubernetes.io/docs/user-gu
 
 ## obj metadata.initializers
 
-Initializers tracks the progress of initialization.
+
 
 ### fn metadata.initializers.withPending
 

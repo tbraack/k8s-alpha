@@ -1,5 +1,5 @@
 ---
-permalink: /1.18/policy/v1beta1/runtimeClassStrategyOptions
+permalink: /1.18/policy/v1beta1/runtimeClassStrategyOptions/
 ---
 
 # package runtimeClassStrategyOptions

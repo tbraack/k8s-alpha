@@ -1,5 +1,5 @@
 ---
-permalink: /1.17/autoscaling/v1/scaleStatus
+permalink: /1.17/autoscaling/v1/scaleStatus/
 ---
 
 # package scaleStatus

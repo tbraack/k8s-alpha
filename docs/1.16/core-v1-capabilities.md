@@ -1,5 +1,5 @@
 ---
-permalink: /1.16/core/v1/capabilities
+permalink: /1.16/core/v1/capabilities/
 ---
 
 # package capabilities

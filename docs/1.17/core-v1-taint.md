@@ -1,5 +1,5 @@
 ---
-permalink: /1.17/core/v1/taint
+permalink: /1.17/core/v1/taint/
 ---
 
 # package taint

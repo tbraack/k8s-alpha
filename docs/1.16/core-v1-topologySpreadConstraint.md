@@ -1,5 +1,5 @@
 ---
-permalink: /1.16/core/v1/topologySpreadConstraint
+permalink: /1.16/core/v1/topologySpreadConstraint/
 ---
 
 # package topologySpreadConstraint

@@ -1,5 +1,5 @@
 ---
-permalink: /1.16/policy/v1beta1/podSecurityPolicy
+permalink: /1.16/policy/v1beta1/podSecurityPolicy/
 ---
 
 # package podSecurityPolicy
@@ -561,7 +561,7 @@ volumes is a white list of allowed volume plugins. Empty indicates that no volum
 
 ## obj spec.fsGroup
 
-
+FSGroupStrategyOptions defines the strategy type and options used to create the strategy.
 
 ### fn spec.fsGroup.withRanges
 
@@ -621,7 +621,7 @@ rule is the strategy that will dictate the allowable RunAsGroup values that may 
 
 ## obj spec.runAsUser
 
-
+RunAsUserStrategyOptions defines the strategy type and any options used to create the strategy.
 
 ### fn spec.runAsUser.withRanges
 
@@ -651,7 +651,7 @@ rule is the strategy that will dictate the allowable RunAsUser values that may b
 
 ## obj spec.runtimeClass
 
-
+RuntimeClassStrategyOptions define the strategy that will dictate the allowable RuntimeClasses for a pod.
 
 ### fn spec.runtimeClass.withAllowedRuntimeClassNames
 
@@ -681,7 +681,7 @@ defaultRuntimeClassName is the default RuntimeClassName to set on the pod. The d
 
 ## obj spec.seLinux
 
-SELinuxStrategyOptions defines the strategy type and any options used to create the strategy.
+
 
 ### fn spec.seLinux.withRule
 
@@ -693,7 +693,7 @@ rule is the strategy that will dictate the allowable labels that may be set.
 
 ## obj spec.seLinux.seLinuxOptions
 
-SELinuxOptions are the labels to be applied to the container
+
 
 ### fn spec.seLinux.seLinuxOptions.withLevel
 

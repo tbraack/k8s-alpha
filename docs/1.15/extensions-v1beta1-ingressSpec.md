@@ -1,5 +1,5 @@
 ---
-permalink: /1.15/extensions/v1beta1/ingressSpec
+permalink: /1.15/extensions/v1beta1/ingressSpec/
 ---
 
 # package ingressSpec

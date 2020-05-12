@@ -1,5 +1,5 @@
 ---
-permalink: /1.18/flowcontrol/v1alpha1/limitedPriorityLevelConfiguration
+permalink: /1.18/flowcontrol/v1alpha1/limitedPriorityLevelConfiguration/
 ---
 
 # package limitedPriorityLevelConfiguration
@@ -46,7 +46,7 @@ withType(type)
 
 ## obj limitResponse.queuing
 
-
+QueuingConfiguration holds the configuration parameters for queuing
 
 ### fn limitResponse.queuing.withHandSize
 

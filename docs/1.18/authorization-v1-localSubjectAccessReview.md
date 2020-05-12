@@ -1,5 +1,5 @@
 ---
-permalink: /1.18/authorization/v1/localSubjectAccessReview
+permalink: /1.18/authorization/v1/localSubjectAccessReview/
 ---
 
 # package localSubjectAccessReview

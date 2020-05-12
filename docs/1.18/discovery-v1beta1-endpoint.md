@@ -1,5 +1,5 @@
 ---
-permalink: /1.18/discovery/v1beta1/endpoint
+permalink: /1.18/discovery/v1beta1/endpoint/
 ---
 
 # package endpoint

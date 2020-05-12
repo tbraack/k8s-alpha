@@ -1,5 +1,5 @@
 ---
-permalink: /1.15/apps/v1beta1/statefulSetCondition
+permalink: /1.15/apps/v1beta1/statefulSetCondition/
 ---
 
 # package statefulSetCondition

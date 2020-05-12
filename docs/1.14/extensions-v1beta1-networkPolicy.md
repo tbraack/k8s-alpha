@@ -1,5 +1,5 @@
 ---
-permalink: /1.14/extensions/v1beta1/networkPolicy
+permalink: /1.14/extensions/v1beta1/networkPolicy/
 ---
 
 # package networkPolicy
@@ -269,7 +269,7 @@ Populated by the system. Read-only. More info: http://kubernetes.io/docs/user-gu
 
 ## obj metadata.initializers
 
-Initializers tracks the progress of initialization.
+
 
 ### fn metadata.initializers.withPending
 

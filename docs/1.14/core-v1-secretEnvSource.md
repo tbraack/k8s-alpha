@@ -1,5 +1,5 @@
 ---
-permalink: /1.14/core/v1/secretEnvSource
+permalink: /1.14/core/v1/secretEnvSource/
 ---
 
 # package secretEnvSource

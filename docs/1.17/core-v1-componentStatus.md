@@ -1,5 +1,5 @@
 ---
-permalink: /1.17/core/v1/componentStatus
+permalink: /1.17/core/v1/componentStatus/
 ---
 
 # package componentStatus

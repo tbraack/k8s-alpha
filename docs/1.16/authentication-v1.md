@@ -1,5 +1,5 @@
 ---
-permalink: /1.16/authentication/v1
+permalink: /1.16/authentication/v1/
 ---
 
 # package v1

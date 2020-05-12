@@ -1,5 +1,5 @@
 ---
-permalink: /1.16/extensions/v1beta1/ingressBackend
+permalink: /1.16/extensions/v1beta1/ingressBackend/
 ---
 
 # package ingressBackend

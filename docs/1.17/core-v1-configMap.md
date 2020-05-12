@@ -1,5 +1,5 @@
 ---
-permalink: /1.17/core/v1/configMap
+permalink: /1.17/core/v1/configMap/
 ---
 
 # package configMap

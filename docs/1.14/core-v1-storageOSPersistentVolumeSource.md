@@ -1,5 +1,5 @@
 ---
-permalink: /1.14/core/v1/storageOSPersistentVolumeSource
+permalink: /1.14/core/v1/storageOSPersistentVolumeSource/
 ---
 
 # package storageOSPersistentVolumeSource

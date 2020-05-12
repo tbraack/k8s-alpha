@@ -1,5 +1,5 @@
 ---
-permalink: /1.18/core/v1/replicationControllerCondition
+permalink: /1.18/core/v1/replicationControllerCondition/
 ---
 
 # package replicationControllerCondition

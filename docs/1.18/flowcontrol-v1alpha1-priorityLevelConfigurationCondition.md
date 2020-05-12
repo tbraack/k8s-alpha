@@ -1,5 +1,5 @@
 ---
-permalink: /1.18/flowcontrol/v1alpha1/priorityLevelConfigurationCondition
+permalink: /1.18/flowcontrol/v1alpha1/priorityLevelConfigurationCondition/
 ---
 
 # package priorityLevelConfigurationCondition

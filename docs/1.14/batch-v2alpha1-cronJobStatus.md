@@ -1,5 +1,5 @@
 ---
-permalink: /1.14/batch/v2alpha1/cronJobStatus
+permalink: /1.14/batch/v2alpha1/cronJobStatus/
 ---
 
 # package cronJobStatus

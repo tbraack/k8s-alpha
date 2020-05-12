@@ -1,5 +1,5 @@
 ---
-permalink: /1.18/autoscaling
+permalink: /1.18/autoscaling/
 ---
 
 # package autoscaling

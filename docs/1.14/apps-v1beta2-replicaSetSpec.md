@@ -1,5 +1,5 @@
 ---
-permalink: /1.14/apps/v1beta2/replicaSetSpec
+permalink: /1.14/apps/v1beta2/replicaSetSpec/
 ---
 
 # package replicaSetSpec
@@ -194,7 +194,7 @@ PodTemplateSpec describes the data a pod should have when created from a templat
 
 ## obj template.metadata
 
-
+ObjectMeta is metadata that all persisted resources must have, which includes all objects users must create.
 
 ### fn template.metadata.withAnnotations
 
@@ -518,7 +518,7 @@ UID of the resource. (when there is a single resource which can be described). M
 
 ## obj template.spec
 
-PodSpec is a description of a pod.
+
 
 ### fn template.spec.withActiveDeadlineSeconds
 
@@ -822,7 +822,7 @@ Affinity is a group of affinity scheduling rules.
 
 ## obj template.spec.affinity.nodeAffinity
 
-Node affinity is a group of node affinity scheduling rules.
+
 
 ### fn template.spec.affinity.nodeAffinity.withPreferredDuringSchedulingIgnoredDuringExecution
 
@@ -866,7 +866,7 @@ Required. A list of node selector terms. The terms are ORed.
 
 ## obj template.spec.affinity.podAffinity
 
-
+Pod affinity is a group of inter pod affinity scheduling rules.
 
 ### fn template.spec.affinity.podAffinity.withPreferredDuringSchedulingIgnoredDuringExecution
 
@@ -906,7 +906,7 @@ If the affinity requirements specified by this field are not met at scheduling t
 
 ## obj template.spec.affinity.podAntiAffinity
 
-
+Pod anti affinity is a group of inter pod anti affinity scheduling rules.
 
 ### fn template.spec.affinity.podAntiAffinity.withPreferredDuringSchedulingIgnoredDuringExecution
 

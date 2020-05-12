@@ -1,5 +1,5 @@
 ---
-permalink: /1.17/core/v1/iscsiVolumeSource
+permalink: /1.17/core/v1/iscsiVolumeSource/
 ---
 
 # package iscsiVolumeSource

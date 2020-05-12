@@ -1,5 +1,5 @@
 ---
-permalink: /1.18/autoscaling/v2beta1
+permalink: /1.18/autoscaling/v2beta1/
 ---
 
 # package v2beta1

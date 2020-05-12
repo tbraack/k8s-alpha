@@ -1,5 +1,5 @@
 ---
-permalink: /1.18/core
+permalink: /1.18/core/
 ---
 
 # package core

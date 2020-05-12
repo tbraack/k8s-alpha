@@ -1,5 +1,5 @@
 ---
-permalink: /1.15/authorization/v1beta1/subjectAccessReview
+permalink: /1.15/authorization/v1beta1/subjectAccessReview/
 ---
 
 # package subjectAccessReview
@@ -275,7 +275,7 @@ Populated by the system. Read-only. More info: http://kubernetes.io/docs/user-gu
 
 ## obj metadata.initializers
 
-Initializers tracks the progress of initialization.
+
 
 ### fn metadata.initializers.withPending
 
@@ -479,7 +479,7 @@ Verb is the standard HTTP verb
 
 ## obj spec.resourceAttributes
 
-ResourceAttributes includes the authorization attributes available for resource requests to the Authorizer interface
+
 
 ### fn spec.resourceAttributes.withGroup
 

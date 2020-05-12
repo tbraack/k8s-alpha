@@ -1,5 +1,5 @@
 ---
-permalink: /1.15/rbac/v1/aggregationRule
+permalink: /1.15/rbac/v1/aggregationRule/
 ---
 
 # package aggregationRule

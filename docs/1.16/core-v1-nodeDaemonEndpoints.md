@@ -1,5 +1,5 @@
 ---
-permalink: /1.16/core/v1/nodeDaemonEndpoints
+permalink: /1.16/core/v1/nodeDaemonEndpoints/
 ---
 
 # package nodeDaemonEndpoints

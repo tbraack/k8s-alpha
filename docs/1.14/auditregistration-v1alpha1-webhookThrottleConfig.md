@@ -1,5 +1,5 @@
 ---
-permalink: /1.14/auditregistration/v1alpha1/webhookThrottleConfig
+permalink: /1.14/auditregistration/v1alpha1/webhookThrottleConfig/
 ---
 
 # package webhookThrottleConfig

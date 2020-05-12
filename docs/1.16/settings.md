@@ -1,5 +1,5 @@
 ---
-permalink: /1.16/settings
+permalink: /1.16/settings/
 ---
 
 # package settings

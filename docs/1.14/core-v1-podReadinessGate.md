@@ -1,5 +1,5 @@
 ---
-permalink: /1.14/core/v1/podReadinessGate
+permalink: /1.14/core/v1/podReadinessGate/
 ---
 
 # package podReadinessGate

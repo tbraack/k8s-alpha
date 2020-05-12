@@ -1,5 +1,5 @@
 ---
-permalink: /1.18/admissionregistration/v1/mutatingWebhook
+permalink: /1.18/admissionregistration/v1/mutatingWebhook/
 ---
 
 # package mutatingWebhook

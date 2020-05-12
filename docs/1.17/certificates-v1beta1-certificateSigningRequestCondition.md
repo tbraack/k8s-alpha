@@ -1,5 +1,5 @@
 ---
-permalink: /1.17/certificates/v1beta1/certificateSigningRequestCondition
+permalink: /1.17/certificates/v1beta1/certificateSigningRequestCondition/
 ---
 
 # package certificateSigningRequestCondition

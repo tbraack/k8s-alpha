@@ -1,5 +1,5 @@
 ---
-permalink: /1.17/core/v1/volumeProjection
+permalink: /1.17/core/v1/volumeProjection/
 ---
 
 # package volumeProjection

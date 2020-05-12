@@ -1,5 +1,5 @@
 ---
-permalink: /1.15/core/v1/serviceAccount
+permalink: /1.15/core/v1/serviceAccount/
 ---
 
 # package serviceAccount

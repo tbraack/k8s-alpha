@@ -1,5 +1,5 @@
 ---
-permalink: /1.14/core/v1/configMapNodeConfigSource
+permalink: /1.14/core/v1/configMapNodeConfigSource/
 ---
 
 # package configMapNodeConfigSource

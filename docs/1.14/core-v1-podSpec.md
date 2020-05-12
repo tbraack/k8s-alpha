@@ -1,5 +1,5 @@
 ---
-permalink: /1.14/core/v1/podSpec
+permalink: /1.14/core/v1/podSpec/
 ---
 
 # package podSpec
@@ -386,7 +386,7 @@ Affinity is a group of affinity scheduling rules.
 
 ## obj affinity.nodeAffinity
 
-
+Node affinity is a group of node affinity scheduling rules.
 
 ### fn affinity.nodeAffinity.withPreferredDuringSchedulingIgnoredDuringExecution
 
@@ -430,7 +430,7 @@ Required. A list of node selector terms. The terms are ORed.
 
 ## obj affinity.podAffinity
 
-Pod affinity is a group of inter pod affinity scheduling rules.
+
 
 ### fn affinity.podAffinity.withPreferredDuringSchedulingIgnoredDuringExecution
 
@@ -470,7 +470,7 @@ If the affinity requirements specified by this field are not met at scheduling t
 
 ## obj affinity.podAntiAffinity
 
-Pod anti affinity is a group of inter pod anti affinity scheduling rules.
+
 
 ### fn affinity.podAntiAffinity.withPreferredDuringSchedulingIgnoredDuringExecution
 

@@ -1,5 +1,5 @@
 ---
-permalink: /1.18/policy/v1beta1/podSecurityPolicySpec
+permalink: /1.18/policy/v1beta1/podSecurityPolicySpec/
 ---
 
 # package podSecurityPolicySpec

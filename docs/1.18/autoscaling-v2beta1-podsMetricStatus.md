@@ -1,5 +1,5 @@
 ---
-permalink: /1.18/autoscaling/v2beta1/podsMetricStatus
+permalink: /1.18/autoscaling/v2beta1/podsMetricStatus/
 ---
 
 # package podsMetricStatus

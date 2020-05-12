@@ -1,5 +1,5 @@
 ---
-permalink: /1.17/apps/v1beta2/deploymentStrategy
+permalink: /1.17/apps/v1beta2/deploymentStrategy/
 ---
 
 # package deploymentStrategy

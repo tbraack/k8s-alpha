@@ -1,5 +1,5 @@
 ---
-permalink: /1.17/core/v1/hostPathVolumeSource
+permalink: /1.17/core/v1/hostPathVolumeSource/
 ---
 
 # package hostPathVolumeSource

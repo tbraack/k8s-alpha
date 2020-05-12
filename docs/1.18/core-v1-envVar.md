@@ -1,5 +1,5 @@
 ---
-permalink: /1.18/core/v1/envVar
+permalink: /1.18/core/v1/envVar/
 ---
 
 # package envVar
@@ -50,7 +50,7 @@ EnvVarSource represents a source for the value of an EnvVar.
 
 ## obj valueFrom.configMapKeyRef
 
-Selects a key from a ConfigMap.
+
 
 ### fn valueFrom.configMapKeyRef.withKey
 
@@ -90,7 +90,7 @@ Path of the field to select in the specified API version.
 
 ## obj valueFrom.resourceFieldRef
 
-
+ResourceFieldSelector represents container resources (cpu, memory) and their output format
 
 ### fn valueFrom.resourceFieldRef.withContainerName
 
@@ -148,7 +148,7 @@ Required: resource to select
 
 ## obj valueFrom.secretKeyRef
 
-
+SecretKeySelector selects a key of a Secret.
 
 ### fn valueFrom.secretKeyRef.withKey
 

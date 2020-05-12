@@ -1,5 +1,5 @@
 ---
-permalink: /1.18/autoscaling/v2beta2/metricIdentifier
+permalink: /1.18/autoscaling/v2beta2/metricIdentifier/
 ---
 
 # package metricIdentifier

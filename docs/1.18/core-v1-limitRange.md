@@ -1,5 +1,5 @@
 ---
-permalink: /1.18/core/v1/limitRange
+permalink: /1.18/core/v1/limitRange/
 ---
 
 # package limitRange

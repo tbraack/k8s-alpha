@@ -1,5 +1,5 @@
 ---
-permalink: /1.17/admissionregistration/v1beta1/mutatingWebhookConfiguration
+permalink: /1.17/admissionregistration/v1beta1/mutatingWebhookConfiguration/
 ---
 
 # package mutatingWebhookConfiguration

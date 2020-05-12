@@ -1,5 +1,5 @@
 ---
-permalink: /1.18/rbac/v1beta1/roleBinding
+permalink: /1.18/rbac/v1beta1/roleBinding/
 ---
 
 # package roleBinding

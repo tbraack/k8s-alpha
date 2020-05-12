@@ -1,5 +1,5 @@
 ---
-permalink: /1.17/core/v1/handler
+permalink: /1.17/core/v1/handler/
 ---
 
 # package handler

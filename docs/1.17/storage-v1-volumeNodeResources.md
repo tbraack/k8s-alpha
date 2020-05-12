@@ -1,5 +1,5 @@
 ---
-permalink: /1.17/storage/v1/volumeNodeResources
+permalink: /1.17/storage/v1/volumeNodeResources/
 ---
 
 # package volumeNodeResources

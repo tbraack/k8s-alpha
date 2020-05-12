@@ -1,5 +1,5 @@
 ---
-permalink: /1.17/extensions/v1beta1/hostPortRange
+permalink: /1.17/extensions/v1beta1/hostPortRange/
 ---
 
 # package hostPortRange

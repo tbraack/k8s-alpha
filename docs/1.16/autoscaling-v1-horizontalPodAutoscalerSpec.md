@@ -1,5 +1,5 @@
 ---
-permalink: /1.16/autoscaling/v1/horizontalPodAutoscalerSpec
+permalink: /1.16/autoscaling/v1/horizontalPodAutoscalerSpec/
 ---
 
 # package horizontalPodAutoscalerSpec

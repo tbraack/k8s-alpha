@@ -1,5 +1,5 @@
 ---
-permalink: /1.17/core/v1/endpointPort
+permalink: /1.17/core/v1/endpointPort/
 ---
 
 # package endpointPort

@@ -1,5 +1,5 @@
 ---
-permalink: /1.18/storage/v1/csiNode
+permalink: /1.18/storage/v1/csiNode/
 ---
 
 # package csiNode

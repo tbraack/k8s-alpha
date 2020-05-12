@@ -1,5 +1,5 @@
 ---
-permalink: /1.18/apps/v1/deploymentStrategy
+permalink: /1.18/apps/v1/deploymentStrategy/
 ---
 
 # package deploymentStrategy

@@ -1,5 +1,5 @@
 ---
-permalink: /1.14/core/v1/rbdPersistentVolumeSource
+permalink: /1.14/core/v1/rbdPersistentVolumeSource/
 ---
 
 # package rbdPersistentVolumeSource

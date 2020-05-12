@@ -1,5 +1,5 @@
 ---
-permalink: /1.18/authentication/v1/tokenReview
+permalink: /1.18/authentication/v1/tokenReview/
 ---
 
 # package tokenReview

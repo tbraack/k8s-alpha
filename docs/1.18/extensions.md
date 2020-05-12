@@ -1,5 +1,5 @@
 ---
-permalink: /1.18/extensions
+permalink: /1.18/extensions/
 ---
 
 # package extensions

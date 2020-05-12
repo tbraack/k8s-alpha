@@ -1,5 +1,5 @@
 ---
-permalink: /1.14/core/v1/volumeMount
+permalink: /1.14/core/v1/volumeMount/
 ---
 
 # package volumeMount

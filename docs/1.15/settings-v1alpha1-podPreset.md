@@ -1,5 +1,5 @@
 ---
-permalink: /1.15/settings/v1alpha1/podPreset
+permalink: /1.15/settings/v1alpha1/podPreset/
 ---
 
 # package podPreset
@@ -293,7 +293,7 @@ Pending is a list of initializers that must execute in order before this object 
 
 ## obj metadata.initializers.result
 
-
+Status is a return value for calls that don't return other objects.
 
 ### fn metadata.initializers.result.withCode
 

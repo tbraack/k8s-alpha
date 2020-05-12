@@ -1,5 +1,5 @@
 ---
-permalink: /1.16/apps/v1beta2/scaleStatus
+permalink: /1.16/apps/v1beta2/scaleStatus/
 ---
 
 # package scaleStatus

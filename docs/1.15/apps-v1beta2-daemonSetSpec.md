@@ -1,5 +1,5 @@
 ---
-permalink: /1.15/apps/v1beta2/daemonSetSpec
+permalink: /1.15/apps/v1beta2/daemonSetSpec/
 ---
 
 # package daemonSetSpec
@@ -398,7 +398,7 @@ Populated by the system. Read-only. More info: http://kubernetes.io/docs/user-gu
 
 ## obj template.metadata.initializers
 
-Initializers tracks the progress of initialization.
+
 
 ### fn template.metadata.initializers.withPending
 
@@ -838,7 +838,7 @@ Affinity is a group of affinity scheduling rules.
 
 ## obj template.spec.affinity.nodeAffinity
 
-
+Node affinity is a group of node affinity scheduling rules.
 
 ### fn template.spec.affinity.nodeAffinity.withPreferredDuringSchedulingIgnoredDuringExecution
 
@@ -882,7 +882,7 @@ Required. A list of node selector terms. The terms are ORed.
 
 ## obj template.spec.affinity.podAffinity
 
-
+Pod affinity is a group of inter pod affinity scheduling rules.
 
 ### fn template.spec.affinity.podAffinity.withPreferredDuringSchedulingIgnoredDuringExecution
 
@@ -1096,7 +1096,7 @@ Sysctls hold a list of namespaced sysctls used for the pod. Pods with unsupporte
 
 ## obj template.spec.securityContext.seLinuxOptions
 
-
+SELinuxOptions are the labels to be applied to the container
 
 ### fn template.spec.securityContext.seLinuxOptions.withLevel
 
@@ -1164,7 +1164,7 @@ Type of daemon set update. Can be "RollingUpdate" or "OnDelete". Default is Roll
 
 ## obj updateStrategy.rollingUpdate
 
-Spec to control the desired behavior of daemon set rolling update.
+
 
 ### fn updateStrategy.rollingUpdate.withMaxUnavailable
 

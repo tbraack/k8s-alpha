@@ -1,5 +1,5 @@
 ---
-permalink: /1.16/core/v1/scopedResourceSelectorRequirement
+permalink: /1.16/core/v1/scopedResourceSelectorRequirement/
 ---
 
 # package scopedResourceSelectorRequirement

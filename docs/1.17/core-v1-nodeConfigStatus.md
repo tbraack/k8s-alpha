@@ -1,5 +1,5 @@
 ---
-permalink: /1.17/core/v1/nodeConfigStatus
+permalink: /1.17/core/v1/nodeConfigStatus/
 ---
 
 # package nodeConfigStatus
@@ -95,7 +95,7 @@ NodeConfigSource specifies a source of node configuration. Exactly one subfield 
 
 ## obj assigned.configMap
 
-
+ConfigMapNodeConfigSource contains the information to reference a ConfigMap as a config source for the Node.
 
 ### fn assigned.configMap.withKubeletConfigKey
 
@@ -143,7 +143,7 @@ NodeConfigSource specifies a source of node configuration. Exactly one subfield 
 
 ## obj lastKnownGood.configMap
 
-ConfigMapNodeConfigSource contains the information to reference a ConfigMap as a config source for the Node.
+
 
 ### fn lastKnownGood.configMap.withKubeletConfigKey
 

@@ -1,5 +1,5 @@
 ---
-permalink: /1.18/extensions/v1beta1/ingress
+permalink: /1.18/extensions/v1beta1/ingress/
 ---
 
 # package ingress

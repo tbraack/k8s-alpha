@@ -1,5 +1,5 @@
 ---
-permalink: /1.17/autoscaling/v2beta2/resourceMetricStatus
+permalink: /1.17/autoscaling/v2beta2/resourceMetricStatus/
 ---
 
 # package resourceMetricStatus

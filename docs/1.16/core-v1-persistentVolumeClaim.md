@@ -1,5 +1,5 @@
 ---
-permalink: /1.16/core/v1/persistentVolumeClaim
+permalink: /1.16/core/v1/persistentVolumeClaim/
 ---
 
 # package persistentVolumeClaim
@@ -304,7 +304,7 @@ VolumeName is the binding reference to the PersistentVolume backing this claim.
 
 ## obj spec.dataSource
 
-TypedLocalObjectReference contains enough information to let you locate the typed referenced object inside the same namespace.
+
 
 ### fn spec.dataSource.withApiGroup
 
@@ -332,7 +332,7 @@ Name is the name of resource being referenced
 
 ## obj spec.resources
 
-ResourceRequirements describes the compute resource requirements.
+
 
 ### fn spec.resources.withLimits
 

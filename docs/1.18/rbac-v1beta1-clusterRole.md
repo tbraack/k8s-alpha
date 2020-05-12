@@ -1,5 +1,5 @@
 ---
-permalink: /1.18/rbac/v1beta1/clusterRole
+permalink: /1.18/rbac/v1beta1/clusterRole/
 ---
 
 # package clusterRole

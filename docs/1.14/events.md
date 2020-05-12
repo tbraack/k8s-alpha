@@ -1,5 +1,5 @@
 ---
-permalink: /1.14/events
+permalink: /1.14/events/
 ---
 
 # package events

@@ -1,5 +1,5 @@
 ---
-permalink: /1.18/core/v1/keyToPath
+permalink: /1.18/core/v1/keyToPath/
 ---
 
 # package keyToPath

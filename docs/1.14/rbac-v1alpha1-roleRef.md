@@ -1,5 +1,5 @@
 ---
-permalink: /1.14/rbac/v1alpha1/roleRef
+permalink: /1.14/rbac/v1alpha1/roleRef/
 ---
 
 # package roleRef

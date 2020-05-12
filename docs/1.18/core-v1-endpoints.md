@@ -1,5 +1,5 @@
 ---
-permalink: /1.18/core/v1/endpoints
+permalink: /1.18/core/v1/endpoints/
 ---
 
 # package endpoints

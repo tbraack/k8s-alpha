@@ -1,5 +1,5 @@
 ---
-permalink: /1.15/auditregistration/v1alpha1/webhook
+permalink: /1.15/auditregistration/v1alpha1/webhook/
 ---
 
 # package webhook
@@ -54,7 +54,7 @@ Attempting to use a user or basic auth e.g. "user:password@" is not allowed. Fra
 
 ## obj clientConfig.service
 
-ServiceReference holds a reference to Service.legacy.k8s.io
+
 
 ### fn clientConfig.service.withName
 

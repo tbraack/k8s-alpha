@@ -1,5 +1,5 @@
 ---
-permalink: /1.17/authorization/v1/nonResourceAttributes
+permalink: /1.17/authorization/v1/nonResourceAttributes/
 ---
 
 # package nonResourceAttributes

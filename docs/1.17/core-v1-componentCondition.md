@@ -1,5 +1,5 @@
 ---
-permalink: /1.17/core/v1/componentCondition
+permalink: /1.17/core/v1/componentCondition/
 ---
 
 # package componentCondition

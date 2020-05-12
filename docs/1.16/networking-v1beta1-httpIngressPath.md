@@ -1,5 +1,5 @@
 ---
-permalink: /1.16/networking/v1beta1/httpIngressPath
+permalink: /1.16/networking/v1beta1/httpIngressPath/
 ---
 
 # package httpIngressPath

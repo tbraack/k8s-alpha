@@ -1,5 +1,5 @@
 ---
-permalink: /1.16/authentication/v1/tokenRequestStatus
+permalink: /1.16/authentication/v1/tokenRequestStatus/
 ---
 
 # package tokenRequestStatus

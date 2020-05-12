@@ -1,5 +1,5 @@
 ---
-permalink: /1.18/node/v1alpha1/runtimeClass
+permalink: /1.18/node/v1alpha1/runtimeClass/
 ---
 
 # package runtimeClass

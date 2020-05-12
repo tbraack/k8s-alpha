@@ -1,5 +1,5 @@
 ---
-permalink: /1.17/autoscaling/v1/crossVersionObjectReference
+permalink: /1.17/autoscaling/v1/crossVersionObjectReference/
 ---
 
 # package crossVersionObjectReference

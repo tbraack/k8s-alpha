@@ -1,5 +1,5 @@
 ---
-permalink: /1.17/apps/v1/daemonSetUpdateStrategy
+permalink: /1.17/apps/v1/daemonSetUpdateStrategy/
 ---
 
 # package daemonSetUpdateStrategy

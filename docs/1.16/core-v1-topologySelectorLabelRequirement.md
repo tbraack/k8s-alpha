@@ -1,5 +1,5 @@
 ---
-permalink: /1.16/core/v1/topologySelectorLabelRequirement
+permalink: /1.16/core/v1/topologySelectorLabelRequirement/
 ---
 
 # package topologySelectorLabelRequirement

@@ -1,5 +1,5 @@
 ---
-permalink: /1.15/core/v1/photonPersistentDiskVolumeSource
+permalink: /1.15/core/v1/photonPersistentDiskVolumeSource/
 ---
 
 # package photonPersistentDiskVolumeSource

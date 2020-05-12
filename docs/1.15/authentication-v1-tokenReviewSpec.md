@@ -1,5 +1,5 @@
 ---
-permalink: /1.15/authentication/v1/tokenReviewSpec
+permalink: /1.15/authentication/v1/tokenReviewSpec/
 ---
 
 # package tokenReviewSpec

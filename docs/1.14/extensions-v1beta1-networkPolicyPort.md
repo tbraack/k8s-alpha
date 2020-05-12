@@ -1,5 +1,5 @@
 ---
-permalink: /1.14/extensions/v1beta1/networkPolicyPort
+permalink: /1.14/extensions/v1beta1/networkPolicyPort/
 ---
 
 # package networkPolicyPort

@@ -1,5 +1,5 @@
 ---
-permalink: /1.17/networking
+permalink: /1.17/networking/
 ---
 
 # package networking

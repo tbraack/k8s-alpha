@@ -1,5 +1,5 @@
 ---
-permalink: /1.18/authorization/v1/selfSubjectRulesReview
+permalink: /1.18/authorization/v1/selfSubjectRulesReview/
 ---
 
 # package selfSubjectRulesReview

@@ -1,5 +1,5 @@
 ---
-permalink: /1.14/authorization/v1beta1/nonResourceRule
+permalink: /1.14/authorization/v1beta1/nonResourceRule/
 ---
 
 # package nonResourceRule

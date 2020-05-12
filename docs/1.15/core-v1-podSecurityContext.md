@@ -1,5 +1,5 @@
 ---
-permalink: /1.15/core/v1/podSecurityContext
+permalink: /1.15/core/v1/podSecurityContext/
 ---
 
 # package podSecurityContext

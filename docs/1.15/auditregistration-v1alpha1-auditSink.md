@@ -1,5 +1,5 @@
 ---
-permalink: /1.15/auditregistration/v1alpha1/auditSink
+permalink: /1.15/auditregistration/v1alpha1/auditSink/
 ---
 
 # package auditSink
@@ -436,11 +436,11 @@ Stages is a list of stages for which events are created.
 
 ## obj spec.webhook
 
-
+Webhook holds the configuration of the webhook
 
 ## obj spec.webhook.clientConfig
 
-
+WebhookClientConfig contains the information to make a connection with the webhook
 
 ### fn spec.webhook.clientConfig.withCaBundle
 
@@ -470,7 +470,7 @@ Attempting to use a user or basic auth e.g. "user:password@" is not allowed. Fra
 
 ## obj spec.webhook.clientConfig.service
 
-
+ServiceReference holds a reference to Service.legacy.k8s.io
 
 ### fn spec.webhook.clientConfig.service.withName
 
@@ -506,7 +506,7 @@ If specified, the port on the service that hosting webhook. Default to 443 for b
 
 ## obj spec.webhook.throttle
 
-
+WebhookThrottleConfig holds the configuration for throttling events
 
 ### fn spec.webhook.throttle.withBurst
 

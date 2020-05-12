@@ -1,5 +1,5 @@
 ---
-permalink: /1.15/core/v1/configMapProjection
+permalink: /1.15/core/v1/configMapProjection/
 ---
 
 # package configMapProjection

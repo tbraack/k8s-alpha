@@ -1,5 +1,5 @@
 ---
-permalink: /1.14/autoscaling/v1/horizontalPodAutoscaler
+permalink: /1.14/autoscaling/v1/horizontalPodAutoscaler/
 ---
 
 # package horizontalPodAutoscaler
@@ -264,7 +264,7 @@ Populated by the system. Read-only. More info: http://kubernetes.io/docs/user-gu
 
 ## obj metadata.initializers
 
-Initializers tracks the progress of initialization.
+
 
 ### fn metadata.initializers.withPending
 
@@ -420,7 +420,7 @@ target average CPU utilization (represented as a percentage of requested CPU) ov
 
 ## obj spec.scaleTargetRef
 
-
+CrossVersionObjectReference contains enough information to let you identify the referred resource.
 
 ### fn spec.scaleTargetRef.withKind
 

@@ -1,5 +1,5 @@
 ---
-permalink: /1.15/apps/v1beta1/statefulSetSpec
+permalink: /1.15/apps/v1beta1/statefulSetSpec/
 ---
 
 # package statefulSetSpec
@@ -240,7 +240,7 @@ PodTemplateSpec describes the data a pod should have when created from a templat
 
 ## obj template.metadata
 
-
+ObjectMeta is metadata that all persisted resources must have, which includes all objects users must create.
 
 ### fn template.metadata.withAnnotations
 
@@ -436,7 +436,7 @@ Populated by the system. Read-only. More info: http://kubernetes.io/docs/user-gu
 
 ## obj template.metadata.initializers
 
-Initializers tracks the progress of initialization.
+
 
 ### fn template.metadata.initializers.withPending
 
@@ -502,7 +502,7 @@ A machine-readable description of why this operation is in the "Failure" status.
 
 ## obj template.metadata.initializers.result.details
 
-
+StatusDetails is a set of additional properties that MAY be set by the server to provide additional information about a response. The Reason field of a Status object defines what attributes will be set. Clients must ignore fields that do not match the defined type of each attribute, and should assume that any attribute may be empty, invalid, or under defined.
 
 ### fn template.metadata.initializers.result.details.withCauses
 
@@ -564,7 +564,7 @@ UID of the resource. (when there is a single resource which can be described). M
 
 ## obj template.spec
 
-PodSpec is a description of a pod.
+
 
 ### fn template.spec.withActiveDeadlineSeconds
 
@@ -876,7 +876,7 @@ Affinity is a group of affinity scheduling rules.
 
 ## obj template.spec.affinity.nodeAffinity
 
-Node affinity is a group of node affinity scheduling rules.
+
 
 ### fn template.spec.affinity.nodeAffinity.withPreferredDuringSchedulingIgnoredDuringExecution
 
@@ -920,7 +920,7 @@ Required. A list of node selector terms. The terms are ORed.
 
 ## obj template.spec.affinity.podAffinity
 
-Pod affinity is a group of inter pod affinity scheduling rules.
+
 
 ### fn template.spec.affinity.podAffinity.withPreferredDuringSchedulingIgnoredDuringExecution
 
@@ -960,7 +960,7 @@ If the affinity requirements specified by this field are not met at scheduling t
 
 ## obj template.spec.affinity.podAntiAffinity
 
-Pod anti affinity is a group of inter pod anti affinity scheduling rules.
+
 
 ### fn template.spec.affinity.podAntiAffinity.withPreferredDuringSchedulingIgnoredDuringExecution
 
@@ -1202,7 +1202,7 @@ Type indicates the type of the StatefulSetUpdateStrategy.
 
 ## obj updateStrategy.rollingUpdate
 
-RollingUpdateStatefulSetStrategy is used to communicate parameter for RollingUpdateStatefulSetStrategyType.
+
 
 ### fn updateStrategy.rollingUpdate.withPartition
 

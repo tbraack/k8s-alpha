@@ -1,5 +1,5 @@
 ---
-permalink: /1.18/batch/v1beta1/cronJob
+permalink: /1.18/batch/v1beta1/cronJob/
 ---
 
 # package cronJob
@@ -735,7 +735,7 @@ PodTemplateSpec describes the data a pod should have when created from a templat
 
 ## obj spec.jobTemplate.spec.template.metadata
 
-
+ObjectMeta is metadata that all persisted resources must have, which includes all objects users must create.
 
 ### fn spec.jobTemplate.spec.template.metadata.withAnnotations
 
@@ -929,7 +929,7 @@ Populated by the system. Read-only. More info: http://kubernetes.io/docs/user-gu
 
 ## obj spec.jobTemplate.spec.template.spec
 
-PodSpec is a description of a pod.
+
 
 ### fn spec.jobTemplate.spec.template.spec.withActiveDeadlineSeconds
 
@@ -1295,7 +1295,7 @@ List of volumes that can be mounted by containers belonging to the pod. More inf
 
 ## obj spec.jobTemplate.spec.template.spec.affinity.nodeAffinity
 
-
+Node affinity is a group of node affinity scheduling rules.
 
 ### fn spec.jobTemplate.spec.template.spec.affinity.nodeAffinity.withPreferredDuringSchedulingIgnoredDuringExecution
 
@@ -1317,7 +1317,7 @@ The scheduler will prefer to schedule pods to nodes that satisfy the affinity ex
 
 ## obj spec.jobTemplate.spec.template.spec.affinity.nodeAffinity.requiredDuringSchedulingIgnoredDuringExecution
 
-
+A node selector represents the union of the results of one or more label queries over a set of nodes; that is, it represents the OR of the selectors represented by the node selector terms.
 
 ### fn spec.jobTemplate.spec.template.spec.affinity.nodeAffinity.requiredDuringSchedulingIgnoredDuringExecution.withNodeSelectorTerms
 
@@ -1339,7 +1339,7 @@ Required. A list of node selector terms. The terms are ORed.
 
 ## obj spec.jobTemplate.spec.template.spec.affinity.podAffinity
 
-
+Pod affinity is a group of inter pod affinity scheduling rules.
 
 ### fn spec.jobTemplate.spec.template.spec.affinity.podAffinity.withPreferredDuringSchedulingIgnoredDuringExecution
 
@@ -1419,7 +1419,7 @@ If the anti-affinity requirements specified by this field are not met at schedul
 
 ## obj spec.jobTemplate.spec.template.spec.dnsConfig
 
-
+PodDNSConfig defines the DNS parameters of a pod in addition to those generated from DNSPolicy.
 
 ### fn spec.jobTemplate.spec.template.spec.dnsConfig.withNameservers
 
@@ -1477,7 +1477,7 @@ A list of DNS search domains for host-name lookup. This will be appended to the 
 
 ## obj spec.jobTemplate.spec.template.spec.securityContext
 
-PodSecurityContext holds pod-level security attributes and common container settings. Some fields are also present in container.securityContext.  Field values of container.securityContext take precedence over field values of PodSecurityContext.
+
 
 ### fn spec.jobTemplate.spec.template.spec.securityContext.withFsGroup
 
@@ -1561,7 +1561,7 @@ Sysctls hold a list of namespaced sysctls used for the pod. Pods with unsupporte
 
 ## obj spec.jobTemplate.spec.template.spec.securityContext.seLinuxOptions
 
-SELinuxOptions are the labels to be applied to the container
+
 
 ### fn spec.jobTemplate.spec.template.spec.securityContext.seLinuxOptions.withLevel
 
@@ -1597,7 +1597,7 @@ User is a SELinux user label that applies to the container.
 
 ## obj spec.jobTemplate.spec.template.spec.securityContext.windowsOptions
 
-WindowsSecurityContextOptions contain Windows-specific options and credentials.
+
 
 ### fn spec.jobTemplate.spec.template.spec.securityContext.windowsOptions.withGmsaCredentialSpec
 

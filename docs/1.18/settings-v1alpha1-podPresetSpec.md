@@ -1,5 +1,5 @@
 ---
-permalink: /1.18/settings/v1alpha1/podPresetSpec
+permalink: /1.18/settings/v1alpha1/podPresetSpec/
 ---
 
 # package podPresetSpec

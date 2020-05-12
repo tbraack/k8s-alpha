@@ -1,5 +1,5 @@
 ---
-permalink: /1.15/core/v1/volume
+permalink: /1.15/core/v1/volume/
 ---
 
 # package volume
@@ -507,7 +507,7 @@ VolumeAttributes stores driver-specific properties that are passed to the CSI dr
 
 ## obj csi.nodePublishSecretRef
 
-LocalObjectReference contains enough information to let you locate the referenced object inside the same namespace.
+
 
 ### fn csi.nodePublishSecretRef.withName
 
@@ -709,7 +709,7 @@ Optional: Defaults to false (read/write). ReadOnly here will force the ReadOnly 
 
 ## obj flexVolume.secretRef
 
-LocalObjectReference contains enough information to let you locate the referenced object inside the same namespace.
+
 
 ### fn flexVolume.secretRef.withName
 
@@ -951,7 +951,7 @@ iSCSI Target Portal. The Portal is either an IP or ip_addr:port if the port is o
 
 ## obj iscsi.secretRef
 
-
+LocalObjectReference contains enough information to let you locate the referenced object inside the same namespace.
 
 ### fn iscsi.secretRef.withName
 
@@ -1299,7 +1299,7 @@ The name of a volume already created in the ScaleIO system that is associated wi
 
 ## obj scaleIO.secretRef
 
-LocalObjectReference contains enough information to let you locate the referenced object inside the same namespace.
+
 
 ### fn scaleIO.secretRef.withName
 
@@ -1395,7 +1395,7 @@ VolumeNamespace specifies the scope of the volume within StorageOS.  If no names
 
 ## obj storageos.secretRef
 
-
+LocalObjectReference contains enough information to let you locate the referenced object inside the same namespace.
 
 ### fn storageos.secretRef.withName
 

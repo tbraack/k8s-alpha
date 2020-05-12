@@ -1,5 +1,5 @@
 ---
-permalink: /1.18/core/v1/endpointSubset
+permalink: /1.18/core/v1/endpointSubset/
 ---
 
 # package endpointSubset

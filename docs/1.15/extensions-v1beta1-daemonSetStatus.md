@@ -1,5 +1,5 @@
 ---
-permalink: /1.15/extensions/v1beta1/daemonSetStatus
+permalink: /1.15/extensions/v1beta1/daemonSetStatus/
 ---
 
 # package daemonSetStatus

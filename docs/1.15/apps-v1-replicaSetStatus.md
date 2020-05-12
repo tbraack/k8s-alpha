@@ -1,5 +1,5 @@
 ---
-permalink: /1.15/apps/v1/replicaSetStatus
+permalink: /1.15/apps/v1/replicaSetStatus/
 ---
 
 # package replicaSetStatus

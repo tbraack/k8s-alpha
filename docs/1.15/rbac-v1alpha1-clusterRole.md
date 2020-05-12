@@ -1,5 +1,5 @@
 ---
-permalink: /1.15/rbac/v1alpha1/clusterRole
+permalink: /1.15/rbac/v1alpha1/clusterRole/
 ---
 
 # package clusterRole
@@ -324,7 +324,7 @@ Pending is a list of initializers that must execute in order before this object 
 
 ## obj metadata.initializers.result
 
-Status is a return value for calls that don't return other objects.
+
 
 ### fn metadata.initializers.result.withCode
 

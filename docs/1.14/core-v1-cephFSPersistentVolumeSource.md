@@ -1,5 +1,5 @@
 ---
-permalink: /1.14/core/v1/cephFSPersistentVolumeSource
+permalink: /1.14/core/v1/cephFSPersistentVolumeSource/
 ---
 
 # package cephFSPersistentVolumeSource

@@ -1,5 +1,5 @@
 ---
-permalink: /1.17/autoscaling/v2beta1/podsMetricSource
+permalink: /1.17/autoscaling/v2beta1/podsMetricSource/
 ---
 
 # package podsMetricSource

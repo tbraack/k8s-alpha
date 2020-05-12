@@ -1,5 +1,5 @@
 ---
-permalink: /1.17/apps/v1/controllerRevision
+permalink: /1.17/apps/v1/controllerRevision/
 ---
 
 # package controllerRevision

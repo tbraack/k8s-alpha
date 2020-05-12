@@ -1,5 +1,5 @@
 ---
-permalink: /1.16/certificates/v1beta1/certificateSigningRequestSpec
+permalink: /1.16/certificates/v1beta1/certificateSigningRequestSpec/
 ---
 
 # package certificateSigningRequestSpec

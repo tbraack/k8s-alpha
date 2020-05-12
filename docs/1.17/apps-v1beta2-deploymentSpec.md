@@ -1,5 +1,5 @@
 ---
-permalink: /1.17/apps/v1beta2/deploymentSpec
+permalink: /1.17/apps/v1beta2/deploymentSpec/
 ---
 
 # package deploymentSpec
@@ -936,7 +936,7 @@ If the anti-affinity requirements specified by this field are not met at schedul
 
 ## obj template.spec.dnsConfig
 
-
+PodDNSConfig defines the DNS parameters of a pod in addition to those generated from DNSPolicy.
 
 ### fn template.spec.dnsConfig.withNameservers
 
@@ -1070,7 +1070,7 @@ Sysctls hold a list of namespaced sysctls used for the pod. Pods with unsupporte
 
 ## obj template.spec.securityContext.seLinuxOptions
 
-
+SELinuxOptions are the labels to be applied to the container
 
 ### fn template.spec.securityContext.seLinuxOptions.withLevel
 

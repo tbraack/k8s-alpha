@@ -1,5 +1,5 @@
 ---
-permalink: /1.16/policy/v1beta1/allowedHostPath
+permalink: /1.16/policy/v1beta1/allowedHostPath/
 ---
 
 # package allowedHostPath

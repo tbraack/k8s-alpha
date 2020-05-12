@@ -1,5 +1,5 @@
 ---
-permalink: /1.17/flowcontrol/v1alpha1/priorityLevelConfigurationSpec
+permalink: /1.17/flowcontrol/v1alpha1/priorityLevelConfigurationSpec/
 ---
 
 # package priorityLevelConfigurationSpec
@@ -48,7 +48,7 @@ bigger numbers of ACS mean more reserved concurrent requests (at the expense of 
 
 ## obj limited.limitResponse
 
-
+LimitResponse defines how to handle requests that can not be executed right now.
 
 ### fn limited.limitResponse.withType
 
@@ -60,7 +60,7 @@ withType(type)
 
 ## obj limited.limitResponse.queuing
 
-
+QueuingConfiguration holds the configuration parameters for queuing
 
 ### fn limited.limitResponse.queuing.withHandSize
 

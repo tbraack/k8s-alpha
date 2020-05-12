@@ -1,5 +1,5 @@
 ---
-permalink: /1.14/rbac/v1/policyRule
+permalink: /1.14/rbac/v1/policyRule/
 ---
 
 # package policyRule

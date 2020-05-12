@@ -1,5 +1,5 @@
 ---
-permalink: /1.18/admissionregistration/v1/validatingWebhook
+permalink: /1.18/admissionregistration/v1/validatingWebhook/
 ---
 
 # package validatingWebhook
@@ -152,7 +152,7 @@ Attempting to use a user or basic auth e.g. "user:password@" is not allowed. Fra
 
 ## obj clientConfig.service
 
-ServiceReference holds a reference to Service.legacy.k8s.io
+
 
 ### fn clientConfig.service.withName
 

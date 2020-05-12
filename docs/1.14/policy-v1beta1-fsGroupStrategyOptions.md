@@ -1,5 +1,5 @@
 ---
-permalink: /1.14/policy/v1beta1/fsGroupStrategyOptions
+permalink: /1.14/policy/v1beta1/fsGroupStrategyOptions/
 ---
 
 # package fsGroupStrategyOptions

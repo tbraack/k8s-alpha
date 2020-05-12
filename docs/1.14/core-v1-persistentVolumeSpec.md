@@ -1,5 +1,5 @@
 ---
-permalink: /1.14/core/v1/persistentVolumeSpec
+permalink: /1.14/core/v1/persistentVolumeSpec/
 ---
 
 # package persistentVolumeSpec
@@ -1024,7 +1024,7 @@ iSCSI Target Portal. The Portal is either an IP or ip_addr:port if the port is o
 
 ## obj iscsi.secretRef
 
-
+SecretReference represents a Secret Reference. It has enough information to retrieve secret in any namespace
 
 ### fn iscsi.secretRef.withName
 
@@ -1288,7 +1288,7 @@ The rados user name. Default is admin. More info: https://releases.k8s.io/HEAD/e
 
 ## obj rbd.secretRef
 
-
+SecretReference represents a Secret Reference. It has enough information to retrieve secret in any namespace
 
 ### fn rbd.secretRef.withName
 

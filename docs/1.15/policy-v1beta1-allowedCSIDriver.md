@@ -1,5 +1,5 @@
 ---
-permalink: /1.15/policy/v1beta1/allowedCSIDriver
+permalink: /1.15/policy/v1beta1/allowedCSIDriver/
 ---
 
 # package allowedCSIDriver

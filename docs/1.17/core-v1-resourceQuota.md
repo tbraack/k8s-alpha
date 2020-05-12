@@ -1,5 +1,5 @@
 ---
-permalink: /1.17/core/v1/resourceQuota
+permalink: /1.17/core/v1/resourceQuota/
 ---
 
 # package resourceQuota

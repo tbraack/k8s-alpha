@@ -1,5 +1,5 @@
 ---
-permalink: /1.15/authorization/v1/selfSubjectAccessReview
+permalink: /1.15/authorization/v1/selfSubjectAccessReview/
 ---
 
 # package selfSubjectAccessReview
@@ -291,7 +291,7 @@ Pending is a list of initializers that must execute in order before this object 
 
 ## obj metadata.initializers.result
 
-
+Status is a return value for calls that don't return other objects.
 
 ### fn metadata.initializers.result.withCode
 
@@ -421,7 +421,7 @@ Verb is the standard HTTP verb
 
 ## obj spec.resourceAttributes
 
-
+ResourceAttributes includes the authorization attributes available for resource requests to the Authorizer interface
 
 ### fn spec.resourceAttributes.withGroup
 

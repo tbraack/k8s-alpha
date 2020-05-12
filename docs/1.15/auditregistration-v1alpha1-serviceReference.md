@@ -1,5 +1,5 @@
 ---
-permalink: /1.15/auditregistration/v1alpha1/serviceReference
+permalink: /1.15/auditregistration/v1alpha1/serviceReference/
 ---
 
 # package serviceReference

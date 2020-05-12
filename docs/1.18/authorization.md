@@ -1,5 +1,5 @@
 ---
-permalink: /1.18/authorization
+permalink: /1.18/authorization/
 ---
 
 # package authorization

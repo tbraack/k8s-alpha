@@ -1,5 +1,5 @@
 ---
-permalink: /1.16/storage/v1/storageClass
+permalink: /1.16/storage/v1/storageClass/
 ---
 
 # package storageClass

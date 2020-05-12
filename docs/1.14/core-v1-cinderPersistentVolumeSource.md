@@ -1,5 +1,5 @@
 ---
-permalink: /1.14/core/v1/cinderPersistentVolumeSource
+permalink: /1.14/core/v1/cinderPersistentVolumeSource/
 ---
 
 # package cinderPersistentVolumeSource

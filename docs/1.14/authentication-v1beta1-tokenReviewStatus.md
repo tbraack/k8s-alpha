@@ -1,5 +1,5 @@
 ---
-permalink: /1.14/authentication/v1beta1/tokenReviewStatus
+permalink: /1.14/authentication/v1beta1/tokenReviewStatus/
 ---
 
 # package tokenReviewStatus

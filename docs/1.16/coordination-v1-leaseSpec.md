@@ -1,5 +1,5 @@
 ---
-permalink: /1.16/coordination/v1/leaseSpec
+permalink: /1.16/coordination/v1/leaseSpec/
 ---
 
 # package leaseSpec

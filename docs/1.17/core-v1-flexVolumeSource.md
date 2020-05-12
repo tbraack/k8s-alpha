@@ -1,5 +1,5 @@
 ---
-permalink: /1.17/core/v1/flexVolumeSource
+permalink: /1.17/core/v1/flexVolumeSource/
 ---
 
 # package flexVolumeSource

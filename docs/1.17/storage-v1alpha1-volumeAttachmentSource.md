@@ -1,5 +1,5 @@
 ---
-permalink: /1.17/storage/v1alpha1/volumeAttachmentSource
+permalink: /1.17/storage/v1alpha1/volumeAttachmentSource/
 ---
 
 # package volumeAttachmentSource
@@ -469,7 +469,7 @@ Optional: User is the rados user name, default is admin More info: https://examp
 
 ## obj inlineVolumeSpec.cephfs.secretRef
 
-
+SecretReference represents a Secret Reference. It has enough information to retrieve secret in any namespace
 
 ### fn inlineVolumeSpec.cephfs.secretRef.withName
 
@@ -489,7 +489,7 @@ Namespace defines the space within which the secret name must be unique.
 
 ## obj inlineVolumeSpec.cinder
 
-Represents a cinder volume resource in Openstack. A Cinder volume must exist before mounting to a container. The volume must also be in the same region as the kubelet. Cinder volumes support ownership management and SELinux relabeling.
+
 
 ### fn inlineVolumeSpec.cinder.withFsType
 
@@ -703,7 +703,7 @@ Namespace defines the space within which the secret name must be unique.
 
 ## obj inlineVolumeSpec.csi.nodeStageSecretRef
 
-
+SecretReference represents a Secret Reference. It has enough information to retrieve secret in any namespace
 
 ### fn inlineVolumeSpec.csi.nodeStageSecretRef.withName
 
@@ -967,7 +967,7 @@ Type for HostPath Volume Defaults to "" More info: https://kubernetes.io/docs/co
 
 ## obj inlineVolumeSpec.iscsi
 
-ISCSIPersistentVolumeSource represents an ISCSI disk. ISCSI volumes can only be mounted as read/write once. ISCSI volumes support ownership management and SELinux relabeling.
+
 
 ### fn inlineVolumeSpec.iscsi.withChapAuthDiscovery
 
@@ -1155,7 +1155,7 @@ Required. A list of node selector terms. The terms are ORed.
 
 ## obj inlineVolumeSpec.photonPersistentDisk
 
-
+Represents a Photon Controller persistent disk resource.
 
 ### fn inlineVolumeSpec.photonPersistentDisk.withFsType
 
@@ -1255,7 +1255,7 @@ Volume is a string that references an already created Quobyte volume by name.
 
 ## obj inlineVolumeSpec.rbd
 
-
+Represents a Rados Block Device mount that lasts the lifetime of a pod. RBD volumes support ownership management and SELinux relabeling.
 
 ### fn inlineVolumeSpec.rbd.withFsType
 
@@ -1345,7 +1345,7 @@ Namespace defines the space within which the secret name must be unique.
 
 ## obj inlineVolumeSpec.scaleIO
 
-ScaleIOPersistentVolumeSource represents a persistent ScaleIO volume
+
 
 ### fn inlineVolumeSpec.scaleIO.withFsType
 
@@ -1421,7 +1421,7 @@ The name of a volume already created in the ScaleIO system that is associated wi
 
 ## obj inlineVolumeSpec.scaleIO.secretRef
 
-SecretReference represents a Secret Reference. It has enough information to retrieve secret in any namespace
+
 
 ### fn inlineVolumeSpec.scaleIO.secretRef.withName
 
@@ -1529,7 +1529,7 @@ UID of the referent. More info: https://kubernetes.io/docs/concepts/overview/wor
 
 ## obj inlineVolumeSpec.vsphereVolume
 
-
+Represents a vSphere volume resource.
 
 ### fn inlineVolumeSpec.vsphereVolume.withFsType
 

@@ -1,5 +1,5 @@
 ---
-permalink: /1.15/core/v1/replicationControllerStatus
+permalink: /1.15/core/v1/replicationControllerStatus/
 ---
 
 # package replicationControllerStatus

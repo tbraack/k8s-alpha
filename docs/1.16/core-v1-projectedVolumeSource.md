@@ -1,5 +1,5 @@
 ---
-permalink: /1.16/core/v1/projectedVolumeSource
+permalink: /1.16/core/v1/projectedVolumeSource/
 ---
 
 # package projectedVolumeSource

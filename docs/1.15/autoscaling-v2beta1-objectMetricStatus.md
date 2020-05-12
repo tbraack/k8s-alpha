@@ -1,5 +1,5 @@
 ---
-permalink: /1.15/autoscaling/v2beta1/objectMetricStatus
+permalink: /1.15/autoscaling/v2beta1/objectMetricStatus/
 ---
 
 # package objectMetricStatus

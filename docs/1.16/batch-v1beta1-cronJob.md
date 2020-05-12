@@ -1,5 +1,5 @@
 ---
-permalink: /1.16/batch/v1beta1/cronJob
+permalink: /1.16/batch/v1beta1/cronJob/
 ---
 
 # package cronJob
@@ -444,7 +444,7 @@ JobTemplateSpec describes the data a Job should have when created from a templat
 
 ## obj spec.jobTemplate.metadata
 
-ObjectMeta is metadata that all persisted resources must have, which includes all objects users must create.
+
 
 ### fn spec.jobTemplate.metadata.withAnnotations
 
@@ -730,11 +730,11 @@ matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabe
 
 ## obj spec.jobTemplate.spec.template
 
-
+PodTemplateSpec describes the data a pod should have when created from a template
 
 ## obj spec.jobTemplate.spec.template.metadata
 
-
+ObjectMeta is metadata that all persisted resources must have, which includes all objects users must create.
 
 ### fn spec.jobTemplate.spec.template.metadata.withAnnotations
 
@@ -1290,7 +1290,7 @@ List of volumes that can be mounted by containers belonging to the pod. More inf
 
 ## obj spec.jobTemplate.spec.template.spec.affinity
 
-Affinity is a group of affinity scheduling rules.
+
 
 ## obj spec.jobTemplate.spec.template.spec.affinity.nodeAffinity
 
@@ -1418,7 +1418,7 @@ If the anti-affinity requirements specified by this field are not met at schedul
 
 ## obj spec.jobTemplate.spec.template.spec.dnsConfig
 
-PodDNSConfig defines the DNS parameters of a pod in addition to those generated from DNSPolicy.
+
 
 ### fn spec.jobTemplate.spec.template.spec.dnsConfig.withNameservers
 
@@ -1476,7 +1476,7 @@ A list of DNS search domains for host-name lookup. This will be appended to the 
 
 ## obj spec.jobTemplate.spec.template.spec.securityContext
 
-
+PodSecurityContext holds pod-level security attributes and common container settings. Some fields are also present in container.securityContext.  Field values of container.securityContext take precedence over field values of PodSecurityContext.
 
 ### fn spec.jobTemplate.spec.template.spec.securityContext.withFsGroup
 
@@ -1552,7 +1552,7 @@ Sysctls hold a list of namespaced sysctls used for the pod. Pods with unsupporte
 
 ## obj spec.jobTemplate.spec.template.spec.securityContext.seLinuxOptions
 
-
+SELinuxOptions are the labels to be applied to the container
 
 ### fn spec.jobTemplate.spec.template.spec.securityContext.seLinuxOptions.withLevel
 

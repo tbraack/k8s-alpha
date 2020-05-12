@@ -1,5 +1,5 @@
 ---
-permalink: /1.14/networking/v1/networkPolicyPeer
+permalink: /1.14/networking/v1/networkPolicyPeer/
 ---
 
 # package networkPolicyPeer

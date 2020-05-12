@@ -1,5 +1,5 @@
 ---
-permalink: /1.15/batch/v2alpha1/cronJobSpec
+permalink: /1.15/batch/v2alpha1/cronJobSpec/
 ---
 
 # package cronJobSpec
@@ -437,7 +437,7 @@ Populated by the system. Read-only. More info: http://kubernetes.io/docs/user-gu
 
 ## obj jobTemplate.metadata.initializers
 
-Initializers tracks the progress of initialization.
+
 
 ### fn jobTemplate.metadata.initializers.withPending
 
@@ -565,7 +565,7 @@ UID of the resource. (when there is a single resource which can be described). M
 
 ## obj jobTemplate.spec
 
-
+JobSpec describes how the job execution will look like.
 
 ### fn jobTemplate.spec.withActiveDeadlineSeconds
 
@@ -617,7 +617,7 @@ ttlSecondsAfterFinished limits the lifetime of a Job that has finished execution
 
 ## obj jobTemplate.spec.selector
 
-
+A label selector is a label query over a set of resources. The result of matchLabels and matchExpressions are ANDed. An empty label selector matches all objects. A null label selector matches no objects.
 
 ### fn jobTemplate.spec.selector.withMatchExpressions
 
@@ -857,7 +857,7 @@ Populated by the system. Read-only. More info: http://kubernetes.io/docs/user-gu
 
 ## obj jobTemplate.spec.template.metadata.initializers
 
-Initializers tracks the progress of initialization.
+
 
 ### fn jobTemplate.spec.template.metadata.initializers.withPending
 
@@ -879,7 +879,7 @@ Pending is a list of initializers that must execute in order before this object 
 
 ## obj jobTemplate.spec.template.metadata.initializers.result
 
-
+Status is a return value for calls that don't return other objects.
 
 ### fn jobTemplate.spec.template.metadata.initializers.result.withCode
 
@@ -1319,7 +1319,7 @@ The scheduler will prefer to schedule pods to nodes that satisfy the affinity ex
 
 ## obj jobTemplate.spec.template.spec.affinity.nodeAffinity.requiredDuringSchedulingIgnoredDuringExecution
 
-
+A node selector represents the union of the results of one or more label queries over a set of nodes; that is, it represents the OR of the selectors represented by the node selector terms.
 
 ### fn jobTemplate.spec.template.spec.affinity.nodeAffinity.requiredDuringSchedulingIgnoredDuringExecution.withNodeSelectorTerms
 
@@ -1591,7 +1591,7 @@ User is a SELinux user label that applies to the container.
 
 ## obj jobTemplate.spec.template.spec.securityContext.windowsOptions
 
-
+WindowsSecurityContextOptions contain Windows-specific options and credentials.
 
 ### fn jobTemplate.spec.template.spec.securityContext.windowsOptions.withGmsaCredentialSpec
 

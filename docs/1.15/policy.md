@@ -1,5 +1,5 @@
 ---
-permalink: /1.15/policy
+permalink: /1.15/policy/
 ---
 
 # package policy

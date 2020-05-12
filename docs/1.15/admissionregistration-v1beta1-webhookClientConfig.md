@@ -1,5 +1,5 @@
 ---
-permalink: /1.15/admissionregistration/v1beta1/webhookClientConfig
+permalink: /1.15/admissionregistration/v1beta1/webhookClientConfig/
 ---
 
 # package webhookClientConfig

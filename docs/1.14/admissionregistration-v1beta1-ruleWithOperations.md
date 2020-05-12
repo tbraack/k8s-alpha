@@ -1,5 +1,5 @@
 ---
-permalink: /1.14/admissionregistration/v1beta1/ruleWithOperations
+permalink: /1.14/admissionregistration/v1beta1/ruleWithOperations/
 ---
 
 # package ruleWithOperations

@@ -1,5 +1,5 @@
 ---
-permalink: /1.17/autoscaling/v1/horizontalPodAutoscaler
+permalink: /1.17/autoscaling/v1/horizontalPodAutoscaler/
 ---
 
 # package horizontalPodAutoscaler
@@ -273,7 +273,7 @@ target average CPU utilization (represented as a percentage of requested CPU) ov
 
 ## obj spec.scaleTargetRef
 
-CrossVersionObjectReference contains enough information to let you identify the referred resource.
+
 
 ### fn spec.scaleTargetRef.withKind
 

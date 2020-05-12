@@ -1,5 +1,5 @@
 ---
-permalink: /1.17/core/v1/windowsSecurityContextOptions
+permalink: /1.17/core/v1/windowsSecurityContextOptions/
 ---
 
 # package windowsSecurityContextOptions

@@ -1,5 +1,5 @@
 ---
-permalink: /1.14/certificates
+permalink: /1.14/certificates/
 ---
 
 # package certificates

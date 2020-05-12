@@ -1,5 +1,5 @@
 ---
-permalink: /1.17/authorization/v1/resourceRule
+permalink: /1.17/authorization/v1/resourceRule/
 ---
 
 # package resourceRule

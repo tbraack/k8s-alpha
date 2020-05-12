@@ -1,5 +1,5 @@
 ---
-permalink: /1.14/policy/v1beta1/idRange
+permalink: /1.14/policy/v1beta1/idRange/
 ---
 
 # package idRange

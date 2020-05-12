@@ -1,5 +1,5 @@
 ---
-permalink: /1.15/core/v1/topologySelectorTerm
+permalink: /1.15/core/v1/topologySelectorTerm/
 ---
 
 # package topologySelectorTerm

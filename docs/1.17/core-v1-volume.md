@@ -1,5 +1,5 @@
 ---
-permalink: /1.17/core/v1/volume
+permalink: /1.17/core/v1/volume/
 ---
 
 # package volume
@@ -401,7 +401,7 @@ volume id used to identify the volume in cinder. More info: https://examples.k8s
 
 ## obj cinder.secretRef
 
-LocalObjectReference contains enough information to let you locate the referenced object inside the same namespace.
+
 
 ### fn cinder.secretRef.withName
 
@@ -507,7 +507,7 @@ VolumeAttributes stores driver-specific properties that are passed to the CSI dr
 
 ## obj csi.nodePublishSecretRef
 
-
+LocalObjectReference contains enough information to let you locate the referenced object inside the same namespace.
 
 ### fn csi.nodePublishSecretRef.withName
 
@@ -1299,7 +1299,7 @@ The name of a volume already created in the ScaleIO system that is associated wi
 
 ## obj scaleIO.secretRef
 
-LocalObjectReference contains enough information to let you locate the referenced object inside the same namespace.
+
 
 ### fn scaleIO.secretRef.withName
 
@@ -1395,7 +1395,7 @@ VolumeNamespace specifies the scope of the volume within StorageOS.  If no names
 
 ## obj storageos.secretRef
 
-LocalObjectReference contains enough information to let you locate the referenced object inside the same namespace.
+
 
 ### fn storageos.secretRef.withName
 

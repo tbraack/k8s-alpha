@@ -1,5 +1,5 @@
 ---
-permalink: /1.14/auditregistration/v1alpha1/auditSinkSpec
+permalink: /1.14/auditregistration/v1alpha1/auditSinkSpec/
 ---
 
 # package auditSinkSpec
@@ -62,7 +62,7 @@ Webhook holds the configuration of the webhook
 
 ## obj webhook.clientConfig
 
-WebhookClientConfig contains the information to make a connection with the webhook
+
 
 ### fn webhook.clientConfig.withCaBundle
 

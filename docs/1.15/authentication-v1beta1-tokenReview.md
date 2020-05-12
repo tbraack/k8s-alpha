@@ -1,5 +1,5 @@
 ---
-permalink: /1.15/authentication/v1beta1/tokenReview
+permalink: /1.15/authentication/v1beta1/tokenReview/
 ---
 
 # package tokenReview
@@ -261,7 +261,7 @@ Populated by the system. Read-only. More info: http://kubernetes.io/docs/user-gu
 
 ## obj metadata.initializers
 
-Initializers tracks the progress of initialization.
+
 
 ### fn metadata.initializers.withPending
 

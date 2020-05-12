@@ -1,5 +1,5 @@
 ---
-permalink: /1.16/batch/v2alpha1/cronJobSpec
+permalink: /1.16/batch/v2alpha1/cronJobSpec/
 ---
 
 # package cronJobSpec
@@ -460,7 +460,7 @@ ttlSecondsAfterFinished limits the lifetime of a Job that has finished execution
 
 ## obj jobTemplate.spec.selector
 
-
+A label selector is a label query over a set of resources. The result of matchLabels and matchExpressions are ANDed. An empty label selector matches all objects. A null label selector matches no objects.
 
 ### fn jobTemplate.spec.selector.withMatchExpressions
 
@@ -1108,7 +1108,7 @@ Required. A list of node selector terms. The terms are ORed.
 
 ## obj jobTemplate.spec.template.spec.affinity.podAffinity
 
-Pod affinity is a group of inter pod affinity scheduling rules.
+
 
 ### fn jobTemplate.spec.template.spec.affinity.podAffinity.withPreferredDuringSchedulingIgnoredDuringExecution
 

@@ -1,5 +1,5 @@
 ---
-permalink: /1.14/core/v1/envVarSource
+permalink: /1.14/core/v1/envVarSource/
 ---
 
 # package envVarSource

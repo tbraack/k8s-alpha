@@ -1,5 +1,5 @@
 ---
-permalink: /1.17/networking/v1/networkPolicyPort
+permalink: /1.17/networking/v1/networkPolicyPort/
 ---
 
 # package networkPolicyPort

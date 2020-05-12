@@ -1,5 +1,5 @@
 ---
-permalink: /1.17/storage
+permalink: /1.17/storage/
 ---
 
 # package storage

@@ -1,5 +1,5 @@
 ---
-permalink: /1.17/node
+permalink: /1.17/node/
 ---
 
 # package node

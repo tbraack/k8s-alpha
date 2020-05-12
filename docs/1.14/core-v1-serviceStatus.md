@@ -1,5 +1,5 @@
 ---
-permalink: /1.14/core/v1/serviceStatus
+permalink: /1.14/core/v1/serviceStatus/
 ---
 
 # package serviceStatus

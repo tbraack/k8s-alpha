@@ -1,5 +1,5 @@
 ---
-permalink: /1.15/autoscaling/v2beta2/objectMetricSource
+permalink: /1.15/autoscaling/v2beta2/objectMetricSource/
 ---
 
 # package objectMetricSource

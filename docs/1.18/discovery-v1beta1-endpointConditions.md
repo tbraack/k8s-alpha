@@ -1,5 +1,5 @@
 ---
-permalink: /1.18/discovery/v1beta1/endpointConditions
+permalink: /1.18/discovery/v1beta1/endpointConditions/
 ---
 
 # package endpointConditions

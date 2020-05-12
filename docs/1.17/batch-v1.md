@@ -1,5 +1,5 @@
 ---
-permalink: /1.17/batch/v1
+permalink: /1.17/batch/v1/
 ---
 
 # package v1

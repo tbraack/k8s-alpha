@@ -1,5 +1,5 @@
 ---
-permalink: /1.17/auditregistration/v1alpha1/auditSink
+permalink: /1.17/auditregistration/v1alpha1/auditSink/
 ---
 
 # package auditSink
@@ -259,7 +259,7 @@ AuditSinkSpec holds the spec for the audit sink
 
 ## obj spec.policy
 
-Policy defines the configuration of how audit events are logged
+
 
 ### fn spec.policy.withLevel
 
@@ -289,11 +289,11 @@ Stages is a list of stages for which events are created.
 
 ## obj spec.webhook
 
-Webhook holds the configuration of the webhook
+
 
 ## obj spec.webhook.clientConfig
 
-WebhookClientConfig contains the information to make a connection with the webhook
+
 
 ### fn spec.webhook.clientConfig.withCaBundle
 
@@ -323,7 +323,7 @@ Attempting to use a user or basic auth e.g. "user:password@" is not allowed. Fra
 
 ## obj spec.webhook.clientConfig.service
 
-ServiceReference holds a reference to Service.legacy.k8s.io
+
 
 ### fn spec.webhook.clientConfig.service.withName
 

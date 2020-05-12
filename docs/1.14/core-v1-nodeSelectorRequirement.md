@@ -1,5 +1,5 @@
 ---
-permalink: /1.14/core/v1/nodeSelectorRequirement
+permalink: /1.14/core/v1/nodeSelectorRequirement/
 ---
 
 # package nodeSelectorRequirement

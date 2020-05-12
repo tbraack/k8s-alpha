@@ -1,5 +1,5 @@
 ---
-permalink: /1.15/batch/v1/jobCondition
+permalink: /1.15/batch/v1/jobCondition/
 ---
 
 # package jobCondition

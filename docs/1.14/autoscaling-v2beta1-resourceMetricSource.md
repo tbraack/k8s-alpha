@@ -1,5 +1,5 @@
 ---
-permalink: /1.14/autoscaling/v2beta1/resourceMetricSource
+permalink: /1.14/autoscaling/v2beta1/resourceMetricSource/
 ---
 
 # package resourceMetricSource

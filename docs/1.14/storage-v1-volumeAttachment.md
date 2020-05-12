@@ -1,5 +1,5 @@
 ---
-permalink: /1.14/storage/v1/volumeAttachment
+permalink: /1.14/storage/v1/volumeAttachment/
 ---
 
 # package volumeAttachment
@@ -330,7 +330,7 @@ A machine-readable description of why this operation is in the "Failure" status.
 
 ## obj metadata.initializers.result.details
 
-
+StatusDetails is a set of additional properties that MAY be set by the server to provide additional information about a response. The Reason field of a Status object defines what attributes will be set. Clients must ignore fields that do not match the defined type of each attribute, and should assume that any attribute may be empty, invalid, or under defined.
 
 ### fn metadata.initializers.result.details.withCauses
 
@@ -412,7 +412,7 @@ The node that the volume should be attached to.
 
 ## obj spec.source
 
-VolumeAttachmentSource represents a volume that should be attached. Right now only PersistenVolumes can be attached via external attacher, in future we may allow also inline volumes in pods. Exactly one member can be set.
+
 
 ### fn spec.source.withPersistentVolumeName
 

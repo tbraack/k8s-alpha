@@ -1,5 +1,5 @@
 ---
-permalink: /1.15/apps/v1beta1/deploymentRollback
+permalink: /1.15/apps/v1beta1/deploymentRollback/
 ---
 
 # package deploymentRollback

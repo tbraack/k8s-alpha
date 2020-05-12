@@ -1,5 +1,5 @@
 ---
-permalink: /1.18/policy
+permalink: /1.18/policy/
 ---
 
 # package policy

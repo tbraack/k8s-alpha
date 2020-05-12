@@ -1,5 +1,5 @@
 ---
-permalink: /1.14/coordination
+permalink: /1.14/coordination/
 ---
 
 # package coordination

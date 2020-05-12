@@ -1,5 +1,5 @@
 ---
-permalink: /1.15/batch/v1/jobStatus
+permalink: /1.15/batch/v1/jobStatus/
 ---
 
 # package jobStatus

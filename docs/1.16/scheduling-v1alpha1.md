@@ -1,5 +1,5 @@
 ---
-permalink: /1.16/scheduling/v1alpha1
+permalink: /1.16/scheduling/v1alpha1/
 ---
 
 # package v1alpha1

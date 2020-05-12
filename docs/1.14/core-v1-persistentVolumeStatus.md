@@ -1,5 +1,5 @@
 ---
-permalink: /1.14/core/v1/persistentVolumeStatus
+permalink: /1.14/core/v1/persistentVolumeStatus/
 ---
 
 # package persistentVolumeStatus

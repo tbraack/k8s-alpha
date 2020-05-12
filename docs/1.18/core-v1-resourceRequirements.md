@@ -1,5 +1,5 @@
 ---
-permalink: /1.18/core/v1/resourceRequirements
+permalink: /1.18/core/v1/resourceRequirements/
 ---
 
 # package resourceRequirements

@@ -1,5 +1,5 @@
 ---
-permalink: /1.14/extensions
+permalink: /1.14/extensions/
 ---
 
 # package extensions

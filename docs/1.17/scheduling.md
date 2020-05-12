@@ -1,5 +1,5 @@
 ---
-permalink: /1.17/scheduling
+permalink: /1.17/scheduling/
 ---
 
 # package scheduling
